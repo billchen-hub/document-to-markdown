@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project secrets - NEVER commit
+.claude/settings.local.json
+
+# PDF input files (too large for git)
+input/*.pdf
+*.PDF
+
+# Conversion output (generated, not source)
+output/
+
+# Marker model cache
+marker_cache/
+
+# Temporary files
+*.tmp

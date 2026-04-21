@@ -24,10 +24,6 @@ Thumbs.db
 # Project secrets - NEVER commit
 .claude/settings.local.json
 
-# PDF input files (too large for git)
-input/*.pdf
-*.PDF
-
 # Conversion output (generated, not source)
 output/
 

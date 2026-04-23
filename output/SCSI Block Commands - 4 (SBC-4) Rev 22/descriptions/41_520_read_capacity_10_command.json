@@ -1,0 +1,7 @@
+{
+  "file": "41_520_read_capacity_10_command.md",
+  "title": "5.20 READ CAPACITY (10) command",
+  "description": "READ CAPACITY (10) (opcode 25h)：回傳 logical unit 的最後 LBA 與 block length。受限於 32-bit LBA（2 TiB 上限）。超過則回 FFFFFFFFh 指引 host 改用 READ CAPACITY (16)。相容性命令。",
+  "keywords": ["read-capacity-10", "last-lba", "block-length", "capacity-query", "32-bit-lba-limit"],
+  "page_range": "206-207"
+}

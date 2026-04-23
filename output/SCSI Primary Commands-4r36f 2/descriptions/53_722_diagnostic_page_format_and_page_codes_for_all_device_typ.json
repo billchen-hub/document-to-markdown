@@ -1,0 +1,7 @@
+{
+  "file": "53_722_diagnostic_page_format_and_page_codes_for_all_device_typ.md",
+  "title": "7.2.2 Diagnostic page format and page codes for all device types",
+  "description": "所有 SCSI device 共用的 diagnostic page 格式（PAGE CODE + PAGE LENGTH + data）與 page code 對照表。SEND DIAGNOSTIC / RECEIVE DIAGNOSTIC RESULTS 命令的 payload 格式基礎。",
+  "keywords": ["diagnostic-page-format", "page-code", "send-diagnostic", "receive-diagnostic-results"],
+  "page_range": "587-588"
+}

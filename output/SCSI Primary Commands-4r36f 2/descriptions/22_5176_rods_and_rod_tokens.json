@@ -1,0 +1,7 @@
+{
+  "file": "22_5176_rods_and_rod_tokens.md",
+  "title": "5.17.6 RODs and ROD tokens",
+  "description": "ROD (Representation of Data) 與 ROD token 的完整模型：token format、ROD type code、POINT IN TIME / BLOCK ZERO / BLOCK UNCHANGED 等 ROD 語意、token lifetime、inactivation。ODX 底層資料結構核心章節。",
+  "keywords": ["rod", "rod-token", "point-in-time", "block-zero", "odx", "token-format"],
+  "page_range": "322-334"
+}

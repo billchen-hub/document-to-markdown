@@ -1,0 +1,7 @@
+{
+  "file": "79_762_alias_entry_protocol_specific_designations.md",
+  "title": "7.6.2 Alias entry protocol specific designations",
+  "description": "Protocol-specific alias designation 格式：例如 SAS address、FC WWNN / WWPN、iSCSI TargetName 等 per-transport identifier 的 alias entry 結構。",
+  "keywords": ["alias", "protocol-specific", "sas-address", "wwnn", "iscsi-target-name"],
+  "page_range": "701-708"
+}

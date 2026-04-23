@@ -1,0 +1,7 @@
+{
+  "file": "52_533_synchronize_cache_10_command.md",
+  "title": "5.33 SYNCHRONIZE CACHE (10) command",
+  "description": "SYNCHRONIZE CACHE (10) (opcode 35h)：強制把 write cache 中指定 LBA 範圍的資料 flush 到 medium，確保 durability。IMMED 旗標控制同步 / 非同步回應、NV_DIS 控制 non-volatile cache 行為。也包含 SYNCHRONIZE CACHE (16) 差異說明。",
+  "keywords": ["synchronize-cache", "cache-flush", "durability", "fsync", "immed", "nv-dis"],
+  "page_range": "237-239"
+}

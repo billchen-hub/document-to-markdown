@@ -1,0 +1,7 @@
+{
+  "file": "34_692_management_protocol_information_description.md",
+  "title": "6.9.2 Management protocol information description",
+  "description": "MANAGEMENT PROTOCOL IN / OUT 命令的 protocol info payload 格式，用於 SCSI 層級的管理訊息（例如 SAS IO expander 管理）。protocol-specific management channel。",
+  "keywords": ["management-protocol", "management-protocol-in", "sas-management"],
+  "page_range": "439-446"
+}

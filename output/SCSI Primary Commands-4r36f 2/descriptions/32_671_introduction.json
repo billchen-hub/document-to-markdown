@@ -1,0 +1,7 @@
+{
+  "file": "32_671_introduction.md",
+  "title": "6.7.1 Introduction (LOG SELECT / LOG SENSE)",
+  "description": "LOG SELECT (opcode 4Ch) / LOG SENSE (opcode 4Dh) 命令簡介：log parameter 架構、SP / PCR / PC / PAGE CODE 欄位語意、cumulative / threshold parameter。所有 log page 存取的共通介面。",
+  "keywords": ["log-select", "log-sense", "log-parameter", "page-code", "cumulative-threshold"],
+  "page_range": "431-432"
+}

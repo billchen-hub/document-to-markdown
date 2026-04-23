@@ -1,0 +1,7 @@
+{
+  "file": "02_abstract.md",
+  "title": "Abstract",
+  "description": "SBC-4 規格摘要：定義 SCSI Block Commands - 4 的功能需求，允許 rigid disk 等 SCSI block 邏輯單元連接電腦並提供使用定義。與 SBC-3 (INCITS 514-2014) 保持高度相容。包含 ANSI 正式核准說明、版權聲明與專利告知。",
+  "keywords": ["sbc-4", "abstract", "ansi-approval", "backward-compatibility", "sbc-3", "logical-unit"],
+  "page_range": "3-4"
+}

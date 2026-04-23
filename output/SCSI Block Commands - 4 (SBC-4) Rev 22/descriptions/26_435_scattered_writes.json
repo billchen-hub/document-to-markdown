@@ -1,0 +1,7 @@
+{
+  "file": "26_435_scattered_writes.md",
+  "title": "4.35 Scattered writes",
+  "description": "WRITE SCATTERED 命令的模型：單一命令指定多個不連續 LBA range 做 vectored write，每個 range 可獨立設 protection information，並由 LBA range descriptor 描述。適合 snapshot restore、VM disk clone 等 sparse 寫入場景。",
+  "keywords": ["scattered-write", "vectored-write", "lba-range-descriptor", "sparse-write"],
+  "page_range": "144-146"
+}

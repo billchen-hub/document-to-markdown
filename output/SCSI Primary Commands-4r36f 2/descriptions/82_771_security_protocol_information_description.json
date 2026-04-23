@@ -1,0 +1,7 @@
+{
+  "file": "82_771_security_protocol_information_description.md",
+  "title": "7.7.1 Security protocol information description",
+  "description": "SECURITY PROTOCOL IN 00h (security protocol information) 的 parameter data：支援的 security protocol 清單、對應 parameter code、length。做 security capability discovery 時第一個查詢。",
+  "keywords": ["security-protocol-information", "sec-protocol-00h", "capability-discovery"],
+  "page_range": "725-730"
+}

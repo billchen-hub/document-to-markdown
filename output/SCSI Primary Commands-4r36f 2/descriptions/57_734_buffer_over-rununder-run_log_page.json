@@ -1,0 +1,7 @@
+{
+  "file": "57_734_buffer_over-rununder-run_log_page.md",
+  "title": "7.3.4 Buffer Over-Run/Under-Run log page",
+  "description": "Buffer Over-Run / Under-Run log page (01h)：記錄 device 發生 buffer 溢出 / 不足事件的次數、cause、count。調校 buffer 大小或 IO queue depth 時參考。",
+  "keywords": ["buffer-over-run", "buffer-under-run", "page-01h", "performance-diagnostic"],
+  "page_range": "603-605"
+}

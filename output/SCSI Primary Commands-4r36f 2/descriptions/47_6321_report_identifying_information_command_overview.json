@@ -1,0 +1,7 @@
+{
+  "file": "47_6321_report_identifying_information_command_overview.md",
+  "title": "6.32.1 REPORT IDENTIFYING INFORMATION command overview",
+  "description": "REPORT IDENTIFYING INFORMATION (opcode A3h / SA 05h)：取得 device 的 logical unit 識別資訊（UNIT、LOGICAL UNIT、TARGET PORT、TARGET DEVICE 各種 type 的 identifying information）。做 asset 管理或 device tracking 時用。",
+  "keywords": ["report-identifying-information", "device-tracking", "asset-management"],
+  "page_range": "524-525"
+}

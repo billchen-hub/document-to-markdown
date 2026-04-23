@@ -1,0 +1,7 @@
+{
+  "file": "96_7818_unit_serial_number_vpd_page.md",
+  "title": "7.8.18 Unit Serial Number VPD page",
+  "description": "Unit Serial Number VPD page (80h)：device serial number 的 ASCII 字串欄位。最常用、最簡單的 VPD page，通常是 host inventory 的第一欄。",
+  "keywords": ["unit-serial-number", "vpd-80h", "serial-number", "inventory"],
+  "page_range": "866-867"
+}

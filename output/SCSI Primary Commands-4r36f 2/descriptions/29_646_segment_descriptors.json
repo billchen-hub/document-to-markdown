@@ -1,0 +1,7 @@
+{
+  "file": "29_646_segment_descriptors.md",
+  "title": "6.4.6 Segment descriptors",
+  "description": "EXTENDED COPY 的 segment descriptor 類型：Block Device to Block Device、Block to Stream、Stream to Block、以及 embedded data、write filemarks 等 stream 相關 descriptor。本章是 SPC-4 最長章節之一，涵蓋所有複製 segment type 的完整格式。",
+  "keywords": ["segment-descriptor", "block-to-block", "stream-copy", "extended-copy", "copy-segment"],
+  "page_range": "375-412"
+}

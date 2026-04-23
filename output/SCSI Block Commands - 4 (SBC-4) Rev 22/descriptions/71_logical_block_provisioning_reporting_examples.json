@@ -1,0 +1,7 @@
+{
+  "file": "71_logical_block_provisioning_reporting_examples.md",
+  "title": "Logical block provisioning reporting examples (Annex)",
+  "description": "附錄：對 thin-provisioning 相關 log / mode / VPD / GET LBA STATUS 的實際數值範例，包含 threshold 觸發、mapped / deallocated 比例變化的報表樣本。做 LBP 客戶端實作或 debug 時對照使用。",
+  "keywords": ["logical-block-provisioning", "examples", "threshold-event", "lba-status-examples", "annex"],
+  "page_range": "407-419"
+}

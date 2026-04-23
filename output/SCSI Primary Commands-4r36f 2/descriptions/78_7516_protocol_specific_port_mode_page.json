@@ -1,0 +1,7 @@
+{
+  "file": "78_7516_protocol_specific_port_mode_page.md",
+  "title": "7.5.16 Protocol Specific Port mode page",
+  "description": "Protocol Specific Port mode page (19h)：針對 SAS、FC 等 transport 提供 port-level 設定項目（例如 SAS PHY rate、transmit level）。實際欄位由 transport 標準（SPL、FCP）定義。",
+  "keywords": ["protocol-specific-port-mode-page", "page-19h", "sas-phy", "fc-port-config"],
+  "page_range": "699-700"
+}

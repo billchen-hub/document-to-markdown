@@ -1,0 +1,464 @@
+{
+  "mode": "cli",
+  "stage": "descriptions",
+  "total_tasks": 76,
+  "tasks": [
+    {
+      "chapter_file": "chapters/01_points_of_contact.md",
+      "title": "Points of contact",
+      "page_range": "2-2",
+      "output_json": "descriptions/01_points_of_contact.json"
+    },
+    {
+      "chapter_file": "chapters/02_abstract.md",
+      "title": "Abstract",
+      "page_range": "3-4",
+      "output_json": "descriptions/02_abstract.json"
+    },
+    {
+      "chapter_file": "chapters/03_revision_history.md",
+      "title": "Revision History",
+      "page_range": "5-10",
+      "output_json": "descriptions/03_revision_history.json"
+    },
+    {
+      "chapter_file": "chapters/04_contents.md",
+      "title": "Contents",
+      "page_range": "11-22",
+      "output_json": "descriptions/04_contents.json"
+    },
+    {
+      "chapter_file": "chapters/05_tables.md",
+      "title": "Tables",
+      "page_range": "23-30",
+      "output_json": "descriptions/05_tables.json"
+    },
+    {
+      "chapter_file": "chapters/06_scsi_standards_family.md",
+      "title": "SCSI standards family",
+      "page_range": "31-33",
+      "output_json": "descriptions/06_scsi_standards_family.json"
+    },
+    {
+      "chapter_file": "chapters/07_3_definitions_symbols_abbreviations_keywords_and_conventions.md",
+      "title": "3 Definitions, symbols, abbreviations, keywords, and conventions Introduction",
+      "page_range": "34-52",
+      "output_json": "descriptions/07_3_definitions_symbols_abbreviations_keywords_and_conventions.json"
+    },
+    {
+      "chapter_file": "chapters/08_46_physical_blocks.md",
+      "title": "4.6 Physical blocks",
+      "page_range": "53-56",
+      "output_json": "descriptions/08_46_physical_blocks.json"
+    },
+    {
+      "chapter_file": "chapters/09_47_logical_block_provisioning.md",
+      "title": "4.7 Logical block provisioning",
+      "page_range": "57-73",
+      "output_json": "descriptions/09_47_logical_block_provisioning.json"
+    },
+    {
+      "chapter_file": "chapters/10_411_sanitize_operations.md",
+      "title": "4.11 Sanitize operations",
+      "page_range": "74-76",
+      "output_json": "descriptions/10_411_sanitize_operations.json"
+    },
+    {
+      "chapter_file": "chapters/11_413_medium_defects.md",
+      "title": "4.13 Medium defects",
+      "page_range": "77-79",
+      "output_json": "descriptions/11_413_medium_defects.json"
+    },
+    {
+      "chapter_file": "chapters/12_415_caches.md",
+      "title": "4.15 Caches",
+      "page_range": "80-83",
+      "output_json": "descriptions/12_415_caches.json"
+    },
+    {
+      "chapter_file": "chapters/13_417_reservations.md",
+      "title": "4.17 Reservations",
+      "page_range": "84-85",
+      "output_json": "descriptions/13_417_reservations.json"
+    },
+    {
+      "chapter_file": "chapters/14_418_error_reporting.md",
+      "title": "4.18 Error reporting",
+      "page_range": "86-92",
+      "output_json": "descriptions/14_418_error_reporting.json"
+    },
+    {
+      "chapter_file": "chapters/15_419_rebuild_assist_mode.md",
+      "title": "4.19 Rebuild assist mode",
+      "page_range": "93-95",
+      "output_json": "descriptions/15_419_rebuild_assist_mode.json"
+    },
+    {
+      "chapter_file": "chapters/16_420_start_stop_unit_and_power_conditions.md",
+      "title": "4.20 START STOP UNIT and power conditions",
+      "page_range": "96-107",
+      "output_json": "descriptions/16_420_start_stop_unit_and_power_conditions.json"
+    },
+    {
+      "chapter_file": "chapters/17_421_protection_information_model.md",
+      "title": "4.21 Protection information model",
+      "page_range": "108-118",
+      "output_json": "descriptions/17_421_protection_information_model.json"
+    },
+    {
+      "chapter_file": "chapters/18_423_background_scan_operations.md",
+      "title": "4.23 Background scan operations",
+      "page_range": "119-123",
+      "output_json": "descriptions/18_423_background_scan_operations.json"
+    },
+    {
+      "chapter_file": "chapters/19_426_referrals.md",
+      "title": "4.26 Referrals",
+      "page_range": "124-126",
+      "output_json": "descriptions/19_426_referrals.json"
+    },
+    {
+      "chapter_file": "chapters/20_427_orwrite_commands.md",
+      "title": "4.27 ORWRITE commands",
+      "page_range": "127-129",
+      "output_json": "descriptions/20_427_orwrite_commands.json"
+    },
+    {
+      "chapter_file": "chapters/21_428_block_device_rod_token_operations.md",
+      "title": "4.28 Block device ROD token operations",
+      "page_range": "130-132",
+      "output_json": "descriptions/21_428_block_device_rod_token_operations.json"
+    },
+    {
+      "chapter_file": "chapters/22_429_atomic_writes.md",
+      "title": "4.29 Atomic writes",
+      "page_range": "133-135",
+      "output_json": "descriptions/22_429_atomic_writes.json"
+    },
+    {
+      "chapter_file": "chapters/23_431_background_operation_control.md",
+      "title": "4.31 Background operation control",
+      "page_range": "136-137",
+      "output_json": "descriptions/23_431_background_operation_control.json"
+    },
+    {
+      "chapter_file": "chapters/24_432_stream_control.md",
+      "title": "4.32 Stream control",
+      "page_range": "138-139",
+      "output_json": "descriptions/24_432_stream_control.json"
+    },
+    {
+      "chapter_file": "chapters/25_433_format_operations.md",
+      "title": "4.33 Format operations",
+      "page_range": "140-143",
+      "output_json": "descriptions/25_433_format_operations.json"
+    },
+    {
+      "chapter_file": "chapters/26_435_scattered_writes.md",
+      "title": "4.35 Scattered writes",
+      "page_range": "144-146",
+      "output_json": "descriptions/26_435_scattered_writes.json"
+    },
+    {
+      "chapter_file": "chapters/27_436_storage_element_depopulation_and_restoration.md",
+      "title": "4.36 Storage element depopulation and restoration",
+      "page_range": "147-151",
+      "output_json": "descriptions/27_436_storage_element_depopulation_and_restoration.json"
+    },
+    {
+      "chapter_file": "chapters/28_5_commands_for_direct_access_block_devices.md",
+      "title": "5 Commands for direct access block devices",
+      "page_range": "152-156",
+      "output_json": "descriptions/28_5_commands_for_direct_access_block_devices.json"
+    },
+    {
+      "chapter_file": "chapters/29_53_compare_and_write_command.md",
+      "title": "5.3 COMPARE AND WRITE command",
+      "page_range": "157-158",
+      "output_json": "descriptions/29_53_compare_and_write_command.json"
+    },
+    {
+      "chapter_file": "chapters/30_54_format_unit_command.md",
+      "title": "5.4 FORMAT UNIT command",
+      "page_range": "159-166",
+      "output_json": "descriptions/30_54_format_unit_command.json"
+    },
+    {
+      "chapter_file": "chapters/31_55_format_with_preset_command.md",
+      "title": "5.5 FORMAT WITH PRESET command",
+      "page_range": "167-168",
+      "output_json": "descriptions/31_55_format_with_preset_command.json"
+    },
+    {
+      "chapter_file": "chapters/32_56_get_lba_status_16_command.md",
+      "title": "5.6 GET LBA STATUS (16) command",
+      "page_range": "169-172",
+      "output_json": "descriptions/32_56_get_lba_status_16_command.json"
+    },
+    {
+      "chapter_file": "chapters/33_57_get_lba_status_32_command.md",
+      "title": "5.7 GET LBA STATUS (32) command",
+      "page_range": "173-174",
+      "output_json": "descriptions/33_57_get_lba_status_32_command.json"
+    },
+    {
+      "chapter_file": "chapters/34_58_get_physical_element_status_command.md",
+      "title": "5.8 GET PHYSICAL ELEMENT STATUS command",
+      "page_range": "175-178",
+      "output_json": "descriptions/34_58_get_physical_element_status_command.json"
+    },
+    {
+      "chapter_file": "chapters/35_59_get_stream_status_command.md",
+      "title": "5.9 GET STREAM STATUS command",
+      "page_range": "179-181",
+      "output_json": "descriptions/35_59_get_stream_status_command.json"
+    },
+    {
+      "chapter_file": "chapters/36_510_orwrite_16_command.md",
+      "title": "5.10 ORWRITE (16) command",
+      "page_range": "182-188",
+      "output_json": "descriptions/36_510_orwrite_16_command.json"
+    },
+    {
+      "chapter_file": "chapters/37_511_orwrite_32_command.md",
+      "title": "5.11 ORWRITE (32) command",
+      "page_range": "189-190",
+      "output_json": "descriptions/37_511_orwrite_32_command.json"
+    },
+    {
+      "chapter_file": "chapters/38_512_populate_token_command.md",
+      "title": "5.12 POPULATE TOKEN command",
+      "page_range": "191-197",
+      "output_json": "descriptions/38_512_populate_token_command.json"
+    },
+    {
+      "chapter_file": "chapters/39_516_read_10_command.md",
+      "title": "5.16 READ (10) command",
+      "page_range": "198-201",
+      "output_json": "descriptions/39_516_read_10_command.json"
+    },
+    {
+      "chapter_file": "chapters/40_517_read_12_command.md",
+      "title": "5.17 READ (12) command",
+      "page_range": "202-205",
+      "output_json": "descriptions/40_517_read_12_command.json"
+    },
+    {
+      "chapter_file": "chapters/41_520_read_capacity_10_command.md",
+      "title": "5.20 READ CAPACITY (10) command",
+      "page_range": "206-207",
+      "output_json": "descriptions/41_520_read_capacity_10_command.json"
+    },
+    {
+      "chapter_file": "chapters/42_521_read_capacity_16_command.md",
+      "title": "5.21 READ CAPACITY (16) command",
+      "page_range": "208-209",
+      "output_json": "descriptions/42_521_read_capacity_16_command.json"
+    },
+    {
+      "chapter_file": "chapters/43_522_read_defect_data_10_command.md",
+      "title": "5.22 READ DEFECT DATA (10) command",
+      "page_range": "210-211",
+      "output_json": "descriptions/43_522_read_defect_data_10_command.json"
+    },
+    {
+      "chapter_file": "chapters/44_523_read_defect_data_12_command.md",
+      "title": "5.23 READ DEFECT DATA (12) command",
+      "page_range": "212-214",
+      "output_json": "descriptions/44_523_read_defect_data_12_command.json"
+    },
+    {
+      "chapter_file": "chapters/45_524_reassign_blocks_command.md",
+      "title": "5.24 REASSIGN BLOCKS command",
+      "page_range": "215-218",
+      "output_json": "descriptions/45_524_reassign_blocks_command.json"
+    },
+    {
+      "chapter_file": "chapters/46_525_receive_rod_token_information.md",
+      "title": "5.25 RECEIVE ROD TOKEN INFORMATION",
+      "page_range": "219-223",
+      "output_json": "descriptions/46_525_receive_rod_token_information.json"
+    },
+    {
+      "chapter_file": "chapters/47_528_report_referrals_command.md",
+      "title": "5.28 REPORT REFERRALS command",
+      "page_range": "224-225",
+      "output_json": "descriptions/47_528_report_referrals_command.json"
+    },
+    {
+      "chapter_file": "chapters/48_529_restore_elements_and_rebuild_command.md",
+      "title": "5.29 RESTORE ELEMENTS AND REBUILD command",
+      "page_range": "226-227",
+      "output_json": "descriptions/48_529_restore_elements_and_rebuild_command.json"
+    },
+    {
+      "chapter_file": "chapters/49_530_sanitize_command.md",
+      "title": "5.30 SANITIZE command",
+      "page_range": "228-231",
+      "output_json": "descriptions/49_530_sanitize_command.json"
+    },
+    {
+      "chapter_file": "chapters/50_531_start_stop_unit_command.md",
+      "title": "5.31 START STOP UNIT command",
+      "page_range": "232-234",
+      "output_json": "descriptions/50_531_start_stop_unit_command.json"
+    },
+    {
+      "chapter_file": "chapters/51_532_stream_control_command.md",
+      "title": "5.32 STREAM CONTROL command",
+      "page_range": "235-236",
+      "output_json": "descriptions/51_532_stream_control_command.json"
+    },
+    {
+      "chapter_file": "chapters/52_533_synchronize_cache_10_command.md",
+      "title": "5.33 SYNCHRONIZE CACHE (10) command",
+      "page_range": "237-239",
+      "output_json": "descriptions/52_533_synchronize_cache_10_command.json"
+    },
+    {
+      "chapter_file": "chapters/53_535_unmap_command.md",
+      "title": "5.35 UNMAP command",
+      "page_range": "240-241",
+      "output_json": "descriptions/53_535_unmap_command.json"
+    },
+    {
+      "chapter_file": "chapters/54_536_verify_10_command.md",
+      "title": "5.36 VERIFY (10) command",
+      "page_range": "242-258",
+      "output_json": "descriptions/54_536_verify_10_command.json"
+    },
+    {
+      "chapter_file": "chapters/55_540_write_10_command.md",
+      "title": "5.40 WRITE (10) command",
+      "page_range": "259-272",
+      "output_json": "descriptions/55_540_write_10_command.json"
+    },
+    {
+      "chapter_file": "chapters/56_552_write_same_10_command.md",
+      "title": "5.52 WRITE SAME (10) command",
+      "page_range": "273-276",
+      "output_json": "descriptions/56_552_write_same_10_command.json"
+    },
+    {
+      "chapter_file": "chapters/57_554_write_same_32_command.md",
+      "title": "5.54 WRITE SAME (32) command",
+      "page_range": "277-278",
+      "output_json": "descriptions/57_554_write_same_32_command.json"
+    },
+    {
+      "chapter_file": "chapters/58_555_write_scattered_16_command.md",
+      "title": "5.55 WRITE SCATTERED (16) command",
+      "page_range": "279-282",
+      "output_json": "descriptions/58_555_write_scattered_16_command.json"
+    },
+    {
+      "chapter_file": "chapters/59_556_write_scattered_32_command.md",
+      "title": "5.56 WRITE SCATTERED (32) command",
+      "page_range": "283-285",
+      "output_json": "descriptions/59_556_write_scattered_32_command.json"
+    },
+    {
+      "chapter_file": "chapters/60_558_write_stream_32_command.md",
+      "title": "5.58 WRITE STREAM (32) command",
+      "page_range": "286-287",
+      "output_json": "descriptions/60_558_write_stream_32_command.json"
+    },
+    {
+      "chapter_file": "chapters/61_559_write_using_token_command.md",
+      "title": "5.59 WRITE USING TOKEN command",
+      "page_range": "288-291",
+      "output_json": "descriptions/61_559_write_using_token_command.json"
+    },
+    {
+      "chapter_file": "chapters/62_6_parameters_for_direct_access_block_devices.md",
+      "title": "6 Parameters for direct access block devices",
+      "page_range": "292-297",
+      "output_json": "descriptions/62_6_parameters_for_direct_access_block_devices.json"
+    },
+    {
+      "chapter_file": "chapters/63_63_diagnostic_parameters.md",
+      "title": "6.3 Diagnostic parameters",
+      "page_range": "298-302",
+      "output_json": "descriptions/63_63_diagnostic_parameters.json"
+    },
+    {
+      "chapter_file": "chapters/64_64_log_parameters.md",
+      "title": "6.4 Log parameters",
+      "page_range": "303-339",
+      "output_json": "descriptions/64_64_log_parameters.json"
+    },
+    {
+      "chapter_file": "chapters/65_65_mode_parameters.md",
+      "title": "6.5 Mode parameters",
+      "page_range": "340-368",
+      "output_json": "descriptions/65_65_mode_parameters.json"
+    },
+    {
+      "chapter_file": "chapters/66_66_vital_product_data_vpd_parameters.md",
+      "title": "6.6 Vital product data (VPD) parameters",
+      "page_range": "369-392",
+      "output_json": "descriptions/66_66_vital_product_data_vpd_parameters.json"
+    },
+    {
+      "chapter_file": "chapters/67_68_logical_block_markup_descriptors.md",
+      "title": "6.8 Logical block markup descriptors",
+      "page_range": "393-398",
+      "output_json": "descriptions/67_68_logical_block_markup_descriptors.json"
+    },
+    {
+      "chapter_file": "chapters/68_numeric_order_codes.md",
+      "title": "Numeric order codes",
+      "page_range": "398-400",
+      "output_json": "descriptions/68_numeric_order_codes.json"
+    },
+    {
+      "chapter_file": "chapters/69_crc_example_in_c.md",
+      "title": "CRC example in C",
+      "page_range": "400-403",
+      "output_json": "descriptions/69_crc_example_in_c.json"
+    },
+    {
+      "chapter_file": "chapters/70_optimizing_block_access_characteristics.md",
+      "title": "Optimizing block access characteristics",
+      "page_range": "403-407",
+      "output_json": "descriptions/70_optimizing_block_access_characteristics.json"
+    },
+    {
+      "chapter_file": "chapters/71_logical_block_provisioning_reporting_examples.md",
+      "title": "Logical block provisioning reporting examples",
+      "page_range": "407-419",
+      "output_json": "descriptions/71_logical_block_provisioning_reporting_examples.json"
+    },
+    {
+      "chapter_file": "chapters/72_discovering_referrals_examples.md",
+      "title": "Discovering referrals examples",
+      "page_range": "419-423",
+      "output_json": "descriptions/72_discovering_referrals_examples.json"
+    },
+    {
+      "chapter_file": "chapters/73_io_advice_hints_usage.md",
+      "title": "IO advice hints usage",
+      "page_range": "423-427",
+      "output_json": "descriptions/73_io_advice_hints_usage.json"
+    },
+    {
+      "chapter_file": "chapters/74_sbc_feature_sets.md",
+      "title": "SBC feature sets",
+      "page_range": "427-441",
+      "output_json": "descriptions/74_sbc_feature_sets.json"
+    },
+    {
+      "chapter_file": "chapters/75_rebuild_assist_using_the_get_lba_status_command.md",
+      "title": "Rebuild assist using the GET LBA STATUS command",
+      "page_range": "441-443",
+      "output_json": "descriptions/75_rebuild_assist_using_the_get_lba_status_command.json"
+    },
+    {
+      "chapter_file": "chapters/76_direct_access_block_devices_with_shared_resources.md",
+      "title": "Direct access block devices with shared resources",
+      "page_range": "443-447",
+      "output_json": "descriptions/76_direct_access_block_devices_with_shared_resources.json"
+    }
+  ],
+  "instructions_for_claude": "For each task in `tasks`:\n  1. Read `chapter_file` (Markdown, may be long - use offset/limit if needed).\n  2. Write `output_json` with exact schema:\n     {\"file\": \"<filename.md>\", \"title\": \"<title>\",\n      \"description\": \"<2-3 Traditional Chinese sentences summarising what this chapter covers and what RAG questions it can answer>\",\n      \"keywords\": [\"<eng keyword 1>\", \"<eng keyword 2>\", ...],\n      \"page_range\": \"<N-M>\"}\n  3. Keep keywords 3-6 items, English, lowercased, domain-specific\n     (e.g. SCSI opcodes, protocol names, data structures).\nWhen all tasks done, run:\n  python -m doc_to_markdown.main <pdf> --resume --mode cli --desc-only\n"
+}

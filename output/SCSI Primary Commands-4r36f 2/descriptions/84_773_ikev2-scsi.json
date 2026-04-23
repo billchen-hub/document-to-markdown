@@ -1,0 +1,7 @@
+{
+  "file": "84_773_ikev2-scsi.md",
+  "title": "7.7.3 IKEv2-SCSI",
+  "description": "IKEv2-SCSI 完整協定規格：訊息格式、payload 類型 (SA、KE、Nonce、IDi、IDr、AUTH、CERT、ENCR、SAUTH)、協商流程、error handling、rekey、SA termination。SPC-4 安全章節中最長、最核心的一節。做 enterprise SCSI 加密實作時必讀。",
+  "keywords": ["ikev2-scsi", "payload-format", "ike-negotiation", "rekey", "sa-termination"],
+  "page_range": "733-782"
+}

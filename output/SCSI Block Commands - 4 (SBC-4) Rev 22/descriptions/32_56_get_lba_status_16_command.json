@@ -1,0 +1,7 @@
+{
+  "file": "32_56_get_lba_status_16_command.md",
+  "title": "5.6 GET LBA STATUS (16) command",
+  "description": "GET LBA STATUS (16) (opcode 9Eh / SA 12h)：回報指定 LBA 起的 provisioning 狀態（mapped / deallocated / anchored），用於 thin-provisioning 客戶端查詢實際配置情形。包含 parameter data format、PROVISIONING STATUS 欄位、COMPLETION CONDITION。",
+  "keywords": ["get-lba-status", "provisioning-status", "mapped", "deallocated", "thin-provisioning-query"],
+  "page_range": "169-172"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "59_736_general_statistics_and_performance_log_pages.md",
+  "title": "7.3.6 General Statistics and Performance log pages",
+  "description": "General Statistics and Performance log page (19h subpage 01h)：讀/寫 IO 次數、total bytes、IO latency histogram、queue 等 device 級 performance counter。做 device-level IO profiling 的主要資料來源。",
+  "keywords": ["general-statistics", "performance-log", "page-19h-01h", "io-counters", "latency"],
+  "page_range": "614-619"
+}

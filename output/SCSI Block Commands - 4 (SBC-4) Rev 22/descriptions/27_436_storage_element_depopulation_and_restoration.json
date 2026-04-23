@@ -1,0 +1,7 @@
+{
+  "file": "27_436_storage_element_depopulation_and_restoration.md",
+  "title": "4.36 Storage element depopulation and restoration",
+  "description": "Depopulation 功能讓多碟片硬碟把部分故障的 head / platter 停用、保留剩餘容量繼續使用，避免整顆硬碟報廢。定義 REMOVE ELEMENT AND TRUNCATE / RESTORE ELEMENTS AND REBUILD 命令、depopulation revocable / persistent 狀態機。hyperscale 資料中心壽命延伸的關鍵功能。",
+  "keywords": ["depopulation", "remove-element", "restore-elements", "hyperscale", "failure-recovery", "multi-head-drive"],
+  "page_range": "147-151"
+}

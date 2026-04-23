@@ -1,0 +1,7 @@
+{
+  "file": "43_522_read_defect_data_10_command.md",
+  "title": "5.22 READ DEFECT DATA (10) command",
+  "description": "READ DEFECT DATA (10) (opcode 37h)：回傳 primary / grown defect list。DEFECT LIST FORMAT 欄位選 block / bytes from index / physical sector 三種格式。偏向舊款相容命令，大容量 drive 建議用 (12) 版本。",
+  "keywords": ["read-defect-data-10", "defect-list", "plist", "glist", "defect-format"],
+  "page_range": "210-211"
+}

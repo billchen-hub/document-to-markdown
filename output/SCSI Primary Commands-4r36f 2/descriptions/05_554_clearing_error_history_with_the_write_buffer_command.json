@@ -1,0 +1,7 @@
+{
+  "file": "05_554_clearing_error_history_with_the_write_buffer_command.md",
+  "title": "5.5.4 Clearing error history with the WRITE BUFFER command",
+  "description": "用 WRITE BUFFER 在 error history mode 下清除 device 的錯誤歷史紀錄或將 history export / import。搭配 READ BUFFER 完成 error history 生命週期管理。",
+  "keywords": ["write-buffer", "clear-error-history", "error-history-management"],
+  "page_range": "183-186"
+}

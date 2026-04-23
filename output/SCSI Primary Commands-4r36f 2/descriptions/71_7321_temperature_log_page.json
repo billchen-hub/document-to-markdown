@@ -1,0 +1,7 @@
+{
+  "file": "71_7321_temperature_log_page.md",
+  "title": "7.3.21 Temperature log page",
+  "description": "Temperature log page (0Dh)：Temperature parameter（current drive temperature）+ Reference Temperature（recommended max）。熱管理、資料中心 thermal 告警依據。",
+  "keywords": ["temperature-log", "page-0dh", "thermal-monitoring", "reference-temperature"],
+  "page_range": "656-658"
+}

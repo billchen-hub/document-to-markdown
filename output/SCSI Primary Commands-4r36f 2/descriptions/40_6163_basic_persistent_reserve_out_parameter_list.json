@@ -1,0 +1,7 @@
+{
+  "file": "40_6163_basic_persistent_reserve_out_parameter_list.md",
+  "title": "6.16.3 Basic PERSISTENT RESERVE OUT parameter list",
+  "description": "PRO 基本 parameter list 欄位：RESERVATION KEY、SERVICE ACTION RESERVATION KEY、APTPL、ALL_TG_PT、SPEC_I_PT 旗標、transport ID 陣列。設定 reservation 時 host 必填的資料。",
+  "keywords": ["pro-parameter-list", "reservation-key", "aptpl", "all-tg-pt", "spec-i-pt"],
+  "page_range": "464-468"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "70_optimizing_block_access_characteristics.md",
+  "title": "Optimizing block access characteristics (Annex)",
+  "description": "附錄：教 host / driver 如何利用 Block Limits VPD (optimal transfer length、optimal read / write granularity) 與 Block Device Characteristics VPD 的參數來優化 IO pattern、與 device preferred access pattern 對齊。效能調校實務指南。",
+  "keywords": ["block-limits", "optimal-transfer-length", "io-alignment", "performance-tuning", "annex"],
+  "page_range": "403-407"
+}

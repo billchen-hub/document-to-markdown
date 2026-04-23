@@ -1,0 +1,620 @@
+{
+  "mode": "cli",
+  "stage": "descriptions",
+  "total_tasks": 102,
+  "tasks": [
+    {
+      "chapter_file": "chapters/01_asc_ascq.md",
+      "title": "ASC & ASCQ",
+      "page_range": "154-154",
+      "output_json": "descriptions/01_asc_ascq.json"
+    },
+    {
+      "chapter_file": "chapters/02_default_bookmark.md",
+      "title": "Default Bookmark",
+      "page_range": "154-174",
+      "output_json": "descriptions/02_default_bookmark.json"
+    },
+    {
+      "chapter_file": "chapters/03_532_suspending_and_resuming_device-specific_background_funct.md",
+      "title": "5.3.2 Suspending and resuming device-specific background functions",
+      "page_range": "175-180",
+      "output_json": "descriptions/03_532_suspending_and_resuming_device-specific_background_funct.json"
+    },
+    {
+      "chapter_file": "chapters/04_552_retrieving_error_history_with_the_read_buffer_command.md",
+      "title": "5.5.2 Retrieving error history with the READ BUFFER command",
+      "page_range": "181-182",
+      "output_json": "descriptions/04_552_retrieving_error_history_with_the_read_buffer_command.json"
+    },
+    {
+      "chapter_file": "chapters/05_554_clearing_error_history_with_the_write_buffer_command.md",
+      "title": "5.5.4 Clearing error history with the WRITE BUFFER command",
+      "page_range": "183-186",
+      "output_json": "descriptions/05_554_clearing_error_history_with_the_write_buffer_command.json"
+    },
+    {
+      "chapter_file": "chapters/06_5112_request_sense_pollable_sense_data.md",
+      "title": "5.11.2 REQUEST SENSE pollable sense data",
+      "page_range": "187-192",
+      "output_json": "descriptions/06_5112_request_sense_pollable_sense_data.json"
+    },
+    {
+      "chapter_file": "chapters/07_5128_power_condition_state_machine.md",
+      "title": "5.12.8 Power condition state machine",
+      "page_range": "193-199",
+      "output_json": "descriptions/07_5128_power_condition_state_machine.json"
+    },
+    {
+      "chapter_file": "chapters/08_5131_persistent_reservations_overview.md",
+      "title": "5.13.1 Persistent Reservations overview",
+      "page_range": "200-205",
+      "output_json": "descriptions/08_5131_persistent_reservations_overview.json"
+    },
+    {
+      "chapter_file": "chapters/09_5135_preserving_persistent_reservations_and_registrations.md",
+      "title": "5.13.5 Preserving persistent reservations and registrations",
+      "page_range": "206-208",
+      "output_json": "descriptions/09_5135_preserving_persistent_reservations_and_registrations.json"
+    },
+    {
+      "chapter_file": "chapters/10_5137_registering.md",
+      "title": "5.13.7 Registering",
+      "page_range": "209-215",
+      "output_json": "descriptions/10_5137_registering.json"
+    },
+    {
+      "chapter_file": "chapters/11_51311_releasing_persistent_reservations_and_removing_registr.md",
+      "title": "5.13.11 Releasing persistent reservations and removing registrations",
+      "page_range": "216-224",
+      "output_json": "descriptions/11_51311_releasing_persistent_reservations_and_removing_registr.json"
+    },
+    {
+      "chapter_file": "chapters/12_5141_security_goals_and_threat_model.md",
+      "title": "5.14.1 Security goals and threat model",
+      "page_range": "225-226",
+      "output_json": "descriptions/12_5141_security_goals_and_threat_model.json"
+    },
+    {
+      "chapter_file": "chapters/13_5142_security_associations.md",
+      "title": "5.14.2 Security associations",
+      "page_range": "227-231",
+      "output_json": "descriptions/13_5142_security_associations.json"
+    },
+    {
+      "chapter_file": "chapters/14_5143_key_derivation_functions.md",
+      "title": "5.14.3 Key derivation functions",
+      "page_range": "232-234",
+      "output_json": "descriptions/14_5143_key_derivation_functions.json"
+    },
+    {
+      "chapter_file": "chapters/15_5144_using_ikev2-scsi_to_create_an_sa.md",
+      "title": "5.14.4 Using IKEv2-SCSI to create an SA",
+      "page_range": "235-262",
+      "output_json": "descriptions/15_5144_using_ikev2-scsi_to_create_an_sa.json"
+    },
+    {
+      "chapter_file": "chapters/16_5146_command_security.md",
+      "title": "5.14.6 Command security",
+      "page_range": "263-285",
+      "output_json": "descriptions/16_5146_command_security.json"
+    },
+    {
+      "chapter_file": "chapters/17_5147_esp-scsi_for_parameter_data.md",
+      "title": "5.14.7 ESP-SCSI for parameter data",
+      "page_range": "286-301",
+      "output_json": "descriptions/17_5147_esp-scsi_for_parameter_data.json"
+    },
+    {
+      "chapter_file": "chapters/18_5154_self-test_modes.md",
+      "title": "5.15.4 Self-test modes",
+      "page_range": "302-305",
+      "output_json": "descriptions/18_5154_self-test_modes.json"
+    },
+    {
+      "chapter_file": "chapters/19_5162_asymmetric_logical_unit_access.md",
+      "title": "5.16.2 Asymmetric logical unit access",
+      "page_range": "306-312",
+      "output_json": "descriptions/19_5162_asymmetric_logical_unit_access.json"
+    },
+    {
+      "chapter_file": "chapters/20_5172_copy_manager_model.md",
+      "title": "5.17.2 Copy manager model",
+      "page_range": "313-316",
+      "output_json": "descriptions/20_5172_copy_manager_model.json"
+    },
+    {
+      "chapter_file": "chapters/21_5174_third-party_copy_command_usage.md",
+      "title": "5.17.4 Third-party copy command usage",
+      "page_range": "317-321",
+      "output_json": "descriptions/21_5174_third-party_copy_command_usage.json"
+    },
+    {
+      "chapter_file": "chapters/22_5176_rods_and_rod_tokens.md",
+      "title": "5.17.6 RODs and ROD tokens",
+      "page_range": "322-334",
+      "output_json": "descriptions/22_5176_rods_and_rod_tokens.json"
+    },
+    {
+      "chapter_file": "chapters/23_5177_the_extended_copy_command.md",
+      "title": "5.17.7 The EXTENDED COPY command",
+      "page_range": "335-346",
+      "output_json": "descriptions/23_5177_the_extended_copy_command.json"
+    },
+    {
+      "chapter_file": "chapters/24_621_change_aliases_command_introduction.md",
+      "title": "6.2.1 CHANGE ALIASES command introduction",
+      "page_range": "347-349",
+      "output_json": "descriptions/24_621_change_aliases_command_introduction.json"
+    },
+    {
+      "chapter_file": "chapters/25_624_alias_entry_protocol_independent_designations.md",
+      "title": "6.2.4 Alias entry protocol independent designations",
+      "page_range": "350-352",
+      "output_json": "descriptions/25_624_alias_entry_protocol_independent_designations.json"
+    },
+    {
+      "chapter_file": "chapters/26_642_extended_copylid4_parameter_data.md",
+      "title": "6.4.2 EXTENDED COPY(LID4) parameter data",
+      "page_range": "353-354",
+      "output_json": "descriptions/26_642_extended_copylid4_parameter_data.json"
+    },
+    {
+      "chapter_file": "chapters/27_643_shared_extended_copy_parameter_list_fields.md",
+      "title": "6.4.3 Shared EXTENDED COPY parameter list fields",
+      "page_range": "355-359",
+      "output_json": "descriptions/27_643_shared_extended_copy_parameter_list_fields.json"
+    },
+    {
+      "chapter_file": "chapters/28_645_cscd_descriptors.md",
+      "title": "6.4.5 CSCD descriptors",
+      "page_range": "360-374",
+      "output_json": "descriptions/28_645_cscd_descriptors.json"
+    },
+    {
+      "chapter_file": "chapters/29_646_segment_descriptors.md",
+      "title": "6.4.6 Segment descriptors",
+      "page_range": "375-412",
+      "output_json": "descriptions/29_646_segment_descriptors.json"
+    },
+    {
+      "chapter_file": "chapters/30_662_standard_inquiry_data.md",
+      "title": "6.6.2 Standard INQUIRY data",
+      "page_range": "413-428",
+      "output_json": "descriptions/30_662_standard_inquiry_data.json"
+    },
+    {
+      "chapter_file": "chapters/31_663_scsi_parallel_interface_specific_inquiry_data.md",
+      "title": "6.6.3 SCSI Parallel Interface specific INQUIRY data",
+      "page_range": "429-430",
+      "output_json": "descriptions/31_663_scsi_parallel_interface_specific_inquiry_data.json"
+    },
+    {
+      "chapter_file": "chapters/32_671_introduction.md",
+      "title": "6.7.1 Introduction",
+      "page_range": "431-432",
+      "output_json": "descriptions/32_671_introduction.json"
+    },
+    {
+      "chapter_file": "chapters/33_672_processing_log_select_when_the_parameter_list_length_is.md",
+      "title": "6.7.2 Processing LOG SELECT when the parameter list length is zero",
+      "page_range": "433-438",
+      "output_json": "descriptions/33_672_processing_log_select_when_the_parameter_list_length_is.json"
+    },
+    {
+      "chapter_file": "chapters/34_692_management_protocol_information_description.md",
+      "title": "6.9.2 Management protocol information description",
+      "page_range": "439-446",
+      "output_json": "descriptions/34_692_management_protocol_information_description.json"
+    },
+    {
+      "chapter_file": "chapters/35_6136_initial_responses.md",
+      "title": "6.13.6 Initial responses",
+      "page_range": "447-450",
+      "output_json": "descriptions/35_6136_initial_responses.json"
+    },
+    {
+      "chapter_file": "chapters/36_6153_read_reservation_service_action.md",
+      "title": "6.15.3 READ RESERVATION service action",
+      "page_range": "451-454",
+      "output_json": "descriptions/36_6153_read_reservation_service_action.json"
+    },
+    {
+      "chapter_file": "chapters/37_6154_report_capabilities_service_action.md",
+      "title": "6.15.4 REPORT CAPABILITIES service action",
+      "page_range": "455-458",
+      "output_json": "descriptions/37_6154_report_capabilities_service_action.json"
+    },
+    {
+      "chapter_file": "chapters/38_6155_read_full_status_service_action.md",
+      "title": "6.15.5 READ FULL STATUS service action",
+      "page_range": "459-460",
+      "output_json": "descriptions/38_6155_read_full_status_service_action.json"
+    },
+    {
+      "chapter_file": "chapters/39_6161_persistent_reserve_out_command_introduction.md",
+      "title": "6.16.1 PERSISTENT RESERVE OUT command introduction",
+      "page_range": "461-463",
+      "output_json": "descriptions/39_6161_persistent_reserve_out_command_introduction.json"
+    },
+    {
+      "chapter_file": "chapters/40_6163_basic_persistent_reserve_out_parameter_list.md",
+      "title": "6.16.3 Basic PERSISTENT RESERVE OUT parameter list",
+      "page_range": "464-468",
+      "output_json": "descriptions/40_6163_basic_persistent_reserve_out_parameter_list.json"
+    },
+    {
+      "chapter_file": "chapters/41_6164_parameter_list_for_the_persistent_reserve_out_command_w.md",
+      "title": "6.16.4 Parameter list for the PERSISTENT RESERVE OUT command with REGISTER AND MOVE service action",
+      "page_range": "469-470",
+      "output_json": "descriptions/41_6164_parameter_list_for_the_persistent_reserve_out_command_w.json"
+    },
+    {
+      "chapter_file": "chapters/42_6171_read_attribute_command_introduction.md",
+      "title": "6.17.1 READ ATTRIBUTE command introduction",
+      "page_range": "471-475",
+      "output_json": "descriptions/42_6171_read_attribute_command_introduction.json"
+    },
+    {
+      "chapter_file": "chapters/43_6181_read_buffer_command_introduction.md",
+      "title": "6.18.1 READ BUFFER command introduction",
+      "page_range": "476-480",
+      "output_json": "descriptions/43_6181_read_buffer_command_introduction.json"
+    },
+    {
+      "chapter_file": "chapters/44_6189_error_history_mode_1ch.md",
+      "title": "6.18.9 Error history mode (1Ch)",
+      "page_range": "481-508",
+      "output_json": "descriptions/44_6189_error_history_mode_1ch.json"
+    },
+    {
+      "chapter_file": "chapters/45_6271_receive_credential_command_description.md",
+      "title": "6.27.1 RECEIVE CREDENTIAL command description",
+      "page_range": "509-511",
+      "output_json": "descriptions/45_6271_receive_credential_command_description.json"
+    },
+    {
+      "chapter_file": "chapters/46_6272_receive_credential_parameter_data.md",
+      "title": "6.27.2 RECEIVE CREDENTIAL parameter data",
+      "page_range": "512-523",
+      "output_json": "descriptions/46_6272_receive_credential_parameter_data.json"
+    },
+    {
+      "chapter_file": "chapters/47_6321_report_identifying_information_command_overview.md",
+      "title": "6.32.1 REPORT IDENTIFYING INFORMATION command overview",
+      "page_range": "524-525",
+      "output_json": "descriptions/47_6321_report_identifying_information_command_overview.json"
+    },
+    {
+      "chapter_file": "chapters/48_6323_identifying_information_supported_parameter_data.md",
+      "title": "6.32.3 IDENTIFYING INFORMATION SUPPORTED parameter data",
+      "page_range": "526-531",
+      "output_json": "descriptions/48_6323_identifying_information_supported_parameter_data.json"
+    },
+    {
+      "chapter_file": "chapters/49_6351_report_supported_operation_codes_command_introduction.md",
+      "title": "6.35.1 REPORT SUPPORTED OPERATION CODES command introduction",
+      "page_range": "532-534",
+      "output_json": "descriptions/49_6351_report_supported_operation_codes_command_introduction.json"
+    },
+    {
+      "chapter_file": "chapters/50_6353_one_command_parameter_data_format.md",
+      "title": "6.35.3 One_command parameter data format",
+      "page_range": "535-536",
+      "output_json": "descriptions/50_6353_one_command_parameter_data_format.json"
+    },
+    {
+      "chapter_file": "chapters/51_6354_command_timeouts_descriptor.md",
+      "title": "6.35.4 Command timeouts descriptor",
+      "page_range": "537-582",
+      "output_json": "descriptions/51_6354_command_timeouts_descriptor.json"
+    },
+    {
+      "chapter_file": "chapters/52_64915_download_application_client_error_history_mode_1ch.md",
+      "title": "6.49.15 Download application client error history mode (1Ch)",
+      "page_range": "583-586",
+      "output_json": "descriptions/52_64915_download_application_client_error_history_mode_1ch.json"
+    },
+    {
+      "chapter_file": "chapters/53_722_diagnostic_page_format_and_page_codes_for_all_device_typ.md",
+      "title": "7.2.2 Diagnostic page format and page codes for all device types",
+      "page_range": "587-588",
+      "output_json": "descriptions/53_722_diagnostic_page_format_and_page_codes_for_all_device_typ.json"
+    },
+    {
+      "chapter_file": "chapters/54_724_supported_diagnostic_pages.md",
+      "title": "7.2.4 Supported Diagnostic Pages",
+      "page_range": "589-591",
+      "output_json": "descriptions/54_724_supported_diagnostic_pages.json"
+    },
+    {
+      "chapter_file": "chapters/55_732_log_page_structure_and_log_parameter_structure_for_all_d.md",
+      "title": "7.3.2 Log page structure and log parameter structure for all device types",
+      "page_range": "592-600",
+      "output_json": "descriptions/55_732_log_page_structure_and_log_parameter_structure_for_all_d.json"
+    },
+    {
+      "chapter_file": "chapters/56_733_application_client_log_page.md",
+      "title": "7.3.3 Application Client log page",
+      "page_range": "601-602",
+      "output_json": "descriptions/56_733_application_client_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/57_734_buffer_over-rununder-run_log_page.md",
+      "title": "7.3.4 Buffer Over-Run/Under-Run log page",
+      "page_range": "603-605",
+      "output_json": "descriptions/57_734_buffer_over-rununder-run_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/58_735_cache_memory_statistics_log_page.md",
+      "title": "7.3.5 Cache Memory Statistics log page",
+      "page_range": "606-613",
+      "output_json": "descriptions/58_735_cache_memory_statistics_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/59_736_general_statistics_and_performance_log_pages.md",
+      "title": "7.3.6 General Statistics and Performance log pages",
+      "page_range": "614-619",
+      "output_json": "descriptions/59_736_general_statistics_and_performance_log_pages.json"
+    },
+    {
+      "chapter_file": "chapters/60_737_group_statistics_and_performance_n_log_pages.md",
+      "title": "7.3.7 Group Statistics and Performance (n) log pages",
+      "page_range": "620-626",
+      "output_json": "descriptions/60_737_group_statistics_and_performance_n_log_pages.json"
+    },
+    {
+      "chapter_file": "chapters/61_738_informational_exceptions_log_page.md",
+      "title": "7.3.8 Informational Exceptions log page",
+      "page_range": "627-628",
+      "output_json": "descriptions/61_738_informational_exceptions_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/62_739_last_n_deferred_errors_or_asynchronous_events_log_page.md",
+      "title": "7.3.9 Last n Deferred Errors or Asynchronous Events log page",
+      "page_range": "629-630",
+      "output_json": "descriptions/62_739_last_n_deferred_errors_or_asynchronous_events_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/63_7310_last_n_error_events_log_page.md",
+      "title": "7.3.10 Last n Error Events log page",
+      "page_range": "631-632",
+      "output_json": "descriptions/63_7310_last_n_error_events_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/64_7311_non-medium_error_log_page.md",
+      "title": "7.3.11 Non-Medium Error log page",
+      "page_range": "633-634",
+      "output_json": "descriptions/64_7311_non-medium_error_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/65_7312_power_condition_transitions_log_page.md",
+      "title": "7.3.12 Power Condition Transitions log page",
+      "page_range": "635-636",
+      "output_json": "descriptions/65_7312_power_condition_transitions_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/66_7313_protocol_specific_port_log_page.md",
+      "title": "7.3.13 Protocol Specific Port log page",
+      "page_range": "637-638",
+      "output_json": "descriptions/66_7313_protocol_specific_port_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/67_7314_read_error_counters_log_page.md",
+      "title": "7.3.14 Read Error Counters log page",
+      "page_range": "639-640",
+      "output_json": "descriptions/67_7314_read_error_counters_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/68_7315_read_reverse_error_counters_log_page.md",
+      "title": "7.3.15 Read Reverse Error Counters log page",
+      "page_range": "641-642",
+      "output_json": "descriptions/68_7315_read_reverse_error_counters_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/69_7316_self-test_results_log_page.md",
+      "title": "7.3.16 Self-Test Results log page",
+      "page_range": "643-646",
+      "output_json": "descriptions/69_7316_self-test_results_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/70_7317_start-stop_cycle_counter_log_page.md",
+      "title": "7.3.17 Start-Stop Cycle Counter log page",
+      "page_range": "647-655",
+      "output_json": "descriptions/70_7317_start-stop_cycle_counter_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/71_7321_temperature_log_page.md",
+      "title": "7.3.21 Temperature log page",
+      "page_range": "656-658",
+      "output_json": "descriptions/71_7321_temperature_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/72_7322_verify_error_counters_log_page.md",
+      "title": "7.3.22 Verify Error Counters log page",
+      "page_range": "659-660",
+      "output_json": "descriptions/72_7322_verify_error_counters_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/73_7323_write_error_counters_log_page.md",
+      "title": "7.3.23 Write Error Counters log page",
+      "page_range": "661-664",
+      "output_json": "descriptions/73_7323_write_error_counters_log_page.json"
+    },
+    {
+      "chapter_file": "chapters/74_742_attribute_identifier_values.md",
+      "title": "7.4.2 Attribute identifier values",
+      "page_range": "665-681",
+      "output_json": "descriptions/74_742_attribute_identifier_values.json"
+    },
+    {
+      "chapter_file": "chapters/75_758_control_mode_page.md",
+      "title": "7.5.8 Control mode page",
+      "page_range": "682-688",
+      "output_json": "descriptions/75_758_control_mode_page.json"
+    },
+    {
+      "chapter_file": "chapters/76_7510_disconnect-reconnect_mode_page.md",
+      "title": "7.5.10 Disconnect-Reconnect mode page",
+      "page_range": "689-692",
+      "output_json": "descriptions/76_7510_disconnect-reconnect_mode_page.json"
+    },
+    {
+      "chapter_file": "chapters/77_7513_power_condition_mode_page.md",
+      "title": "7.5.13 Power Condition mode page",
+      "page_range": "693-698",
+      "output_json": "descriptions/77_7513_power_condition_mode_page.json"
+    },
+    {
+      "chapter_file": "chapters/78_7516_protocol_specific_port_mode_page.md",
+      "title": "7.5.16 Protocol Specific Port mode page",
+      "page_range": "699-700",
+      "output_json": "descriptions/78_7516_protocol_specific_port_mode_page.json"
+    },
+    {
+      "chapter_file": "chapters/79_762_alias_entry_protocol_specific_designations.md",
+      "title": "7.6.2 Alias entry protocol specific designations",
+      "page_range": "701-708",
+      "output_json": "descriptions/79_762_alias_entry_protocol_specific_designations.json"
+    },
+    {
+      "chapter_file": "chapters/80_763_extended_copy_protocol_specific_cscd_descriptors.md",
+      "title": "7.6.3 EXTENDED COPY protocol specific CSCD descriptors",
+      "page_range": "709-716",
+      "output_json": "descriptions/80_763_extended_copy_protocol_specific_cscd_descriptors.json"
+    },
+    {
+      "chapter_file": "chapters/81_764_transportid_identifiers.md",
+      "title": "7.6.4 TransportID identifiers",
+      "page_range": "717-724",
+      "output_json": "descriptions/81_764_transportid_identifiers.json"
+    },
+    {
+      "chapter_file": "chapters/82_771_security_protocol_information_description.md",
+      "title": "7.7.1 Security protocol information description",
+      "page_range": "725-730",
+      "output_json": "descriptions/82_771_security_protocol_information_description.json"
+    },
+    {
+      "chapter_file": "chapters/83_772_sa_creation_capabilities.md",
+      "title": "7.7.2 SA creation capabilities",
+      "page_range": "731-732",
+      "output_json": "descriptions/83_772_sa_creation_capabilities.json"
+    },
+    {
+      "chapter_file": "chapters/84_773_ikev2-scsi.md",
+      "title": "7.7.3 IKEv2-SCSI",
+      "page_range": "733-782",
+      "output_json": "descriptions/84_773_ikev2-scsi.json"
+    },
+    {
+      "chapter_file": "chapters/85_774_cbcs_security_protocol.md",
+      "title": "7.7.4 CbCS security protocol",
+      "page_range": "783-804",
+      "output_json": "descriptions/85_774_cbcs_security_protocol.json"
+    },
+    {
+      "chapter_file": "chapters/86_785_device_constituents_vpd_page.md",
+      "title": "7.8.5 Device Constituents VPD page",
+      "page_range": "805-808",
+      "output_json": "descriptions/86_785_device_constituents_vpd_page.json"
+    },
+    {
+      "chapter_file": "chapters/87_786_device_identification_vpd_page.md",
+      "title": "7.8.6 Device Identification VPD page",
+      "page_range": "809-824",
+      "output_json": "descriptions/87_786_device_identification_vpd_page.json"
+    },
+    {
+      "chapter_file": "chapters/88_787_extended_inquiry_data_vpd_page.md",
+      "title": "7.8.7 Extended INQUIRY Data VPD page",
+      "page_range": "825-828",
+      "output_json": "descriptions/88_787_extended_inquiry_data_vpd_page.json"
+    },
+    {
+      "chapter_file": "chapters/89_788_management_network_addresses_vpd_page.md",
+      "title": "7.8.8 Management Network Addresses VPD page",
+      "page_range": "829-830",
+      "output_json": "descriptions/89_788_management_network_addresses_vpd_page.json"
+    },
+    {
+      "chapter_file": "chapters/90_789_mode_page_policy_vpd_page.md",
+      "title": "7.8.9 Mode Page Policy VPD page",
+      "page_range": "831-832",
+      "output_json": "descriptions/90_789_mode_page_policy_vpd_page.json"
+    },
+    {
+      "chapter_file": "chapters/91_7810_power_condition_vpd_page.md",
+      "title": "7.8.10 Power Condition VPD page",
+      "page_range": "833-835",
+      "output_json": "descriptions/91_7810_power_condition_vpd_page.json"
+    },
+    {
+      "chapter_file": "chapters/92_7812_protocol_specific_logical_unit_information_vpd_page.md",
+      "title": "7.8.12 Protocol Specific Logical Unit Information VPD page",
+      "page_range": "836-837",
+      "output_json": "descriptions/92_7812_protocol_specific_logical_unit_information_vpd_page.json"
+    },
+    {
+      "chapter_file": "chapters/93_7813_protocol_specific_port_information_vpd_page.md",
+      "title": "7.8.13 Protocol Specific Port Information VPD page",
+      "page_range": "838-839",
+      "output_json": "descriptions/93_7813_protocol_specific_port_information_vpd_page.json"
+    },
+    {
+      "chapter_file": "chapters/94_7814_scsi_ports_vpd_page.md",
+      "title": "7.8.14 SCSI Ports VPD page",
+      "page_range": "840-844",
+      "output_json": "descriptions/94_7814_scsi_ports_vpd_page.json"
+    },
+    {
+      "chapter_file": "chapters/95_7817_third-party_copy_vpd_page.md",
+      "title": "7.8.17 Third-party Copy VPD page",
+      "page_range": "845-865",
+      "output_json": "descriptions/95_7817_third-party_copy_vpd_page.json"
+    },
+    {
+      "chapter_file": "chapters/96_7818_unit_serial_number_vpd_page.md",
+      "title": "7.8.18 Unit Serial Number VPD page",
+      "page_range": "866-867",
+      "output_json": "descriptions/96_7818_unit_serial_number_vpd_page.json"
+    },
+    {
+      "chapter_file": "chapters/97_831_access_controls_model.md",
+      "title": "8.3.1 Access controls model",
+      "page_range": "868-883",
+      "output_json": "descriptions/97_831_access_controls_model.json"
+    },
+    {
+      "chapter_file": "chapters/98_832_access_control_in_command.md",
+      "title": "8.3.2 ACCESS CONTROL IN command",
+      "page_range": "884-904",
+      "output_json": "descriptions/98_832_access_control_in_command.json"
+    },
+    {
+      "chapter_file": "chapters/99_833_access_control_out_command.md",
+      "title": "8.3.3 ACCESS CONTROL OUT command",
+      "page_range": "905-930",
+      "output_json": "descriptions/99_833_access_control_out_command.json"
+    },
+    {
+      "chapter_file": "chapters/100_c22_detecting_lack_of_progress_in_active_copy_operations.md",
+      "title": "C.2.2 Detecting lack of progress in active copy operations",
+      "page_range": "931-954",
+      "output_json": "descriptions/100_c22_detecting_lack_of_progress_in_active_copy_operations.json"
+    },
+    {
+      "chapter_file": "chapters/101_e31_operation_codes.md",
+      "title": "E.3.1 Operation codes",
+      "page_range": "955-964",
+      "output_json": "descriptions/101_e31_operation_codes.json"
+    },
+    {
+      "chapter_file": "chapters/102_e36_variable_length_cdb_service_action_codes.md",
+      "title": "E.3.6 Variable length CDB service action codes",
+      "page_range": "965-1012",
+      "output_json": "descriptions/102_e36_variable_length_cdb_service_action_codes.json"
+    }
+  ],
+  "instructions_for_claude": "For each task in `tasks`:\n  1. Read `chapter_file` (Markdown, may be long - use offset/limit if needed).\n  2. Write `output_json` with exact schema:\n     {\"file\": \"<filename.md>\", \"title\": \"<title>\",\n      \"description\": \"<2-3 Traditional Chinese sentences summarising what this chapter covers and what RAG questions it can answer>\",\n      \"keywords\": [\"<eng keyword 1>\", \"<eng keyword 2>\", ...],\n      \"page_range\": \"<N-M>\"}\n  3. Keep keywords 3-6 items, English, lowercased, domain-specific\n     (e.g. SCSI opcodes, protocol names, data structures).\nWhen all tasks done, run:\n  python -m doc_to_markdown.main <pdf> --resume --mode cli --desc-only\n"
+}

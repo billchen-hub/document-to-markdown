@@ -1,0 +1,7 @@
+{
+  "file": "86_785_device_constituents_vpd_page.md",
+  "title": "7.8.5 Device Constituents VPD page",
+  "description": "Device Constituents VPD page (8Bh)：描述由多個子 device 組成的複合 device（例如 SAS enclosure）的內部結構、子元件 INQUIRY-like data。層級化 device 探索用。",
+  "keywords": ["device-constituents", "vpd-8bh", "composite-device", "enclosure-constituents"],
+  "page_range": "805-808"
+}

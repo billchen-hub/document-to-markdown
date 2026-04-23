@@ -1,0 +1,7 @@
+{
+  "file": "02_default_bookmark.md",
+  "title": "Default Bookmark",
+  "description": "SPC-4 前段落內容（版權、引言、基本術語、一般原則章節）。包含 scope、normative references、conventions 與 SCSI model 基本概念的一部分。",
+  "keywords": ["spc-4-intro", "scope", "normative-references", "conventions", "preface"],
+  "page_range": "154-174"
+}

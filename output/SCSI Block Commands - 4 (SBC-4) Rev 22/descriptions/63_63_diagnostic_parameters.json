@@ -1,0 +1,7 @@
+{
+  "file": "63_63_diagnostic_parameters.md",
+  "title": "6.3 Diagnostic parameters",
+  "description": "block device 的 diagnostic pages 定義：Translate Address page、Supported Diagnostic Pages、Self-Test page。SEND DIAGNOSTIC / RECEIVE DIAGNOSTIC RESULTS 命令搭配使用。做硬碟自我診斷、address translation 驗證時參考。",
+  "keywords": ["diagnostic-pages", "translate-address", "self-test", "send-diagnostic", "receive-diagnostic-results"],
+  "page_range": "298-302"
+}

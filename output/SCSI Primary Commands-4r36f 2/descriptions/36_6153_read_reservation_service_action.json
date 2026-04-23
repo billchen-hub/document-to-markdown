@@ -1,0 +1,7 @@
+{
+  "file": "36_6153_read_reservation_service_action.md",
+  "title": "6.15.3 READ RESERVATION service action",
+  "description": "PERSISTENT RESERVE IN 的 READ RESERVATION service action：回傳目前 logical unit 上的 active reservation（type、holder key、scope）。查詢誰持有 reservation 的命令。",
+  "keywords": ["read-reservation", "persistent-reserve-in", "reservation-holder", "reservation-status"],
+  "page_range": "451-454"
+}

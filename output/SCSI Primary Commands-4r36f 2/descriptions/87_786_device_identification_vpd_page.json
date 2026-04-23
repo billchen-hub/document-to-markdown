@@ -1,0 +1,7 @@
+{
+  "file": "87_786_device_identification_vpd_page.md",
+  "title": "7.8.6 Device Identification VPD page",
+  "description": "Device Identification VPD page (83h)：最重要的 VPD page，列出 device 各種 identifier（T10 vendor ID、EUI-64、NAA、iSCSI name、relative target port、target port group、logical unit group、MD5 logical unit identifier）。host multipath、udev rules、storage inventory 核心資料來源。",
+  "keywords": ["device-identification", "vpd-83h", "naa", "eui-64", "relative-target-port", "target-port-group"],
+  "page_range": "809-824"
+}

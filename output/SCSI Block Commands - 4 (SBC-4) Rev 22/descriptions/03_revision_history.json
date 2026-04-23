@@ -1,0 +1,7 @@
+{
+  "file": "03_revision_history.md",
+  "title": "Revision History",
+  "description": "SBC-4 從 Revision 0 (2014-02) 到 Revision 22 的全部修訂紀錄，逐版列出被合併的 proposal 編號與變更內容，包含 WRITE SAME、SANITIZE、unmap、zoned block、protection information 等關鍵功能的演進。查「某個功能什麼時候加入」時查這裡。",
+  "keywords": ["revision-history", "change-log", "sbc-4-proposals", "version-tracking", "working-group"],
+  "page_range": "5-10"
+}

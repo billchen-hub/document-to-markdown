@@ -1,0 +1,7 @@
+{
+  "file": "14_418_error_reporting.md",
+  "title": "4.18 Error reporting",
+  "description": "block device 特有的錯誤回報機制：sense key、additional sense code (ASC/ASCQ) 組合、INFORMATION field 用法（存 LBA）、deferred error 的處理、以及 error recovery flags (PER、DCR、DTE) 的行為。debug SCSI 錯誤時第一站。",
+  "keywords": ["sense-data", "asc-ascq", "deferred-error", "error-recovery", "per", "dte"],
+  "page_range": "86-92"
+}

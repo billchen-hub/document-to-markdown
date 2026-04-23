@@ -1,0 +1,7 @@
+{
+  "file": "09_5135_preserving_persistent_reservations_and_registrations.md",
+  "title": "5.13.5 Preserving persistent reservations and registrations",
+  "description": "在 bus reset / power cycle / LUN reset 等事件下 reservation 與 registration 是否保留的規則。APTPL (Activate Persist Through Power Loss) 旗標行為。高可用性 cluster 設計必須理解的持久性語意。",
+  "keywords": ["persistent-reservation", "aptpl", "persist-through-power-loss", "bus-reset", "high-availability"],
+  "page_range": "206-208"
+}

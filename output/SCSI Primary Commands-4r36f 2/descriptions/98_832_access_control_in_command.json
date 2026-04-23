@@ -1,0 +1,7 @@
+{
+  "file": "98_832_access_control_in_command.md",
+  "title": "8.3.2 ACCESS CONTROL IN command",
+  "description": "ACCESS CONTROL IN (opcode 86h) 命令：查詢 ACL state — REPORT ACL、REPORT LU DESCRIPTORS、REPORT ACCESS CONTROLS LOG、REPORT OVERRIDE LOCKOUT TIMER 等 service action。ACL 管理的讀取介面。",
+  "keywords": ["access-control-in", "report-acl", "report-lu-descriptors", "acl-query"],
+  "page_range": "884-904"
+}

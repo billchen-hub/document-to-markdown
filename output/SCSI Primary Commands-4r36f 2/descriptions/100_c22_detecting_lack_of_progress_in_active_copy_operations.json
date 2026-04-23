@@ -1,0 +1,7 @@
+{
+  "file": "100_c22_detecting_lack_of_progress_in_active_copy_operations.md",
+  "title": "C.2.2 Detecting lack of progress in active copy operations (Annex)",
+  "description": "附錄 C：示範 host 如何用 RECEIVE COPY RESULTS 監控 EXTENDED COPY 進度、偵測 copy operation stall（長時間無進度），以及 abort 策略。實作穩健 XCOPY client 的範例。",
+  "keywords": ["copy-progress-detection", "receive-copy-results", "copy-stall", "xcopy-monitoring", "annex-c"],
+  "page_range": "931-954"
+}

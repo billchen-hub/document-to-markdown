@@ -1,0 +1,7 @@
+{
+  "file": "47_528_report_referrals_command.md",
+  "title": "5.28 REPORT REFERRALS command",
+  "description": "REPORT REFERRALS (opcode 9Eh / SA 13h)：回傳 logical unit 上所有 referrals（即 LBA 範圍被 redirect 到其他 target 的對應表），給 multipath / virtualization layer 建 routing 表使用。",
+  "keywords": ["report-referrals", "multipath", "lba-redirect", "virtual-storage-routing"],
+  "page_range": "224-225"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "28_645_cscd_descriptors.md",
+  "title": "6.4.5 CSCD descriptors",
+  "description": "CSCD (CoPy Source and Destination Descriptor) 格式：identify 一個 copy 的來源 / 目的 logical unit。含 Fibre Channel、SAS、iSCSI、Parallel SCSI、Identification 各種 CSCD type 的具體欄位。",
+  "keywords": ["cscd", "copy-source-destination", "target-descriptor", "extended-copy"],
+  "page_range": "360-374"
+}

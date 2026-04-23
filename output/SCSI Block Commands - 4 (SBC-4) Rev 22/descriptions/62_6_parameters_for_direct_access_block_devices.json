@@ -1,0 +1,7 @@
+{
+  "file": "62_6_parameters_for_direct_access_block_devices.md",
+  "title": "6 Parameters for direct access block devices",
+  "description": "Clause 6 總述 SBC-4 定義的所有 block device 相關 parameters，涵蓋 diagnostic、log、mode、VPD pages 四大類。列出 block-specific 參數頁的編號對照。要查某個 mode/log/VPD 頁的內容時從此章切入。",
+  "keywords": ["parameters-overview", "mode-pages", "log-pages", "vpd-pages", "diagnostic-parameters"],
+  "page_range": "292-297"
+}

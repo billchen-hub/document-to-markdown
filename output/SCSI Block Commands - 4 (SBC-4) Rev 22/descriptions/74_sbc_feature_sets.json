@@ -1,0 +1,7 @@
+{
+  "file": "74_sbc_feature_sets.md",
+  "title": "SBC feature sets (Annex)",
+  "description": "附錄：定義幾組常見「feature set」標籤（例如 BASIC、COMMAND DURATION LIMITS、ZBC 相容、THIN PROVISIONING、FORMAT PRESET），列出每組 feature set 要求實作的必要命令、mode pages、VPD pages 的清單。做相容性合規聲明時用。",
+  "keywords": ["feature-sets", "compliance", "basic-feature-set", "thin-provisioning-feature", "mandatory-commands"],
+  "page_range": "427-441"
+}

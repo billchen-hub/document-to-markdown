@@ -1,0 +1,7 @@
+{
+  "file": "25_433_format_operations.md",
+  "title": "4.33 Format operations",
+  "description": "FORMAT UNIT / FORMAT WITH PRESET 命令的行為模型：format progress、cancel、failure mode、FMTDATA / IP / FMT_PINFO 欄位語意、以及如何在 format 過程中處理 defect list、logical block length、protection information。做工廠 format 或 re-provision 時核心章節。",
+  "keywords": ["format-unit", "format-preset", "logical-block-length", "fmtdata", "protection-information-setup"],
+  "page_range": "140-143"
+}

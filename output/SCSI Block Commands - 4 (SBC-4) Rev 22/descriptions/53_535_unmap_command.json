@@ -1,0 +1,7 @@
+{
+  "file": "53_535_unmap_command.md",
+  "title": "5.35 UNMAP command",
+  "description": "UNMAP (opcode 42h)：告訴 device 指定 LBA 範圍的資料不再需要，允許 deallocate 對應 physical storage。UNMAP block descriptor list 格式、granularity alignment 規則。SSD TRIM 在 SCSI 世界的對應命令，thin-provisioning 必備。",
+  "keywords": ["unmap", "trim", "deallocation", "unmap-block-descriptor", "thin-provisioning"],
+  "page_range": "240-241"
+}

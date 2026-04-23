@@ -1,0 +1,7 @@
+{
+  "file": "66_7313_protocol_specific_port_log_page.md",
+  "title": "7.3.13 Protocol Specific Port log page",
+  "description": "Protocol Specific Port log page (18h)：各 transport protocol (SAS、FC、iSCSI) 的 port 層級 statistics，例如 SAS PHY 的 invalid dword count、loss of dword sync、disparity error。實體連線品質監控。",
+  "keywords": ["protocol-specific-port-log", "page-18h", "sas-phy-statistics", "link-quality"],
+  "page_range": "637-638"
+}

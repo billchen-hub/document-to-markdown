@@ -1,0 +1,7 @@
+{
+  "file": "04_contents.md",
+  "title": "Contents",
+  "description": "SBC-4 文件目錄，依章節編號列出所有 clause、subclause 的標題與頁碼，涵蓋 scope、definitions、direct access block device model、命令定義、mode/log pages、VPD pages 等全部主題。可作為全書導覽索引。",
+  "keywords": ["table-of-contents", "index", "clause-listing", "navigation"],
+  "page_range": "11-22"
+}

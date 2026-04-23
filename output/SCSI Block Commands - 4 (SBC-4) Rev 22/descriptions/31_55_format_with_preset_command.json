@@ -1,0 +1,7 @@
+{
+  "file": "31_55_format_with_preset_command.md",
+  "title": "5.5 FORMAT WITH PRESET command",
+  "description": "FORMAT WITH PRESET (opcode 38h) 命令：用 PRESET IDENTIFIER 套用預先定義的 format profile（logical block length、PI type、LBPRZ 行為等），不用手動指定所有參數。適合 device 有多組預設 configuration 的情境。",
+  "keywords": ["format-with-preset", "preset-identifier", "format-profile", "reformat"],
+  "page_range": "167-168"
+}

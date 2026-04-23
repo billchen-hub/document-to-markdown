@@ -1,0 +1,7 @@
+{
+  "file": "33_672_processing_log_select_when_the_parameter_list_length_is.md",
+  "title": "6.7.2 Processing LOG SELECT when the parameter list length is zero",
+  "description": "LOG SELECT 帶 parameter list length = 0 時的特殊行為（reset / clear log parameter）、PCR (Parameter Code Reset) 旗標意義。做 log 清除時的正確用法。",
+  "keywords": ["log-select", "zero-parameter-list", "pcr", "log-reset"],
+  "page_range": "433-438"
+}

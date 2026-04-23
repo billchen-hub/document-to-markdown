@@ -1,0 +1,7 @@
+{
+  "file": "22_429_atomic_writes.md",
+  "title": "4.29 Atomic writes",
+  "description": "Atomic write 模型：定義 maximum atomic transfer length、atomic alignment / granularity / boundary、atomic transfer length granularity 規則，以及單一命令內 all-or-nothing 寫入的保證。資料庫引擎（InnoDB、Postgres）與 journaling 檔案系統參考此章。",
+  "keywords": ["atomic-write", "all-or-nothing", "atomic-boundary", "database", "torn-write"],
+  "page_range": "133-135"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "50_6353_one_command_parameter_data_format.md",
+  "title": "6.35.3 One_command parameter data format",
+  "description": "REPORT SUPPORTED OPERATION CODES 的 one_command 模式（查單一 opcode）parameter data 格式：CTDP（command timeout descriptor present）、CDB USAGE DATA、usage bitmap。",
+  "keywords": ["one-command-format", "ctdp", "cdb-usage-data", "support-query"],
+  "page_range": "535-536"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "19_426_referrals.md",
+  "title": "4.26 Referrals",
+  "description": "Referrals 機制允許 logical unit 把 LBA 範圍的實際資料位置「轉介」到另一個 target port 或 logical unit，給多路徑、分層式 storage 使用。定義 user data segment、segment multiplier、referral sense code 行為。實作 virtualised storage、thin fabric 時會用到。",
+  "keywords": ["referrals", "data-location", "user-data-segment", "multipath", "virtual-storage"],
+  "page_range": "124-126"
+}

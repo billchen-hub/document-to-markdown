@@ -1,0 +1,7 @@
+{
+  "file": "17_5147_esp-scsi_for_parameter_data.md",
+  "title": "5.14.7 ESP-SCSI for parameter data",
+  "description": "ESP-SCSI（參考 IPsec ESP）應用於 SCSI parameter data 的 encrypted / authenticated 傳輸：encapsulation format、IV、ICV、SPI 識別。保護 Data-In/Data-Out buffer 的機密性。",
+  "keywords": ["esp-scsi", "encrypted-parameter-data", "iv", "icv", "spi"],
+  "page_range": "286-301"
+}

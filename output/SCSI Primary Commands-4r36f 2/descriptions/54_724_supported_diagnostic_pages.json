@@ -1,0 +1,7 @@
+{
+  "file": "54_724_supported_diagnostic_pages.md",
+  "title": "7.2.4 Supported Diagnostic Pages",
+  "description": "Supported Diagnostic Pages (page code 00h)：回傳 device 支援的所有 diagnostic page code 清單。做 diagnostic capability discovery 時第一個查詢的 page。",
+  "keywords": ["supported-diagnostic-pages", "page-00h", "diagnostic-discovery"],
+  "page_range": "589-591"
+}

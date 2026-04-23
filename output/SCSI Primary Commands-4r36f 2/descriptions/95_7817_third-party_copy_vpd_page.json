@@ -1,0 +1,7 @@
+{
+  "file": "95_7817_third-party_copy_vpd_page.md",
+  "title": "7.8.17 Third-party Copy VPD page",
+  "description": "Third-party Copy VPD page (8Fh)：列出 device 支援的 third-party copy descriptor type、maximum CSCD descriptor count、maximum segment descriptor count、maximum descriptor list length、supported ROD token features。實作 XCOPY / ODX client 前查 device 能力極限。",
+  "keywords": ["third-party-copy-vpd", "vpd-8fh", "xcopy-limits", "odx-capabilities"],
+  "page_range": "845-865"
+}

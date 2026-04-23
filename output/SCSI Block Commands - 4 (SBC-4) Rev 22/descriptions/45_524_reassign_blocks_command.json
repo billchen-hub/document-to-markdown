@@ -1,0 +1,7 @@
+{
+  "file": "45_524_reassign_blocks_command.md",
+  "title": "5.24 REASSIGN BLOCKS command",
+  "description": "REASSIGN BLOCKS (opcode 07h)：讓 host 主動要求 device 把一組 LBA 重 map 到備用區塊。LONGLBA / LONGLIST / DEFECT LIST 欄位語意，以及 reassign 失敗後的 sense data。修復已知壞軌或 refresh 磁性衰弱區塊的手動介入命令。",
+  "keywords": ["reassign-blocks", "manual-remap", "bad-block", "spare-block", "longlba"],
+  "page_range": "215-218"
+}

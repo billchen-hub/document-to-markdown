@@ -1,0 +1,7 @@
+{
+  "file": "46_525_receive_rod_token_information.md",
+  "title": "5.25 RECEIVE ROD TOKEN INFORMATION",
+  "description": "RECEIVE ROD TOKEN INFORMATION (opcode 84h / SA 07h)：查詢 POPULATE TOKEN 建立的 token 目前狀態、進度、complete 與否。offloaded copy 的進度回報機制。",
+  "keywords": ["receive-rod-token-information", "token-status", "odx-progress", "xcopy-status"],
+  "page_range": "219-223"
+}

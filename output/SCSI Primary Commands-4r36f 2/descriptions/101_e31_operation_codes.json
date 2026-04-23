@@ -1,0 +1,7 @@
+{
+  "file": "101_e31_operation_codes.md",
+  "title": "E.3.1 Operation codes (Annex)",
+  "description": "附錄 E：SPC-4 定義的所有 opcode 對照表（排序依 opcode 數值）、支援的 device type、CDB 長度、對應的 clause。firmware / driver 開發做 opcode → 命令名 反查時用。",
+  "keywords": ["operation-codes", "opcode-table", "cdb-length", "annex-e"],
+  "page_range": "955-964"
+}

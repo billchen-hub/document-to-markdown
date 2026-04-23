@@ -1,0 +1,7 @@
+{
+  "file": "10_5137_registering.md",
+  "title": "5.13.7 Registering",
+  "description": "Initiator 如何用 REGISTER / REGISTER AND IGNORE EXISTING KEY service action 建立 reservation key。key 唯一性、SA_KEY 更換流程、registration 衝突的處理。",
+  "keywords": ["reservation-key", "register", "registrants", "sa-key", "reservation-setup"],
+  "page_range": "209-215"
+}

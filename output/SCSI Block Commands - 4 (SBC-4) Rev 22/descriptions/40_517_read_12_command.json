@@ -1,0 +1,7 @@
+{
+  "file": "40_517_read_12_command.md",
+  "title": "5.17 READ (12) command",
+  "description": "READ (12) (opcode A8h)：4-byte LBA + 4-byte TRANSFER LENGTH（支援更大單命令傳輸）。欄位與 READ (10) 相同但 transfer length 上限更大。也同時介紹 READ (16) / READ (32) 的對應差異。適合大區塊讀取場景。",
+  "keywords": ["read-12", "read-16", "read-32", "large-transfer", "cdb"],
+  "page_range": "202-205"
+}

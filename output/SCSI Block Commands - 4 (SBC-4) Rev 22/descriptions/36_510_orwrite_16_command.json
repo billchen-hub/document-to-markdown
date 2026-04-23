@@ -1,0 +1,7 @@
+{
+  "file": "36_510_orwrite_16_command.md",
+  "title": "5.10 ORWRITE (16) command",
+  "description": "ORWRITE (16) (opcode 8Bh) 的完整 CDB 欄位：LOGICAL BLOCK ADDRESS、TRANSFER LENGTH、ORPROTECT、DPO、FUA、EXPECTED ORWGENERATION、ORWGENERATION。執行 bitwise OR 與 expected generation 驗證的命令定義。",
+  "keywords": ["orwrite-16", "cdb", "orwgeneration", "bitwise-or", "orprotect"],
+  "page_range": "182-188"
+}

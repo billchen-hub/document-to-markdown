@@ -1,0 +1,7 @@
+{
+  "file": "28_5_commands_for_direct_access_block_devices.md",
+  "title": "5 Commands for direct access block devices",
+  "description": "Clause 5 總述：列出 SBC-4 定義的所有命令（opcode + service action）、CDB 長度、CDB 共同欄位（LOGICAL BLOCK ADDRESS、TRANSFER LENGTH、CONTROL、GROUP NUMBER），以及命令類別（READ / WRITE / VERIFY / UNMAP / ADMIN）。查命令對照表時用此章。",
+  "keywords": ["command-reference", "cdb", "opcode", "service-action", "group-number"],
+  "page_range": "152-156"
+}

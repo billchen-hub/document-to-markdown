@@ -1,0 +1,7 @@
+{
+  "file": "24_432_stream_control.md",
+  "title": "4.32 Stream control",
+  "description": "Multi-stream 模型：host 用 STREAM CONTROL 命令開 / 關 stream，對 WRITE 命令帶 STR_ID 欄位讓 SSD 按 stream 分群存放。降低 write amplification、延長 SSD 壽命的關鍵功能。做 tiered storage、workload-aware SSD 時必看。",
+  "keywords": ["streams", "multi-stream", "str-id", "ssd-lifetime", "write-amplification", "data-placement"],
+  "page_range": "138-139"
+}

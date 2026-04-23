@@ -1,0 +1,7 @@
+{
+  "file": "07_5128_power_condition_state_machine.md",
+  "title": "5.12.8 Power condition state machine",
+  "description": "完整電源狀態機：Active、Idle_a/b/c、Standby_y/z、Stopped 之間的所有合法 transition，以及 timer 觸發、命令驅動、error 回復的 state 變換規則。所有 SCSI device 的通用電源模型。",
+  "keywords": ["power-state-machine", "active", "idle", "standby", "stopped", "power-transitions"],
+  "page_range": "193-199"
+}

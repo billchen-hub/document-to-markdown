@@ -1,0 +1,7 @@
+{
+  "file": "76_direct_access_block_devices_with_shared_resources.md",
+  "title": "Direct access block devices with shared resources (Annex)",
+  "description": "附錄：討論多個 direct access block device 共用底層資源（例如單一 media、SoC 共用 controller）時的命令交互、resource contention 處理、target 行為。virtualised storage enclosure / 多 LUN 裝置參考。",
+  "keywords": ["shared-resources", "multi-lun", "resource-contention", "virtualised-storage", "annex"],
+  "page_range": "443-447"
+}

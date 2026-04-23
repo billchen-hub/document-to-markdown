@@ -1,0 +1,7 @@
+{
+  "file": "11_413_medium_defects.md",
+  "title": "4.13 Medium defects",
+  "description": "定義 primary defect list (PLIST)、grown defect list (GLIST)、certified list (CLIST) 的概念、REASSIGN BLOCKS 的 remapping 機制、以及 automatic/manual read/write reassignment 的行為。做硬碟壞軌處理、defect 統計分析或 RAID 重建診斷時用此章。",
+  "keywords": ["defect-list", "plist", "glist", "reassign-blocks", "bad-sector", "remapping"],
+  "page_range": "77-79"
+}

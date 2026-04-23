@@ -1,0 +1,7 @@
+{
+  "file": "65_65_mode_parameters.md",
+  "title": "6.5 Mode parameters",
+  "description": "完整 mode pages 定義：Read-Write Error Recovery、Verify Error Recovery、Caching、Rigid Disk Geometry、Flexible Disk、Format Device、Notch and Partition、Power Condition、Application Tag、Background Control、Logical Block Provisioning、IO Advice Hints Grouping、Background Operation Control mode page。設定 device behavior tuning 的控制介面。",
+  "keywords": ["mode-pages", "caching-mode-page", "read-write-error-recovery", "power-condition", "io-advice-hints", "background-control"],
+  "page_range": "340-368"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "06_scsi_standards_family.md",
+  "title": "SCSI standards family",
+  "description": "說明 SBC-4 在整個 SCSI 標準家族中的定位，包含 SAM-6 架構模型、SPC-6 共用命令集、Device-type 特定命令集 (如 MMC-6、ZBC、SSC)、transport protocols (SPL、FCP) 與 interconnects (SAS、Fibre Channel) 的層級關係。Clause 1 Scope 與 Clause 2 Normative references 也在此章。",
+  "keywords": ["scsi-architecture", "sam-6", "spc-6", "standards-hierarchy", "normative-references", "scope"],
+  "page_range": "31-33"
+}

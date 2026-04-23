@@ -1,0 +1,7 @@
+{
+  "file": "69_crc_example_in_c.md",
+  "title": "CRC example in C (Annex)",
+  "description": "附錄：Protection Information GUARD 欄位所用 CRC-16-T10-DIF 多項式的 C 語言參考實作範例碼。實作 PI-aware software / firmware 驗證時用來對 CRC 結果。",
+  "keywords": ["crc-16-t10-dif", "crc-example", "c-code", "guard-computation", "annex"],
+  "page_range": "400-403"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "72_7322_verify_error_counters_log_page.md",
+  "title": "7.3.22 Verify Error Counters log page",
+  "description": "Verify Error Counters log page (05h)：VERIFY 命令的錯誤計數器，六個 counter 結構與 Read Error Counters 相同。做 integrity check 長期統計用。",
+  "keywords": ["verify-error-counters", "page-05h", "verify-statistics"],
+  "page_range": "659-660"
+}

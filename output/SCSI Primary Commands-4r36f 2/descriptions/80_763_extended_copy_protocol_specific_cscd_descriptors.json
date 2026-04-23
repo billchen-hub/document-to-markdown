@@ -1,0 +1,7 @@
+{
+  "file": "80_763_extended_copy_protocol_specific_cscd_descriptors.md",
+  "title": "7.6.3 EXTENDED COPY protocol specific CSCD descriptors",
+  "description": "Protocol-specific CSCD descriptor 格式：用 SAS address / FC N_Port ID / iSCSI transport ID 指定 EXTENDED COPY 的 source / destination endpoint。跨不同 fabric 做 third-party copy 時使用。",
+  "keywords": ["extended-copy", "cscd-protocol-specific", "sas-cscd", "fc-cscd", "iscsi-cscd"],
+  "page_range": "709-716"
+}

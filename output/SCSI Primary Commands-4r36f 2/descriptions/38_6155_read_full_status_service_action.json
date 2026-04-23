@@ -1,0 +1,7 @@
+{
+  "file": "38_6155_read_full_status_service_action.md",
+  "title": "6.15.5 READ FULL STATUS service action",
+  "description": "PERSISTENT RESERVE IN READ FULL STATUS：回傳所有 registered / reservation holder 的完整清單，每筆含 reservation key、reservation holder 旗標、scope、type、transport ID。debug cluster reservation 糾紛時最實用。",
+  "keywords": ["read-full-status", "full-reservation-status", "transport-id", "cluster-debug"],
+  "page_range": "459-460"
+}

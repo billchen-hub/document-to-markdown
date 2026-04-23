@@ -1,0 +1,7 @@
+{
+  "file": "13_5142_security_associations.md",
+  "title": "5.14.2 Security associations",
+  "description": "Security Association (SA) 概念：兩個 endpoint 之間共享的密鑰、演算法、序號狀態。SA 生命週期、SA identifier、lifetime、rekey 的機制。SCSI 加密 / 驗證的共通基礎元件。",
+  "keywords": ["security-association", "sa", "key-lifetime", "rekey", "scsi-sa"],
+  "page_range": "227-231"
+}

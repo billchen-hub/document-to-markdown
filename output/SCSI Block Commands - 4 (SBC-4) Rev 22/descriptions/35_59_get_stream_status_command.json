@@ -1,0 +1,7 @@
+{
+  "file": "35_59_get_stream_status_command.md",
+  "title": "5.9 GET STREAM STATUS command",
+  "description": "GET STREAM STATUS 命令：列出目前 logical unit 上開啟中的 stream ID 清單、每個 stream 的 status。用來在 stream 配額滿時決定該關哪個 stream、或重建 host 對 stream 的狀態。",
+  "keywords": ["get-stream-status", "stream-id-list", "open-streams", "stream-management"],
+  "page_range": "179-181"
+}

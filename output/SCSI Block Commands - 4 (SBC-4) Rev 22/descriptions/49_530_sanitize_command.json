@@ -1,0 +1,7 @@
+{
+  "file": "49_530_sanitize_command.md",
+  "title": "5.30 SANITIZE command",
+  "description": "SANITIZE (opcode 48h) 完整 CDB：SERVICE ACTION (OVERWRITE / BLOCK ERASE / CRYPTO ERASE / EXIT FAILURE MODE)、AUSE / ZNR / IMMED 旗標、parameter list 格式。做資料抹除合規實作（NIST 800-88 purge）的實際命令定義。",
+  "keywords": ["sanitize-command", "cdb", "service-action", "ause", "znr", "immed", "secure-erase"],
+  "page_range": "228-231"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "62_739_last_n_deferred_errors_or_asynchronous_events_log_page.md",
+  "title": "7.3.9 Last n Deferred Errors or Asynchronous Events log page",
+  "description": "Last n Deferred Errors log page (0Bh)：保留最後 n 筆 deferred error / async event 的記錄。讓 host 可以回溯 device 最近發生但未直接 return 的錯誤事件。",
+  "keywords": ["last-n-deferred-errors", "async-events", "page-0bh", "error-replay"],
+  "page_range": "629-630"
+}

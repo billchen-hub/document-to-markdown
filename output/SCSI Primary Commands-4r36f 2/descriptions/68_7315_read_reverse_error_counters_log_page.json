@@ -1,0 +1,7 @@
+{
+  "file": "68_7315_read_reverse_error_counters_log_page.md",
+  "title": "7.3.15 Read Reverse Error Counters log page",
+  "description": "Read Reverse Error Counters log page (04h)：Read Reverse 方向（主要是 tape 裝置使用）的錯誤計數器，結構與 Read Error Counters 相同。block device 很少使用。",
+  "keywords": ["read-reverse-error-counters", "page-04h", "tape-read-reverse"],
+  "page_range": "641-642"
+}

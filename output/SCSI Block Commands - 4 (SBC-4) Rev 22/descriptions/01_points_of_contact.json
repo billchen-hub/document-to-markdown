@@ -1,0 +1,7 @@
+{
+  "file": "01_points_of_contact.md",
+  "title": "Points of contact",
+  "description": "列出 INCITS T10 技術委員會的聯絡資訊，包含 T10 Chair、Vice-Chair、秘書處地址、郵件反映器與標準購買管道。屬於行政資訊頁，對 RAG 查詢標準制定單位、聯絡窗口或提交 proposal 的流程時有用。",
+  "keywords": ["incits", "t10-committee", "contacts", "secretariat", "standards-body"],
+  "page_range": "2-2"
+}

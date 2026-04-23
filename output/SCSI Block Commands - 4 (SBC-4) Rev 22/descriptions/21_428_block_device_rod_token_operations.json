@@ -1,0 +1,7 @@
+{
+  "file": "21_428_block_device_rod_token_operations.md",
+  "title": "4.28 Block device ROD token operations",
+  "description": "ROD (Representation of Data) token 子模型：block-device 如何建立 / 使用 ROD token 做 offloaded 資料搬移，包含 POPULATE TOKEN 與 WRITE USING TOKEN 的交互、token 存活期、inactivate 規則。Windows ODX / VMware XCOPY lite 的底層 SCSI 定義。",
+  "keywords": ["rod-token", "odx", "offloaded-copy", "populate-token", "xcopy", "token-lifecycle"],
+  "page_range": "130-132"
+}

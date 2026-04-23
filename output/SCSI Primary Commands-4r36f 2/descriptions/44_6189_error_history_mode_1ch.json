@@ -1,0 +1,7 @@
+{
+  "file": "44_6189_error_history_mode_1ch.md",
+  "title": "6.18.9 Error history mode (1Ch)",
+  "description": "READ BUFFER mode 1Ch (error history) 的完整 payload 格式：error history directory、buffer ID、offset、每個 error event 的 header/body 結構。debug 端解析 device 長期錯誤紀錄的細節章節。",
+  "keywords": ["read-buffer-1ch", "error-history-directory", "buffer-id", "error-event-format"],
+  "page_range": "481-508"
+}

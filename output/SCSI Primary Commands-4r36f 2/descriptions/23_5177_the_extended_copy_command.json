@@ -1,0 +1,7 @@
+{
+  "file": "23_5177_the_extended_copy_command.md",
+  "title": "5.17.7 The EXTENDED COPY command",
+  "description": "EXTENDED COPY (opcode 83h) 架構描述：LID1 / LID4 兩種 variant、parameter list 結構（CSCD descriptor + segment descriptor）、同步 / 非同步執行、進度回報。VAAI XCOPY 的實際命令。",
+  "keywords": ["extended-copy", "xcopy", "cscd", "segment-descriptor", "lid1", "lid4", "vaai"],
+  "page_range": "335-346"
+}

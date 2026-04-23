@@ -1,0 +1,8116 @@
+{
+  "status": "completed",
+  "current_step": "done",
+  "pages": {
+    "0": {
+      "text_first": "done"
+    },
+    "1": {
+      "text_first": "done"
+    },
+    "2": {
+      "text_first": "done"
+    },
+    "3": {
+      "text_first": "done"
+    },
+    "4": {
+      "text_first": "done"
+    },
+    "5": {
+      "text_first": "done"
+    },
+    "6": {
+      "text_first": "done"
+    },
+    "7": {
+      "text_first": "done"
+    },
+    "8": {
+      "text_first": "done"
+    },
+    "9": {
+      "text_first": "done"
+    },
+    "10": {
+      "text_first": "done"
+    },
+    "11": {
+      "text_first": "done"
+    },
+    "12": {
+      "text_first": "done"
+    },
+    "13": {
+      "text_first": "done"
+    },
+    "14": {
+      "text_first": "done"
+    },
+    "15": {
+      "text_first": "done"
+    },
+    "16": {
+      "text_first": "done"
+    },
+    "17": {
+      "text_first": "done"
+    },
+    "18": {
+      "text_first": "done"
+    },
+    "19": {
+      "text_first": "done"
+    },
+    "20": {
+      "text_first": "done"
+    },
+    "21": {
+      "text_first": "done"
+    },
+    "22": {
+      "text_first": "done"
+    },
+    "23": {
+      "text_first": "done"
+    },
+    "24": {
+      "text_first": "done"
+    },
+    "25": {
+      "text_first": "done"
+    },
+    "26": {
+      "text_first": "done"
+    },
+    "27": {
+      "text_first": "done"
+    },
+    "28": {
+      "text_first": "done"
+    },
+    "29": {
+      "text_first": "done"
+    },
+    "30": {
+      "text_first": "done"
+    },
+    "31": {
+      "text_first": "done"
+    },
+    "32": {
+      "text_first": "done"
+    },
+    "33": {
+      "text_first": "done"
+    },
+    "34": {
+      "text_first": "done"
+    },
+    "35": {
+      "text_first": "done"
+    },
+    "36": {
+      "text_first": "done"
+    },
+    "37": {
+      "text_first": "done"
+    },
+    "38": {
+      "text_first": "done"
+    },
+    "39": {
+      "text_first": "done"
+    },
+    "40": {
+      "text_first": "done"
+    },
+    "41": {
+      "text_first": "done"
+    },
+    "42": {
+      "text_first": "done"
+    },
+    "43": {
+      "text_first": "done"
+    },
+    "44": {
+      "text_first": "done"
+    },
+    "45": {
+      "text_first": "done"
+    },
+    "46": {
+      "text_first": "done"
+    },
+    "47": {
+      "text_first": "done"
+    },
+    "48": {
+      "text_first": "done"
+    },
+    "49": {
+      "text_first": "done"
+    },
+    "50": {
+      "text_first": "done"
+    },
+    "51": {
+      "text_first": "done"
+    },
+    "52": {
+      "text_first": "done"
+    },
+    "53": {
+      "text_first": "done"
+    },
+    "54": {
+      "text_first": "done"
+    },
+    "55": {
+      "text_first": "done"
+    },
+    "56": {
+      "text_first": "done"
+    },
+    "57": {
+      "text_first": "done"
+    },
+    "58": {
+      "text_first": "done"
+    },
+    "59": {
+      "text_first": "done"
+    },
+    "60": {
+      "text_first": "done"
+    },
+    "61": {
+      "text_first": "done"
+    },
+    "62": {
+      "text_first": "done"
+    },
+    "63": {
+      "text_first": "done"
+    },
+    "64": {
+      "text_first": "done"
+    },
+    "65": {
+      "text_first": "done"
+    },
+    "66": {
+      "text_first": "done"
+    },
+    "67": {
+      "text_first": "done"
+    },
+    "68": {
+      "text_first": "done"
+    },
+    "69": {
+      "text_first": "done"
+    },
+    "70": {
+      "text_first": "done"
+    },
+    "71": {
+      "text_first": "done"
+    },
+    "72": {
+      "text_first": "done"
+    },
+    "73": {
+      "text_first": "done"
+    },
+    "74": {
+      "text_first": "done"
+    },
+    "75": {
+      "text_first": "done"
+    },
+    "76": {
+      "text_first": "done"
+    },
+    "77": {
+      "text_first": "done"
+    },
+    "78": {
+      "text_first": "done"
+    },
+    "79": {
+      "text_first": "done"
+    },
+    "80": {
+      "text_first": "done"
+    },
+    "81": {
+      "text_first": "done"
+    },
+    "82": {
+      "text_first": "done"
+    },
+    "83": {
+      "text_first": "done"
+    },
+    "84": {
+      "text_first": "done"
+    },
+    "85": {
+      "text_first": "done"
+    },
+    "86": {
+      "text_first": "done"
+    },
+    "87": {
+      "text_first": "done"
+    },
+    "88": {
+      "text_first": "done"
+    },
+    "89": {
+      "text_first": "done"
+    },
+    "90": {
+      "text_first": "done"
+    },
+    "91": {
+      "text_first": "done"
+    },
+    "92": {
+      "text_first": "done"
+    },
+    "93": {
+      "text_first": "done"
+    },
+    "94": {
+      "text_first": "done"
+    },
+    "95": {
+      "text_first": "done"
+    },
+    "96": {
+      "text_first": "done"
+    },
+    "97": {
+      "text_first": "done"
+    },
+    "98": {
+      "text_first": "done"
+    },
+    "99": {
+      "text_first": "done"
+    },
+    "100": {
+      "text_first": "done"
+    },
+    "101": {
+      "text_first": "done"
+    },
+    "102": {
+      "text_first": "done"
+    },
+    "103": {
+      "text_first": "done"
+    },
+    "104": {
+      "text_first": "done"
+    },
+    "105": {
+      "text_first": "done"
+    },
+    "106": {
+      "text_first": "done"
+    },
+    "107": {
+      "text_first": "done"
+    },
+    "108": {
+      "text_first": "done"
+    },
+    "109": {
+      "text_first": "done"
+    },
+    "110": {
+      "text_first": "done"
+    },
+    "111": {
+      "text_first": "done"
+    },
+    "112": {
+      "text_first": "done"
+    },
+    "113": {
+      "text_first": "done"
+    },
+    "114": {
+      "text_first": "done"
+    },
+    "115": {
+      "text_first": "done"
+    },
+    "116": {
+      "text_first": "done"
+    },
+    "117": {
+      "text_first": "done"
+    },
+    "118": {
+      "text_first": "done"
+    },
+    "119": {
+      "text_first": "done"
+    },
+    "120": {
+      "text_first": "done"
+    },
+    "121": {
+      "text_first": "done"
+    },
+    "122": {
+      "text_first": "done"
+    },
+    "123": {
+      "text_first": "done"
+    },
+    "124": {
+      "text_first": "done"
+    },
+    "125": {
+      "text_first": "done"
+    },
+    "126": {
+      "text_first": "done"
+    },
+    "127": {
+      "text_first": "done"
+    },
+    "128": {
+      "text_first": "done"
+    },
+    "129": {
+      "text_first": "done"
+    },
+    "130": {
+      "text_first": "done"
+    },
+    "131": {
+      "text_first": "done"
+    },
+    "132": {
+      "text_first": "done"
+    },
+    "133": {
+      "text_first": "done"
+    },
+    "134": {
+      "text_first": "done"
+    },
+    "135": {
+      "text_first": "done"
+    },
+    "136": {
+      "text_first": "done"
+    },
+    "137": {
+      "text_first": "done"
+    },
+    "138": {
+      "text_first": "done"
+    },
+    "139": {
+      "text_first": "done"
+    },
+    "140": {
+      "text_first": "done"
+    },
+    "141": {
+      "text_first": "done"
+    },
+    "142": {
+      "text_first": "done"
+    },
+    "143": {
+      "text_first": "done"
+    },
+    "144": {
+      "text_first": "done"
+    },
+    "145": {
+      "text_first": "done"
+    },
+    "146": {
+      "text_first": "done"
+    },
+    "147": {
+      "text_first": "done"
+    },
+    "148": {
+      "text_first": "done"
+    },
+    "149": {
+      "text_first": "done"
+    },
+    "150": {
+      "text_first": "done"
+    },
+    "151": {
+      "text_first": "done"
+    },
+    "152": {
+      "text_first": "done"
+    },
+    "153": {
+      "text_first": "done"
+    },
+    "154": {
+      "text_first": "done"
+    },
+    "155": {
+      "text_first": "done"
+    },
+    "156": {
+      "text_first": "done"
+    },
+    "157": {
+      "text_first": "done"
+    },
+    "158": {
+      "text_first": "done"
+    },
+    "159": {
+      "text_first": "done"
+    },
+    "160": {
+      "text_first": "done"
+    },
+    "161": {
+      "text_first": "done"
+    },
+    "162": {
+      "text_first": "done"
+    },
+    "163": {
+      "text_first": "done"
+    },
+    "164": {
+      "text_first": "done"
+    },
+    "165": {
+      "text_first": "done"
+    },
+    "166": {
+      "text_first": "done"
+    },
+    "167": {
+      "text_first": "done"
+    },
+    "168": {
+      "text_first": "done"
+    },
+    "169": {
+      "text_first": "done"
+    },
+    "170": {
+      "text_first": "done"
+    },
+    "171": {
+      "text_first": "done"
+    },
+    "172": {
+      "text_first": "done"
+    },
+    "173": {
+      "text_first": "done"
+    },
+    "174": {
+      "text_first": "done"
+    },
+    "175": {
+      "text_first": "done"
+    },
+    "176": {
+      "text_first": "done"
+    },
+    "177": {
+      "text_first": "done"
+    },
+    "178": {
+      "text_first": "done"
+    },
+    "179": {
+      "text_first": "done"
+    },
+    "180": {
+      "text_first": "done"
+    },
+    "181": {
+      "text_first": "done"
+    },
+    "182": {
+      "text_first": "done"
+    },
+    "183": {
+      "text_first": "done"
+    },
+    "184": {
+      "text_first": "done"
+    },
+    "185": {
+      "text_first": "done"
+    },
+    "186": {
+      "text_first": "done"
+    },
+    "187": {
+      "text_first": "done"
+    },
+    "188": {
+      "text_first": "done"
+    },
+    "189": {
+      "text_first": "done"
+    },
+    "190": {
+      "text_first": "done"
+    },
+    "191": {
+      "text_first": "done"
+    },
+    "192": {
+      "text_first": "done"
+    },
+    "193": {
+      "text_first": "done"
+    },
+    "194": {
+      "text_first": "done"
+    },
+    "195": {
+      "text_first": "done"
+    },
+    "196": {
+      "text_first": "done"
+    },
+    "197": {
+      "text_first": "done"
+    },
+    "198": {
+      "text_first": "done"
+    },
+    "199": {
+      "text_first": "done"
+    },
+    "200": {
+      "text_first": "done"
+    },
+    "201": {
+      "text_first": "done"
+    },
+    "202": {
+      "text_first": "done"
+    },
+    "203": {
+      "text_first": "done"
+    },
+    "204": {
+      "text_first": "done"
+    },
+    "205": {
+      "text_first": "done"
+    },
+    "206": {
+      "text_first": "done"
+    },
+    "207": {
+      "text_first": "done"
+    },
+    "208": {
+      "text_first": "done"
+    },
+    "209": {
+      "text_first": "done"
+    },
+    "210": {
+      "text_first": "done"
+    },
+    "211": {
+      "text_first": "done"
+    },
+    "212": {
+      "text_first": "done"
+    },
+    "213": {
+      "text_first": "done"
+    },
+    "214": {
+      "text_first": "done"
+    },
+    "215": {
+      "text_first": "done"
+    },
+    "216": {
+      "text_first": "done"
+    },
+    "217": {
+      "text_first": "done"
+    },
+    "218": {
+      "text_first": "done"
+    },
+    "219": {
+      "text_first": "done"
+    },
+    "220": {
+      "text_first": "done"
+    },
+    "221": {
+      "text_first": "done"
+    },
+    "222": {
+      "text_first": "done"
+    },
+    "223": {
+      "text_first": "done"
+    },
+    "224": {
+      "text_first": "done"
+    },
+    "225": {
+      "text_first": "done"
+    },
+    "226": {
+      "text_first": "done"
+    },
+    "227": {
+      "text_first": "done"
+    },
+    "228": {
+      "text_first": "done"
+    },
+    "229": {
+      "text_first": "done"
+    },
+    "230": {
+      "text_first": "done"
+    },
+    "231": {
+      "text_first": "done"
+    },
+    "232": {
+      "text_first": "done"
+    },
+    "233": {
+      "text_first": "done"
+    },
+    "234": {
+      "text_first": "done"
+    },
+    "235": {
+      "text_first": "done"
+    },
+    "236": {
+      "text_first": "done"
+    },
+    "237": {
+      "text_first": "done"
+    },
+    "238": {
+      "text_first": "done"
+    },
+    "239": {
+      "text_first": "done"
+    },
+    "240": {
+      "text_first": "done"
+    },
+    "241": {
+      "text_first": "done"
+    },
+    "242": {
+      "text_first": "done"
+    },
+    "243": {
+      "text_first": "done"
+    },
+    "244": {
+      "text_first": "done"
+    },
+    "245": {
+      "text_first": "done"
+    },
+    "246": {
+      "text_first": "done"
+    },
+    "247": {
+      "text_first": "done"
+    },
+    "248": {
+      "text_first": "done"
+    },
+    "249": {
+      "text_first": "done"
+    },
+    "250": {
+      "text_first": "done"
+    },
+    "251": {
+      "text_first": "done"
+    },
+    "252": {
+      "text_first": "done"
+    },
+    "253": {
+      "text_first": "done"
+    },
+    "254": {
+      "text_first": "done"
+    },
+    "255": {
+      "text_first": "done"
+    },
+    "256": {
+      "text_first": "done"
+    },
+    "257": {
+      "text_first": "done"
+    },
+    "258": {
+      "text_first": "done"
+    },
+    "259": {
+      "text_first": "done"
+    },
+    "260": {
+      "text_first": "done"
+    },
+    "261": {
+      "text_first": "done"
+    },
+    "262": {
+      "text_first": "done"
+    },
+    "263": {
+      "text_first": "done"
+    },
+    "264": {
+      "text_first": "done"
+    },
+    "265": {
+      "text_first": "done"
+    },
+    "266": {
+      "text_first": "done"
+    },
+    "267": {
+      "text_first": "done"
+    },
+    "268": {
+      "text_first": "done"
+    },
+    "269": {
+      "text_first": "done"
+    },
+    "270": {
+      "text_first": "done"
+    },
+    "271": {
+      "text_first": "done"
+    },
+    "272": {
+      "text_first": "done"
+    },
+    "273": {
+      "text_first": "done"
+    },
+    "274": {
+      "text_first": "done"
+    },
+    "275": {
+      "text_first": "done"
+    },
+    "276": {
+      "text_first": "done"
+    },
+    "277": {
+      "text_first": "done"
+    },
+    "278": {
+      "text_first": "done"
+    },
+    "279": {
+      "text_first": "done"
+    },
+    "280": {
+      "text_first": "done"
+    },
+    "281": {
+      "text_first": "done"
+    },
+    "282": {
+      "text_first": "done"
+    },
+    "283": {
+      "text_first": "done"
+    },
+    "284": {
+      "text_first": "done"
+    },
+    "285": {
+      "text_first": "done"
+    },
+    "286": {
+      "text_first": "done"
+    },
+    "287": {
+      "text_first": "done"
+    },
+    "288": {
+      "text_first": "done"
+    },
+    "289": {
+      "text_first": "done"
+    },
+    "290": {
+      "text_first": "done"
+    },
+    "291": {
+      "text_first": "done"
+    },
+    "292": {
+      "text_first": "done"
+    },
+    "293": {
+      "text_first": "done"
+    },
+    "294": {
+      "text_first": "done"
+    },
+    "295": {
+      "text_first": "done"
+    },
+    "296": {
+      "text_first": "done"
+    },
+    "297": {
+      "text_first": "done"
+    },
+    "298": {
+      "text_first": "done"
+    },
+    "299": {
+      "text_first": "done"
+    },
+    "300": {
+      "text_first": "done"
+    },
+    "301": {
+      "text_first": "done"
+    },
+    "302": {
+      "text_first": "done"
+    },
+    "303": {
+      "text_first": "done"
+    },
+    "304": {
+      "text_first": "done"
+    },
+    "305": {
+      "text_first": "done"
+    },
+    "306": {
+      "text_first": "done"
+    },
+    "307": {
+      "text_first": "done"
+    },
+    "308": {
+      "text_first": "done"
+    },
+    "309": {
+      "text_first": "done"
+    },
+    "310": {
+      "text_first": "done"
+    },
+    "311": {
+      "text_first": "done"
+    },
+    "312": {
+      "text_first": "done"
+    },
+    "313": {
+      "text_first": "done"
+    },
+    "314": {
+      "text_first": "done"
+    },
+    "315": {
+      "text_first": "done"
+    },
+    "316": {
+      "text_first": "done"
+    },
+    "317": {
+      "text_first": "done"
+    },
+    "318": {
+      "text_first": "done"
+    },
+    "319": {
+      "text_first": "done"
+    },
+    "320": {
+      "text_first": "done"
+    },
+    "321": {
+      "text_first": "done"
+    },
+    "322": {
+      "text_first": "done"
+    },
+    "323": {
+      "text_first": "done"
+    },
+    "324": {
+      "text_first": "done"
+    },
+    "325": {
+      "text_first": "done"
+    },
+    "326": {
+      "text_first": "done"
+    },
+    "327": {
+      "text_first": "done"
+    },
+    "328": {
+      "text_first": "done"
+    },
+    "329": {
+      "text_first": "done"
+    },
+    "330": {
+      "text_first": "done"
+    },
+    "331": {
+      "text_first": "done"
+    },
+    "332": {
+      "text_first": "done"
+    },
+    "333": {
+      "text_first": "done"
+    },
+    "334": {
+      "text_first": "done"
+    },
+    "335": {
+      "text_first": "done"
+    },
+    "336": {
+      "text_first": "done"
+    },
+    "337": {
+      "text_first": "done"
+    },
+    "338": {
+      "text_first": "done"
+    },
+    "339": {
+      "text_first": "done"
+    },
+    "340": {
+      "text_first": "done"
+    },
+    "341": {
+      "text_first": "done"
+    },
+    "342": {
+      "text_first": "done"
+    },
+    "343": {
+      "text_first": "done"
+    },
+    "344": {
+      "text_first": "done"
+    },
+    "345": {
+      "text_first": "done"
+    },
+    "346": {
+      "text_first": "done"
+    },
+    "347": {
+      "text_first": "done"
+    },
+    "348": {
+      "text_first": "done"
+    },
+    "349": {
+      "text_first": "done"
+    },
+    "350": {
+      "text_first": "done"
+    },
+    "351": {
+      "text_first": "done"
+    },
+    "352": {
+      "text_first": "done"
+    },
+    "353": {
+      "text_first": "done"
+    },
+    "354": {
+      "text_first": "done"
+    },
+    "355": {
+      "text_first": "done"
+    },
+    "356": {
+      "text_first": "done"
+    },
+    "357": {
+      "text_first": "done"
+    },
+    "358": {
+      "text_first": "done"
+    },
+    "359": {
+      "text_first": "done"
+    },
+    "360": {
+      "text_first": "done"
+    },
+    "361": {
+      "text_first": "done"
+    },
+    "362": {
+      "text_first": "done"
+    },
+    "363": {
+      "text_first": "done"
+    },
+    "364": {
+      "text_first": "done"
+    },
+    "365": {
+      "text_first": "done"
+    },
+    "366": {
+      "text_first": "done"
+    },
+    "367": {
+      "text_first": "done"
+    },
+    "368": {
+      "text_first": "done"
+    },
+    "369": {
+      "text_first": "done"
+    },
+    "370": {
+      "text_first": "done"
+    },
+    "371": {
+      "text_first": "done"
+    },
+    "372": {
+      "text_first": "done"
+    },
+    "373": {
+      "text_first": "done"
+    },
+    "374": {
+      "text_first": "done"
+    },
+    "375": {
+      "text_first": "done"
+    },
+    "376": {
+      "text_first": "done"
+    },
+    "377": {
+      "text_first": "done"
+    },
+    "378": {
+      "text_first": "done"
+    },
+    "379": {
+      "text_first": "done"
+    },
+    "380": {
+      "text_first": "done"
+    },
+    "381": {
+      "text_first": "done"
+    },
+    "382": {
+      "text_first": "done"
+    },
+    "383": {
+      "text_first": "done"
+    },
+    "384": {
+      "text_first": "done"
+    },
+    "385": {
+      "text_first": "done"
+    },
+    "386": {
+      "text_first": "done"
+    },
+    "387": {
+      "text_first": "done"
+    },
+    "388": {
+      "text_first": "done"
+    },
+    "389": {
+      "text_first": "done"
+    },
+    "390": {
+      "text_first": "done"
+    },
+    "391": {
+      "text_first": "done"
+    },
+    "392": {
+      "text_first": "done"
+    },
+    "393": {
+      "text_first": "done"
+    },
+    "394": {
+      "text_first": "done"
+    },
+    "395": {
+      "text_first": "done"
+    },
+    "396": {
+      "text_first": "done"
+    },
+    "397": {
+      "text_first": "done"
+    },
+    "398": {
+      "text_first": "done"
+    },
+    "399": {
+      "text_first": "done"
+    },
+    "400": {
+      "text_first": "done"
+    },
+    "401": {
+      "text_first": "done"
+    },
+    "402": {
+      "text_first": "done"
+    },
+    "403": {
+      "text_first": "done"
+    },
+    "404": {
+      "text_first": "done"
+    },
+    "405": {
+      "text_first": "done"
+    },
+    "406": {
+      "text_first": "done"
+    },
+    "407": {
+      "text_first": "done"
+    },
+    "408": {
+      "text_first": "done"
+    },
+    "409": {
+      "text_first": "done"
+    },
+    "410": {
+      "text_first": "done"
+    },
+    "411": {
+      "text_first": "done"
+    },
+    "412": {
+      "text_first": "done"
+    },
+    "413": {
+      "text_first": "done"
+    },
+    "414": {
+      "text_first": "done"
+    },
+    "415": {
+      "text_first": "done"
+    },
+    "416": {
+      "text_first": "done"
+    },
+    "417": {
+      "text_first": "done"
+    },
+    "418": {
+      "text_first": "done"
+    },
+    "419": {
+      "text_first": "done"
+    },
+    "420": {
+      "text_first": "done"
+    },
+    "421": {
+      "text_first": "done"
+    },
+    "422": {
+      "text_first": "done"
+    },
+    "423": {
+      "text_first": "done"
+    },
+    "424": {
+      "text_first": "done"
+    },
+    "425": {
+      "text_first": "done"
+    },
+    "426": {
+      "text_first": "done"
+    },
+    "427": {
+      "text_first": "done"
+    },
+    "428": {
+      "text_first": "done"
+    },
+    "429": {
+      "text_first": "done"
+    },
+    "430": {
+      "text_first": "done"
+    },
+    "431": {
+      "text_first": "done"
+    },
+    "432": {
+      "text_first": "done"
+    },
+    "433": {
+      "text_first": "done"
+    },
+    "434": {
+      "text_first": "done"
+    },
+    "435": {
+      "text_first": "done"
+    },
+    "436": {
+      "text_first": "done"
+    },
+    "437": {
+      "text_first": "done"
+    },
+    "438": {
+      "text_first": "done"
+    },
+    "439": {
+      "text_first": "done"
+    },
+    "440": {
+      "text_first": "done"
+    },
+    "441": {
+      "text_first": "done"
+    },
+    "442": {
+      "text_first": "done"
+    },
+    "443": {
+      "text_first": "done"
+    },
+    "444": {
+      "text_first": "done"
+    },
+    "445": {
+      "text_first": "done"
+    },
+    "446": {
+      "text_first": "done"
+    }
+  },
+  "stats": {
+    "marker_completed": 447,
+    "quality_checked": 0,
+    "vision_total": 1,
+    "vision_completed": 1,
+    "vision_pending": 0
+  },
+  "chapters": [
+    {
+      "title": "Points of contact",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "title": "Abstract",
+      "start_page": 2,
+      "end_page": 3
+    },
+    {
+      "title": "Revision History",
+      "start_page": 4,
+      "end_page": 9
+    },
+    {
+      "title": "Contents",
+      "start_page": 10,
+      "end_page": 21
+    },
+    {
+      "title": "Tables",
+      "start_page": 22,
+      "end_page": 29
+    },
+    {
+      "title": "SCSI standards family",
+      "start_page": 30,
+      "end_page": 32
+    },
+    {
+      "title": "3 Definitions, symbols, abbreviations, keywords, and conventions Introduction",
+      "start_page": 33,
+      "end_page": 51
+    },
+    {
+      "title": "4.6 Physical blocks",
+      "start_page": 52,
+      "end_page": 55
+    },
+    {
+      "title": "4.7 Logical block provisioning",
+      "start_page": 56,
+      "end_page": 72
+    },
+    {
+      "title": "4.11 Sanitize operations",
+      "start_page": 73,
+      "end_page": 75
+    },
+    {
+      "title": "4.13 Medium defects",
+      "start_page": 76,
+      "end_page": 78
+    },
+    {
+      "title": "4.15 Caches",
+      "start_page": 79,
+      "end_page": 82
+    },
+    {
+      "title": "4.17 Reservations",
+      "start_page": 83,
+      "end_page": 84
+    },
+    {
+      "title": "4.18 Error reporting",
+      "start_page": 85,
+      "end_page": 91
+    },
+    {
+      "title": "4.19 Rebuild assist mode",
+      "start_page": 92,
+      "end_page": 94
+    },
+    {
+      "title": "4.20 START STOP UNIT and power conditions",
+      "start_page": 95,
+      "end_page": 106
+    },
+    {
+      "title": "4.21 Protection information model",
+      "start_page": 107,
+      "end_page": 117
+    },
+    {
+      "title": "4.23 Background scan operations",
+      "start_page": 118,
+      "end_page": 122
+    },
+    {
+      "title": "4.26 Referrals",
+      "start_page": 123,
+      "end_page": 125
+    },
+    {
+      "title": "4.27 ORWRITE commands",
+      "start_page": 126,
+      "end_page": 128
+    },
+    {
+      "title": "4.28 Block device ROD token operations",
+      "start_page": 129,
+      "end_page": 131
+    },
+    {
+      "title": "4.29 Atomic writes",
+      "start_page": 132,
+      "end_page": 134
+    },
+    {
+      "title": "4.31 Background operation control",
+      "start_page": 135,
+      "end_page": 136
+    },
+    {
+      "title": "4.32 Stream control",
+      "start_page": 137,
+      "end_page": 138
+    },
+    {
+      "title": "4.33 Format operations",
+      "start_page": 139,
+      "end_page": 142
+    },
+    {
+      "title": "4.35 Scattered writes",
+      "start_page": 143,
+      "end_page": 145
+    },
+    {
+      "title": "4.36 Storage element depopulation and restoration",
+      "start_page": 146,
+      "end_page": 150
+    },
+    {
+      "title": "5 Commands for direct access block devices",
+      "start_page": 151,
+      "end_page": 155
+    },
+    {
+      "title": "5.3 COMPARE AND WRITE command",
+      "start_page": 156,
+      "end_page": 157
+    },
+    {
+      "title": "5.4 FORMAT UNIT command",
+      "start_page": 158,
+      "end_page": 165
+    },
+    {
+      "title": "5.5 FORMAT WITH PRESET command",
+      "start_page": 166,
+      "end_page": 167
+    },
+    {
+      "title": "5.6 GET LBA STATUS (16) command",
+      "start_page": 168,
+      "end_page": 171
+    },
+    {
+      "title": "5.7 GET LBA STATUS (32) command",
+      "start_page": 172,
+      "end_page": 173
+    },
+    {
+      "title": "5.8 GET PHYSICAL ELEMENT STATUS command",
+      "start_page": 174,
+      "end_page": 177
+    },
+    {
+      "title": "5.9 GET STREAM STATUS command",
+      "start_page": 178,
+      "end_page": 180
+    },
+    {
+      "title": "5.10 ORWRITE (16) command",
+      "start_page": 181,
+      "end_page": 187
+    },
+    {
+      "title": "5.11 ORWRITE (32) command",
+      "start_page": 188,
+      "end_page": 189
+    },
+    {
+      "title": "5.12 POPULATE TOKEN command",
+      "start_page": 190,
+      "end_page": 196
+    },
+    {
+      "title": "5.16 READ (10) command",
+      "start_page": 197,
+      "end_page": 200
+    },
+    {
+      "title": "5.17 READ (12) command",
+      "start_page": 201,
+      "end_page": 204
+    },
+    {
+      "title": "5.20 READ CAPACITY (10) command",
+      "start_page": 205,
+      "end_page": 206
+    },
+    {
+      "title": "5.21 READ CAPACITY (16) command",
+      "start_page": 207,
+      "end_page": 208
+    },
+    {
+      "title": "5.22 READ DEFECT DATA (10) command",
+      "start_page": 209,
+      "end_page": 210
+    },
+    {
+      "title": "5.23 READ DEFECT DATA (12) command",
+      "start_page": 211,
+      "end_page": 213
+    },
+    {
+      "title": "5.24 REASSIGN BLOCKS command",
+      "start_page": 214,
+      "end_page": 217
+    },
+    {
+      "title": "5.25 RECEIVE ROD TOKEN INFORMATION",
+      "start_page": 218,
+      "end_page": 222
+    },
+    {
+      "title": "5.28 REPORT REFERRALS command",
+      "start_page": 223,
+      "end_page": 224
+    },
+    {
+      "title": "5.29 RESTORE ELEMENTS AND REBUILD command",
+      "start_page": 225,
+      "end_page": 226
+    },
+    {
+      "title": "5.30 SANITIZE command",
+      "start_page": 227,
+      "end_page": 230
+    },
+    {
+      "title": "5.31 START STOP UNIT command",
+      "start_page": 231,
+      "end_page": 233
+    },
+    {
+      "title": "5.32 STREAM CONTROL command",
+      "start_page": 234,
+      "end_page": 235
+    },
+    {
+      "title": "5.33 SYNCHRONIZE CACHE (10) command",
+      "start_page": 236,
+      "end_page": 238
+    },
+    {
+      "title": "5.35 UNMAP command",
+      "start_page": 239,
+      "end_page": 240
+    },
+    {
+      "title": "5.36 VERIFY (10) command",
+      "start_page": 241,
+      "end_page": 257
+    },
+    {
+      "title": "5.40 WRITE (10) command",
+      "start_page": 258,
+      "end_page": 271
+    },
+    {
+      "title": "5.52 WRITE SAME (10) command",
+      "start_page": 272,
+      "end_page": 275
+    },
+    {
+      "title": "5.54 WRITE SAME (32) command",
+      "start_page": 276,
+      "end_page": 277
+    },
+    {
+      "title": "5.55 WRITE SCATTERED (16) command",
+      "start_page": 278,
+      "end_page": 281
+    },
+    {
+      "title": "5.56 WRITE SCATTERED (32) command",
+      "start_page": 282,
+      "end_page": 284
+    },
+    {
+      "title": "5.58 WRITE STREAM (32) command",
+      "start_page": 285,
+      "end_page": 286
+    },
+    {
+      "title": "5.59 WRITE USING TOKEN command",
+      "start_page": 287,
+      "end_page": 290
+    },
+    {
+      "title": "6 Parameters for direct access block devices",
+      "start_page": 291,
+      "end_page": 296
+    },
+    {
+      "title": "6.3 Diagnostic parameters",
+      "start_page": 297,
+      "end_page": 301
+    },
+    {
+      "title": "6.4 Log parameters",
+      "start_page": 302,
+      "end_page": 338
+    },
+    {
+      "title": "6.5 Mode parameters",
+      "start_page": 339,
+      "end_page": 367
+    },
+    {
+      "title": "6.6 Vital product data (VPD) parameters",
+      "start_page": 368,
+      "end_page": 391
+    },
+    {
+      "title": "6.8 Logical block markup descriptors",
+      "start_page": 392,
+      "end_page": 397
+    },
+    {
+      "title": "Numeric order codes",
+      "start_page": 397,
+      "end_page": 399
+    },
+    {
+      "title": "CRC example in C",
+      "start_page": 399,
+      "end_page": 402
+    },
+    {
+      "title": "Optimizing block access characteristics",
+      "start_page": 402,
+      "end_page": 406
+    },
+    {
+      "title": "Logical block provisioning reporting examples",
+      "start_page": 406,
+      "end_page": 418
+    },
+    {
+      "title": "Discovering referrals examples",
+      "start_page": 418,
+      "end_page": 422
+    },
+    {
+      "title": "IO advice hints usage",
+      "start_page": 422,
+      "end_page": 426
+    },
+    {
+      "title": "SBC feature sets",
+      "start_page": 426,
+      "end_page": 440
+    },
+    {
+      "title": "Rebuild assist using the GET LBA STATUS command",
+      "start_page": 440,
+      "end_page": 442
+    },
+    {
+      "title": "Direct access block devices with shared resources",
+      "start_page": 442,
+      "end_page": 446
+    }
+  ],
+  "page_count": 447,
+  "page_categories": {
+    "0": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "1": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "2": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "3": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "4": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "5": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "6": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "7": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "8": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "9": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "10": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "11": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "12": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "13": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "14": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "15": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "16": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "17": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "18": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "19": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "20": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "21": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "22": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "23": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "24": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "25": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "26": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "27": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "28": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "29": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "30": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "31": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "32": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "33": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "34": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "35": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "36": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "37": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "38": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "39": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "40": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "41": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "42": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "43": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "44": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "45": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "46": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "47": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "48": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "49": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "50": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "51": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "52": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "53": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "54": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "55": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "56": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "57": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "58": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "59": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "60": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "61": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "62": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "63": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "64": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "65": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "66": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "67": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "68": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "69": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "70": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "71": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "72": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "73": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "74": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "75": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "76": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "77": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "78": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "79": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "80": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "81": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "82": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "83": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "84": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "85": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "86": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "87": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "88": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "89": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "90": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "91": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "92": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "93": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "94": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "95": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "96": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "97": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "98": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "99": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "100": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "101": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "102": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "103": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "104": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "105": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "106": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "107": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "108": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "109": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "110": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "111": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "112": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "113": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "114": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "115": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "116": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "117": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "118": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "119": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "120": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "121": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "122": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "123": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "124": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "125": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "126": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "127": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "128": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "129": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "130": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "131": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "132": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "133": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "134": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "135": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "136": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "137": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "138": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "139": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "140": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "141": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "142": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "143": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "144": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "145": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "146": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "147": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "148": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "149": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "150": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "151": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "152": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "153": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "154": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "155": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "156": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "157": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "158": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "159": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "160": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "161": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "162": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "163": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "164": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "165": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "166": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "167": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "168": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "169": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "170": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "171": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "172": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "173": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "174": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "175": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "176": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "177": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "178": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "179": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "180": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "181": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "182": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "183": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "184": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "185": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "186": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "187": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "188": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "189": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "190": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "191": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "192": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "193": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "194": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "195": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "196": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "197": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "198": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "199": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "200": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "201": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "202": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "203": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "204": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "205": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "206": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "207": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "208": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "209": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "210": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "211": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "212": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "213": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "214": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "215": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "216": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "217": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "218": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "219": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "220": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "221": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "222": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "223": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "224": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "225": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "226": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "227": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "228": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "229": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "230": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "231": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "232": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "233": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "234": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "235": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "236": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "237": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "238": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "239": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "240": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "241": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "242": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "243": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "244": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "245": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "246": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "247": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "248": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "249": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "250": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "251": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "252": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "253": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "254": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "255": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "256": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "257": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "258": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "259": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "260": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "261": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "262": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "263": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "264": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "265": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "266": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "267": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "268": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "269": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "270": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "271": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "272": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "273": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "274": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "275": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "276": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "277": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "278": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "279": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "280": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "281": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "282": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "283": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "284": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "285": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "286": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "287": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "288": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "289": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "290": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "291": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "292": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "293": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "294": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "295": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "296": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "297": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "298": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "299": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "300": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "301": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "302": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "303": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "304": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "305": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "306": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "307": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "308": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "309": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "310": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "311": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "312": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "313": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "314": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "315": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "316": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "317": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "318": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "319": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "320": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "321": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "322": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "323": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "324": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "325": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "326": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "327": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "328": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "329": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "330": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "331": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "332": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "333": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "334": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "335": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "336": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "337": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "338": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "339": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "340": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "341": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "342": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "343": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "344": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "345": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "346": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "347": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "348": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "349": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "350": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "351": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "352": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "353": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "354": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "355": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "356": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "357": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "358": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "359": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "360": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "361": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "362": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "363": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "364": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "365": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "366": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "367": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "368": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "369": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "370": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "371": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "372": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "373": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "374": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "375": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "376": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "377": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "378": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "379": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "380": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "381": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "382": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "383": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "384": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "385": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "386": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "387": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "388": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "389": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "390": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "391": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "392": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "393": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "394": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "395": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "396": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "397": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "398": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "399": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "400": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "401": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "402": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "403": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "404": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "405": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "406": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "407": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "408": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "409": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "410": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "411": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "412": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "413": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "414": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "415": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "416": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "417": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "418": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "419": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "420": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "421": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "422": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "423": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "424": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "425": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "426": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "427": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "428": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "429": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "430": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "431": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "432": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "433": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "434": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "435": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "436": {
+      "has_images": false,
+      "has_tables": true,
+      "has_text": true,
+      "scan_only": false
+    },
+    "437": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "438": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "439": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "440": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "441": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "442": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "443": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "444": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "445": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    },
+    "446": {
+      "has_images": false,
+      "has_tables": false,
+      "has_text": true,
+      "scan_only": false
+    }
+  },
+  "text_first_classifications": [
+    {
+      "page": 0,
+      "strategy": "text",
+      "reason": "text_only(chars=1143,drawings=6)"
+    },
+    {
+      "page": 1,
+      "strategy": "text",
+      "reason": "text_only(chars=976,drawings=7)"
+    },
+    {
+      "page": 2,
+      "strategy": "text",
+      "reason": "text_only(chars=694,drawings=0)"
+    },
+    {
+      "page": 3,
+      "strategy": "text",
+      "reason": "text_only(chars=2941,drawings=4)"
+    },
+    {
+      "page": 4,
+      "strategy": "text",
+      "reason": "text_only(chars=2231,drawings=0)"
+    },
+    {
+      "page": 5,
+      "strategy": "text",
+      "reason": "text_only(chars=1697,drawings=0)"
+    },
+    {
+      "page": 6,
+      "strategy": "text",
+      "reason": "text_only(chars=2053,drawings=0)"
+    },
+    {
+      "page": 7,
+      "strategy": "text",
+      "reason": "text_only(chars=1807,drawings=0)"
+    },
+    {
+      "page": 8,
+      "strategy": "text",
+      "reason": "text_only(chars=1474,drawings=0)"
+    },
+    {
+      "page": 9,
+      "strategy": "text",
+      "reason": "text_only(chars=167,drawings=0)"
+    },
+    {
+      "page": 10,
+      "strategy": "text",
+      "reason": "text_only(chars=7486,drawings=0)"
+    },
+    {
+      "page": 11,
+      "strategy": "text",
+      "reason": "text_only(chars=7972,drawings=0)"
+    },
+    {
+      "page": 12,
+      "strategy": "text",
+      "reason": "text_only(chars=7366,drawings=0)"
+    },
+    {
+      "page": 13,
+      "strategy": "text",
+      "reason": "text_only(chars=7968,drawings=0)"
+    },
+    {
+      "page": 14,
+      "strategy": "text",
+      "reason": "text_only(chars=7837,drawings=0)"
+    },
+    {
+      "page": 15,
+      "strategy": "text",
+      "reason": "text_only(chars=7519,drawings=0)"
+    },
+    {
+      "page": 16,
+      "strategy": "text",
+      "reason": "text_only(chars=7776,drawings=0)"
+    },
+    {
+      "page": 17,
+      "strategy": "text",
+      "reason": "text_only(chars=7780,drawings=0)"
+    },
+    {
+      "page": 18,
+      "strategy": "text",
+      "reason": "text_only(chars=7432,drawings=0)"
+    },
+    {
+      "page": 19,
+      "strategy": "text",
+      "reason": "text_only(chars=7185,drawings=0)"
+    },
+    {
+      "page": 20,
+      "strategy": "text",
+      "reason": "text_only(chars=7407,drawings=0)"
+    },
+    {
+      "page": 21,
+      "strategy": "text",
+      "reason": "text_only(chars=624,drawings=0)"
+    },
+    {
+      "page": 22,
+      "strategy": "text",
+      "reason": "text_only(chars=7286,drawings=0)"
+    },
+    {
+      "page": 23,
+      "strategy": "text",
+      "reason": "text_only(chars=7691,drawings=0)"
+    },
+    {
+      "page": 24,
+      "strategy": "text",
+      "reason": "text_only(chars=7740,drawings=0)"
+    },
+    {
+      "page": 25,
+      "strategy": "text",
+      "reason": "text_only(chars=7566,drawings=0)"
+    },
+    {
+      "page": 26,
+      "strategy": "text",
+      "reason": "text_only(chars=7970,drawings=0)"
+    },
+    {
+      "page": 27,
+      "strategy": "text",
+      "reason": "text_only(chars=6991,drawings=0)"
+    },
+    {
+      "page": 28,
+      "strategy": "text",
+      "reason": "text_only(chars=2559,drawings=0)"
+    },
+    {
+      "page": 29,
+      "strategy": "text",
+      "reason": "text_only(chars=1350,drawings=0)"
+    },
+    {
+      "page": 30,
+      "strategy": "text",
+      "reason": "text_only(chars=2527,drawings=6)"
+    },
+    {
+      "page": 31,
+      "strategy": "text",
+      "reason": "text_only(chars=5,drawings=0)"
+    },
+    {
+      "page": 32,
+      "strategy": "text",
+      "reason": "text_only(chars=2227,drawings=6)"
+    },
+    {
+      "page": 33,
+      "strategy": "text",
+      "reason": "text_only(chars=1788,drawings=17)"
+    },
+    {
+      "page": 34,
+      "strategy": "text",
+      "reason": "text_only(chars=1976,drawings=0)"
+    },
+    {
+      "page": 35,
+      "strategy": "text",
+      "reason": "text_only(chars=2228,drawings=0)"
+    },
+    {
+      "page": 36,
+      "strategy": "text",
+      "reason": "text_only(chars=1998,drawings=0)"
+    },
+    {
+      "page": 37,
+      "strategy": "text",
+      "reason": "text_only(chars=1987,drawings=0)"
+    },
+    {
+      "page": 38,
+      "strategy": "text",
+      "reason": "text_only(chars=2091,drawings=0)"
+    },
+    {
+      "page": 39,
+      "strategy": "text",
+      "reason": "text_only(chars=2241,drawings=0)"
+    },
+    {
+      "page": 40,
+      "strategy": "text",
+      "reason": "text_only(chars=1727,drawings=0)"
+    },
+    {
+      "page": 41,
+      "strategy": "text",
+      "reason": "text_only(chars=1952,drawings=0)"
+    },
+    {
+      "page": 42,
+      "strategy": "text",
+      "reason": "text_only(chars=1347,drawings=0)"
+    },
+    {
+      "page": 43,
+      "strategy": "text",
+      "reason": "text_only(chars=1203,drawings=0)"
+    },
+    {
+      "page": 44,
+      "strategy": "text",
+      "reason": "text_only(chars=2496,drawings=0)"
+    },
+    {
+      "page": 45,
+      "strategy": "text",
+      "reason": "text_only(chars=2778,drawings=0)"
+    },
+    {
+      "page": 46,
+      "strategy": "text",
+      "reason": "text_only(chars=2450,drawings=17)"
+    },
+    {
+      "page": 47,
+      "strategy": "hybrid",
+      "reason": "many_drawings(69)"
+    },
+    {
+      "page": 48,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 49,
+      "strategy": "text",
+      "reason": "text_only(chars=1794,drawings=21)"
+    },
+    {
+      "page": 50,
+      "strategy": "text",
+      "reason": "text_only(chars=2905,drawings=0)"
+    },
+    {
+      "page": 51,
+      "strategy": "text",
+      "reason": "text_only(chars=3474,drawings=0)"
+    },
+    {
+      "page": 52,
+      "strategy": "text",
+      "reason": "text_only(chars=3544,drawings=0)"
+    },
+    {
+      "page": 53,
+      "strategy": "hybrid",
+      "reason": "many_drawings(123)"
+    },
+    {
+      "page": 54,
+      "strategy": "hybrid",
+      "reason": "many_drawings(123)"
+    },
+    {
+      "page": 55,
+      "strategy": "hybrid",
+      "reason": "many_drawings(54)"
+    },
+    {
+      "page": 56,
+      "strategy": "hybrid",
+      "reason": "many_drawings(58)"
+    },
+    {
+      "page": 57,
+      "strategy": "text",
+      "reason": "text_only(chars=2956,drawings=18)"
+    },
+    {
+      "page": 58,
+      "strategy": "text",
+      "reason": "text_only(chars=3339,drawings=0)"
+    },
+    {
+      "page": 59,
+      "strategy": "text",
+      "reason": "text_only(chars=3057,drawings=0)"
+    },
+    {
+      "page": 60,
+      "strategy": "text",
+      "reason": "text_only(chars=3030,drawings=13)"
+    },
+    {
+      "page": 61,
+      "strategy": "text",
+      "reason": "text_only(chars=2998,drawings=0)"
+    },
+    {
+      "page": 62,
+      "strategy": "text",
+      "reason": "text_only(chars=3163,drawings=0)"
+    },
+    {
+      "page": 63,
+      "strategy": "text",
+      "reason": "text_only(chars=2181,drawings=17)"
+    },
+    {
+      "page": 64,
+      "strategy": "hybrid",
+      "reason": "many_drawings(41)"
+    },
+    {
+      "page": 65,
+      "strategy": "text",
+      "reason": "text_only(chars=3713,drawings=27)"
+    },
+    {
+      "page": 66,
+      "strategy": "text",
+      "reason": "text_only(chars=2979,drawings=0)"
+    },
+    {
+      "page": 67,
+      "strategy": "text",
+      "reason": "text_only(chars=1105,drawings=26)"
+    },
+    {
+      "page": 68,
+      "strategy": "text",
+      "reason": "text_only(chars=992,drawings=14)"
+    },
+    {
+      "page": 69,
+      "strategy": "text",
+      "reason": "text_only(chars=2593,drawings=17)"
+    },
+    {
+      "page": 70,
+      "strategy": "text",
+      "reason": "text_only(chars=2520,drawings=0)"
+    },
+    {
+      "page": 71,
+      "strategy": "text",
+      "reason": "text_only(chars=2133,drawings=0)"
+    },
+    {
+      "page": 72,
+      "strategy": "text",
+      "reason": "text_only(chars=3718,drawings=0)"
+    },
+    {
+      "page": 73,
+      "strategy": "text",
+      "reason": "text_only(chars=3375,drawings=0)"
+    },
+    {
+      "page": 74,
+      "strategy": "text",
+      "reason": "text_only(chars=2940,drawings=0)"
+    },
+    {
+      "page": 75,
+      "strategy": "text",
+      "reason": "text_only(chars=3718,drawings=0)"
+    },
+    {
+      "page": 76,
+      "strategy": "text",
+      "reason": "text_only(chars=3186,drawings=0)"
+    },
+    {
+      "page": 77,
+      "strategy": "text",
+      "reason": "text_only(chars=3104,drawings=17)"
+    },
+    {
+      "page": 78,
+      "strategy": "text",
+      "reason": "text_only(chars=3042,drawings=22)"
+    },
+    {
+      "page": 79,
+      "strategy": "text",
+      "reason": "text_only(chars=3365,drawings=0)"
+    },
+    {
+      "page": 80,
+      "strategy": "text",
+      "reason": "text_only(chars=3602,drawings=0)"
+    },
+    {
+      "page": 81,
+      "strategy": "text",
+      "reason": "text_only(chars=3444,drawings=0)"
+    },
+    {
+      "page": 82,
+      "strategy": "text",
+      "reason": "text_only(chars=2687,drawings=0)"
+    },
+    {
+      "page": 83,
+      "strategy": "hybrid",
+      "reason": "many_drawings(30)"
+    },
+    {
+      "page": 84,
+      "strategy": "hybrid",
+      "reason": "many_drawings(38)"
+    },
+    {
+      "page": 85,
+      "strategy": "text",
+      "reason": "text_only(chars=2292,drawings=27)"
+    },
+    {
+      "page": 86,
+      "strategy": "text",
+      "reason": "text_only(chars=749,drawings=20)"
+    },
+    {
+      "page": 87,
+      "strategy": "text",
+      "reason": "text_only(chars=2697,drawings=24)"
+    },
+    {
+      "page": 88,
+      "strategy": "text",
+      "reason": "text_only(chars=2221,drawings=23)"
+    },
+    {
+      "page": 89,
+      "strategy": "hybrid",
+      "reason": "many_drawings(38)"
+    },
+    {
+      "page": 90,
+      "strategy": "hybrid",
+      "reason": "many_drawings(46)"
+    },
+    {
+      "page": 91,
+      "strategy": "hybrid",
+      "reason": "many_drawings(60)"
+    },
+    {
+      "page": 92,
+      "strategy": "text",
+      "reason": "text_only(chars=3684,drawings=0)"
+    },
+    {
+      "page": 93,
+      "strategy": "text",
+      "reason": "text_only(chars=3393,drawings=0)"
+    },
+    {
+      "page": 94,
+      "strategy": "text",
+      "reason": "text_only(chars=3277,drawings=0)"
+    },
+    {
+      "page": 95,
+      "strategy": "text",
+      "reason": "text_only(chars=3382,drawings=0)"
+    },
+    {
+      "page": 96,
+      "strategy": "text",
+      "reason": "text_only(chars=1943,drawings=24)"
+    },
+    {
+      "page": 97,
+      "strategy": "text",
+      "reason": "text_only(chars=691,drawings=0)"
+    },
+    {
+      "page": 98,
+      "strategy": "hybrid",
+      "reason": "many_drawings(70)"
+    },
+    {
+      "page": 99,
+      "strategy": "text",
+      "reason": "text_only(chars=2226,drawings=0)"
+    },
+    {
+      "page": 100,
+      "strategy": "text",
+      "reason": "text_only(chars=2383,drawings=0)"
+    },
+    {
+      "page": 101,
+      "strategy": "text",
+      "reason": "text_only(chars=2350,drawings=0)"
+    },
+    {
+      "page": 102,
+      "strategy": "text",
+      "reason": "text_only(chars=2870,drawings=0)"
+    },
+    {
+      "page": 103,
+      "strategy": "text",
+      "reason": "text_only(chars=3070,drawings=0)"
+    },
+    {
+      "page": 104,
+      "strategy": "text",
+      "reason": "text_only(chars=2754,drawings=0)"
+    },
+    {
+      "page": 105,
+      "strategy": "text",
+      "reason": "text_only(chars=3176,drawings=0)"
+    },
+    {
+      "page": 106,
+      "strategy": "text",
+      "reason": "text_only(chars=2787,drawings=0)"
+    },
+    {
+      "page": 107,
+      "strategy": "text",
+      "reason": "text_only(chars=3140,drawings=0)"
+    },
+    {
+      "page": 108,
+      "strategy": "text",
+      "reason": "text_only(chars=1903,drawings=0)"
+    },
+    {
+      "page": 109,
+      "strategy": "text",
+      "reason": "text_only(chars=2694,drawings=0)"
+    },
+    {
+      "page": 110,
+      "strategy": "text",
+      "reason": "text_only(chars=2126,drawings=0)"
+    },
+    {
+      "page": 111,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 112,
+      "strategy": "hybrid",
+      "reason": "many_drawings(60)"
+    },
+    {
+      "page": 113,
+      "strategy": "text",
+      "reason": "text_only(chars=2227,drawings=0)"
+    },
+    {
+      "page": 114,
+      "strategy": "text",
+      "reason": "text_only(chars=2619,drawings=27)"
+    },
+    {
+      "page": 115,
+      "strategy": "text",
+      "reason": "text_only(chars=2356,drawings=22)"
+    },
+    {
+      "page": 116,
+      "strategy": "text",
+      "reason": "text_only(chars=2258,drawings=15)"
+    },
+    {
+      "page": 117,
+      "strategy": "text",
+      "reason": "text_only(chars=3305,drawings=0)"
+    },
+    {
+      "page": 118,
+      "strategy": "text",
+      "reason": "text_only(chars=3532,drawings=0)"
+    },
+    {
+      "page": 119,
+      "strategy": "text",
+      "reason": "text_only(chars=3118,drawings=0)"
+    },
+    {
+      "page": 120,
+      "strategy": "text",
+      "reason": "text_only(chars=2867,drawings=0)"
+    },
+    {
+      "page": 121,
+      "strategy": "text",
+      "reason": "text_only(chars=3197,drawings=0)"
+    },
+    {
+      "page": 122,
+      "strategy": "text",
+      "reason": "text_only(chars=2264,drawings=0)"
+    },
+    {
+      "page": 123,
+      "strategy": "text",
+      "reason": "text_only(chars=2485,drawings=13)"
+    },
+    {
+      "page": 124,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 125,
+      "strategy": "text",
+      "reason": "text_only(chars=3958,drawings=0)"
+    },
+    {
+      "page": 126,
+      "strategy": "text",
+      "reason": "text_only(chars=2912,drawings=0)"
+    },
+    {
+      "page": 127,
+      "strategy": "text",
+      "reason": "text_only(chars=3359,drawings=0)"
+    },
+    {
+      "page": 128,
+      "strategy": "hybrid",
+      "reason": "many_drawings(30)"
+    },
+    {
+      "page": 129,
+      "strategy": "text",
+      "reason": "text_only(chars=3946,drawings=0)"
+    },
+    {
+      "page": 130,
+      "strategy": "text",
+      "reason": "text_only(chars=3317,drawings=0)"
+    },
+    {
+      "page": 131,
+      "strategy": "hybrid",
+      "reason": "many_drawings(52)"
+    },
+    {
+      "page": 132,
+      "strategy": "text",
+      "reason": "text_only(chars=3381,drawings=0)"
+    },
+    {
+      "page": 133,
+      "strategy": "text",
+      "reason": "text_only(chars=3867,drawings=0)"
+    },
+    {
+      "page": 134,
+      "strategy": "text",
+      "reason": "text_only(chars=3047,drawings=15)"
+    },
+    {
+      "page": 135,
+      "strategy": "text",
+      "reason": "text_only(chars=3392,drawings=0)"
+    },
+    {
+      "page": 136,
+      "strategy": "text",
+      "reason": "text_only(chars=4097,drawings=0)"
+    },
+    {
+      "page": 137,
+      "strategy": "text",
+      "reason": "text_only(chars=3575,drawings=0)"
+    },
+    {
+      "page": 138,
+      "strategy": "hybrid",
+      "reason": "many_drawings(46)"
+    },
+    {
+      "page": 139,
+      "strategy": "text",
+      "reason": "text_only(chars=2845,drawings=0)"
+    },
+    {
+      "page": 140,
+      "strategy": "text",
+      "reason": "text_only(chars=3238,drawings=0)"
+    },
+    {
+      "page": 141,
+      "strategy": "text",
+      "reason": "text_only(chars=3377,drawings=0)"
+    },
+    {
+      "page": 142,
+      "strategy": "text",
+      "reason": "text_only(chars=1347,drawings=0)"
+    },
+    {
+      "page": 143,
+      "strategy": "hybrid",
+      "reason": "many_drawings(32)"
+    },
+    {
+      "page": 144,
+      "strategy": "text",
+      "reason": "text_only(chars=1980,drawings=19)"
+    },
+    {
+      "page": 145,
+      "strategy": "hybrid",
+      "reason": "many_drawings(49)"
+    },
+    {
+      "page": 146,
+      "strategy": "text",
+      "reason": "text_only(chars=3077,drawings=0)"
+    },
+    {
+      "page": 147,
+      "strategy": "text",
+      "reason": "text_only(chars=3644,drawings=0)"
+    },
+    {
+      "page": 148,
+      "strategy": "text",
+      "reason": "text_only(chars=3235,drawings=0)"
+    },
+    {
+      "page": 149,
+      "strategy": "text",
+      "reason": "text_only(chars=3091,drawings=0)"
+    },
+    {
+      "page": 150,
+      "strategy": "text",
+      "reason": "text_only(chars=729,drawings=0)"
+    },
+    {
+      "page": 151,
+      "strategy": "hybrid",
+      "reason": "many_drawings(43)"
+    },
+    {
+      "page": 152,
+      "strategy": "hybrid",
+      "reason": "many_drawings(49)"
+    },
+    {
+      "page": 153,
+      "strategy": "hybrid",
+      "reason": "many_drawings(50)"
+    },
+    {
+      "page": 154,
+      "strategy": "hybrid",
+      "reason": "many_drawings(49)"
+    },
+    {
+      "page": 155,
+      "strategy": "hybrid",
+      "reason": "many_drawings(57)"
+    },
+    {
+      "page": 156,
+      "strategy": "text",
+      "reason": "text_only(chars=2600,drawings=14)"
+    },
+    {
+      "page": 157,
+      "strategy": "hybrid",
+      "reason": "many_drawings(34)"
+    },
+    {
+      "page": 158,
+      "strategy": "text",
+      "reason": "text_only(chars=2629,drawings=28)"
+    },
+    {
+      "page": 159,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 160,
+      "strategy": "hybrid",
+      "reason": "many_drawings(41)"
+    },
+    {
+      "page": 161,
+      "strategy": "hybrid",
+      "reason": "many_drawings(66)"
+    },
+    {
+      "page": 162,
+      "strategy": "text",
+      "reason": "text_only(chars=2523,drawings=28)"
+    },
+    {
+      "page": 163,
+      "strategy": "text",
+      "reason": "text_only(chars=3216,drawings=23)"
+    },
+    {
+      "page": 164,
+      "strategy": "text",
+      "reason": "text_only(chars=3904,drawings=0)"
+    },
+    {
+      "page": 165,
+      "strategy": "text",
+      "reason": "text_only(chars=2392,drawings=26)"
+    },
+    {
+      "page": 166,
+      "strategy": "text",
+      "reason": "text_only(chars=3164,drawings=16)"
+    },
+    {
+      "page": 167,
+      "strategy": "hybrid",
+      "reason": "many_drawings(30)"
+    },
+    {
+      "page": 168,
+      "strategy": "hybrid",
+      "reason": "many_drawings(30)"
+    },
+    {
+      "page": 169,
+      "strategy": "hybrid",
+      "reason": "many_drawings(61)"
+    },
+    {
+      "page": 170,
+      "strategy": "text",
+      "reason": "text_only(chars=1815,drawings=16)"
+    },
+    {
+      "page": 171,
+      "strategy": "hybrid",
+      "reason": "many_drawings(51)"
+    },
+    {
+      "page": 172,
+      "strategy": "text",
+      "reason": "text_only(chars=2099,drawings=13)"
+    },
+    {
+      "page": 173,
+      "strategy": "hybrid",
+      "reason": "many_drawings(45)"
+    },
+    {
+      "page": 174,
+      "strategy": "hybrid",
+      "reason": "many_drawings(35)"
+    },
+    {
+      "page": 175,
+      "strategy": "text",
+      "reason": "text_only(chars=1184,drawings=26)"
+    },
+    {
+      "page": 176,
+      "strategy": "hybrid",
+      "reason": "many_drawings(49)"
+    },
+    {
+      "page": 177,
+      "strategy": "hybrid",
+      "reason": "many_drawings(53)"
+    },
+    {
+      "page": 178,
+      "strategy": "text",
+      "reason": "text_only(chars=1709,drawings=19)"
+    },
+    {
+      "page": 179,
+      "strategy": "hybrid",
+      "reason": "many_drawings(37)"
+    },
+    {
+      "page": 180,
+      "strategy": "hybrid",
+      "reason": "many_drawings(42)"
+    },
+    {
+      "page": 181,
+      "strategy": "text",
+      "reason": "text_only(chars=1188,drawings=27)"
+    },
+    {
+      "page": 182,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 183,
+      "strategy": "hybrid",
+      "reason": "many_drawings(37)"
+    },
+    {
+      "page": 184,
+      "strategy": "text",
+      "reason": "text_only(chars=665,drawings=24)"
+    },
+    {
+      "page": 185,
+      "strategy": "text",
+      "reason": "text_only(chars=3063,drawings=16)"
+    },
+    {
+      "page": 186,
+      "strategy": "hybrid",
+      "reason": "many_drawings(39)"
+    },
+    {
+      "page": 187,
+      "strategy": "text",
+      "reason": "text_only(chars=3605,drawings=20)"
+    },
+    {
+      "page": 188,
+      "strategy": "hybrid",
+      "reason": "many_drawings(53)"
+    },
+    {
+      "page": 189,
+      "strategy": "text",
+      "reason": "text_only(chars=1504,drawings=13)"
+    },
+    {
+      "page": 190,
+      "strategy": "hybrid",
+      "reason": "many_drawings(35)"
+    },
+    {
+      "page": 191,
+      "strategy": "hybrid",
+      "reason": "many_drawings(54)"
+    },
+    {
+      "page": 192,
+      "strategy": "text",
+      "reason": "text_only(chars=3568,drawings=0)"
+    },
+    {
+      "page": 193,
+      "strategy": "text",
+      "reason": "text_only(chars=3036,drawings=29)"
+    },
+    {
+      "page": 194,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 195,
+      "strategy": "hybrid",
+      "reason": "many_drawings(32)"
+    },
+    {
+      "page": 196,
+      "strategy": "hybrid",
+      "reason": "many_drawings(37)"
+    },
+    {
+      "page": 197,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 198,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 199,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 200,
+      "strategy": "text",
+      "reason": "text_only(chars=4188,drawings=15)"
+    },
+    {
+      "page": 201,
+      "strategy": "text",
+      "reason": "text_only(chars=3123,drawings=0)"
+    },
+    {
+      "page": 202,
+      "strategy": "hybrid",
+      "reason": "many_drawings(35)"
+    },
+    {
+      "page": 203,
+      "strategy": "hybrid",
+      "reason": "many_drawings(57)"
+    },
+    {
+      "page": 204,
+      "strategy": "hybrid",
+      "reason": "many_drawings(54)"
+    },
+    {
+      "page": 205,
+      "strategy": "text",
+      "reason": "text_only(chars=2631,drawings=0)"
+    },
+    {
+      "page": 206,
+      "strategy": "hybrid",
+      "reason": "many_drawings(55)"
+    },
+    {
+      "page": 207,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 208,
+      "strategy": "hybrid",
+      "reason": "many_drawings(58)"
+    },
+    {
+      "page": 209,
+      "strategy": "text",
+      "reason": "text_only(chars=2504,drawings=14)"
+    },
+    {
+      "page": 210,
+      "strategy": "hybrid",
+      "reason": "many_drawings(46)"
+    },
+    {
+      "page": 211,
+      "strategy": "hybrid",
+      "reason": "many_drawings(40)"
+    },
+    {
+      "page": 212,
+      "strategy": "hybrid",
+      "reason": "many_drawings(32)"
+    },
+    {
+      "page": 213,
+      "strategy": "hybrid",
+      "reason": "many_drawings(44)"
+    },
+    {
+      "page": 214,
+      "strategy": "text",
+      "reason": "text_only(chars=3141,drawings=0)"
+    },
+    {
+      "page": 215,
+      "strategy": "hybrid",
+      "reason": "many_drawings(61)"
+    },
+    {
+      "page": 216,
+      "strategy": "hybrid",
+      "reason": "many_drawings(65)"
+    },
+    {
+      "page": 217,
+      "strategy": "text",
+      "reason": "text_only(chars=2060,drawings=21)"
+    },
+    {
+      "page": 218,
+      "strategy": "text",
+      "reason": "text_only(chars=953,drawings=13)"
+    },
+    {
+      "page": 219,
+      "strategy": "hybrid",
+      "reason": "many_drawings(62)"
+    },
+    {
+      "page": 220,
+      "strategy": "text",
+      "reason": "text_only(chars=1637,drawings=0)"
+    },
+    {
+      "page": 221,
+      "strategy": "hybrid",
+      "reason": "many_drawings(53)"
+    },
+    {
+      "page": 222,
+      "strategy": "hybrid",
+      "reason": "many_drawings(30)"
+    },
+    {
+      "page": 223,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 224,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 225,
+      "strategy": "hybrid",
+      "reason": "many_drawings(40)"
+    },
+    {
+      "page": 226,
+      "strategy": "text",
+      "reason": "text_only(chars=1086,drawings=25)"
+    },
+    {
+      "page": 227,
+      "strategy": "hybrid",
+      "reason": "many_drawings(30)"
+    },
+    {
+      "page": 228,
+      "strategy": "text",
+      "reason": "text_only(chars=2479,drawings=20)"
+    },
+    {
+      "page": 229,
+      "strategy": "hybrid",
+      "reason": "many_drawings(40)"
+    },
+    {
+      "page": 230,
+      "strategy": "text",
+      "reason": "text_only(chars=3417,drawings=0)"
+    },
+    {
+      "page": 231,
+      "strategy": "text",
+      "reason": "text_only(chars=1920,drawings=28)"
+    },
+    {
+      "page": 232,
+      "strategy": "text",
+      "reason": "text_only(chars=3162,drawings=23)"
+    },
+    {
+      "page": 233,
+      "strategy": "text",
+      "reason": "text_only(chars=3682,drawings=20)"
+    },
+    {
+      "page": 234,
+      "strategy": "text",
+      "reason": "text_only(chars=2036,drawings=0)"
+    },
+    {
+      "page": 235,
+      "strategy": "hybrid",
+      "reason": "many_drawings(51)"
+    },
+    {
+      "page": 236,
+      "strategy": "text",
+      "reason": "text_only(chars=1313,drawings=28)"
+    },
+    {
+      "page": 237,
+      "strategy": "hybrid",
+      "reason": "many_drawings(32)"
+    },
+    {
+      "page": 238,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 239,
+      "strategy": "hybrid",
+      "reason": "many_drawings(30)"
+    },
+    {
+      "page": 240,
+      "strategy": "hybrid",
+      "reason": "many_drawings(43)"
+    },
+    {
+      "page": 241,
+      "strategy": "text",
+      "reason": "text_only(chars=1896,drawings=29)"
+    },
+    {
+      "page": 242,
+      "strategy": "hybrid",
+      "reason": "many_drawings(51)"
+    },
+    {
+      "page": 243,
+      "strategy": "text",
+      "reason": "text_only(chars=3144,drawings=0)"
+    },
+    {
+      "page": 244,
+      "strategy": "hybrid",
+      "reason": "many_drawings(37)"
+    },
+    {
+      "page": 245,
+      "strategy": "text",
+      "reason": "text_only(chars=723,drawings=25)"
+    },
+    {
+      "page": 246,
+      "strategy": "text",
+      "reason": "text_only(chars=3279,drawings=14)"
+    },
+    {
+      "page": 247,
+      "strategy": "text",
+      "reason": "text_only(chars=1173,drawings=26)"
+    },
+    {
+      "page": 248,
+      "strategy": "text",
+      "reason": "text_only(chars=3287,drawings=14)"
+    },
+    {
+      "page": 249,
+      "strategy": "hybrid",
+      "reason": "many_drawings(39)"
+    },
+    {
+      "page": 250,
+      "strategy": "text",
+      "reason": "text_only(chars=3615,drawings=20)"
+    },
+    {
+      "page": 251,
+      "strategy": "text",
+      "reason": "text_only(chars=1310,drawings=24)"
+    },
+    {
+      "page": 252,
+      "strategy": "text",
+      "reason": "text_only(chars=1314,drawings=29)"
+    },
+    {
+      "page": 253,
+      "strategy": "text",
+      "reason": "text_only(chars=604,drawings=19)"
+    },
+    {
+      "page": 254,
+      "strategy": "text",
+      "reason": "text_only(chars=3403,drawings=14)"
+    },
+    {
+      "page": 255,
+      "strategy": "hybrid",
+      "reason": "many_drawings(38)"
+    },
+    {
+      "page": 256,
+      "strategy": "hybrid",
+      "reason": "many_drawings(34)"
+    },
+    {
+      "page": 257,
+      "strategy": "hybrid",
+      "reason": "many_drawings(55)"
+    },
+    {
+      "page": 258,
+      "strategy": "hybrid",
+      "reason": "many_drawings(34)"
+    },
+    {
+      "page": 259,
+      "strategy": "hybrid",
+      "reason": "many_drawings(44)"
+    },
+    {
+      "page": 260,
+      "strategy": "text",
+      "reason": "text_only(chars=4146,drawings=20)"
+    },
+    {
+      "page": 261,
+      "strategy": "text",
+      "reason": "text_only(chars=3047,drawings=0)"
+    },
+    {
+      "page": 262,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 263,
+      "strategy": "hybrid",
+      "reason": "many_drawings(41)"
+    },
+    {
+      "page": 264,
+      "strategy": "hybrid",
+      "reason": "many_drawings(56)"
+    },
+    {
+      "page": 265,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 266,
+      "strategy": "hybrid",
+      "reason": "many_drawings(34)"
+    },
+    {
+      "page": 267,
+      "strategy": "hybrid",
+      "reason": "many_drawings(39)"
+    },
+    {
+      "page": 268,
+      "strategy": "hybrid",
+      "reason": "many_drawings(57)"
+    },
+    {
+      "page": 269,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 270,
+      "strategy": "hybrid",
+      "reason": "many_drawings(54)"
+    },
+    {
+      "page": 271,
+      "strategy": "hybrid",
+      "reason": "many_drawings(44)"
+    },
+    {
+      "page": 272,
+      "strategy": "hybrid",
+      "reason": "many_drawings(34)"
+    },
+    {
+      "page": 273,
+      "strategy": "text",
+      "reason": "text_only(chars=2716,drawings=0)"
+    },
+    {
+      "page": 274,
+      "strategy": "hybrid",
+      "reason": "many_drawings(51)"
+    },
+    {
+      "page": 275,
+      "strategy": "hybrid",
+      "reason": "many_drawings(34)"
+    },
+    {
+      "page": 276,
+      "strategy": "text",
+      "reason": "text_only(chars=1488,drawings=0)"
+    },
+    {
+      "page": 277,
+      "strategy": "hybrid",
+      "reason": "many_drawings(53)"
+    },
+    {
+      "page": 278,
+      "strategy": "hybrid",
+      "reason": "many_drawings(42)"
+    },
+    {
+      "page": 279,
+      "strategy": "text",
+      "reason": "text_only(chars=1917,drawings=0)"
+    },
+    {
+      "page": 280,
+      "strategy": "hybrid",
+      "reason": "many_drawings(58)"
+    },
+    {
+      "page": 281,
+      "strategy": "text",
+      "reason": "text_only(chars=2586,drawings=29)"
+    },
+    {
+      "page": 282,
+      "strategy": "hybrid",
+      "reason": "many_drawings(51)"
+    },
+    {
+      "page": 283,
+      "strategy": "hybrid",
+      "reason": "many_drawings(58)"
+    },
+    {
+      "page": 284,
+      "strategy": "hybrid",
+      "reason": "many_drawings(39)"
+    },
+    {
+      "page": 285,
+      "strategy": "hybrid",
+      "reason": "many_drawings(40)"
+    },
+    {
+      "page": 286,
+      "strategy": "hybrid",
+      "reason": "many_drawings(54)"
+    },
+    {
+      "page": 287,
+      "strategy": "hybrid",
+      "reason": "many_drawings(35)"
+    },
+    {
+      "page": 288,
+      "strategy": "hybrid",
+      "reason": "many_drawings(58)"
+    },
+    {
+      "page": 289,
+      "strategy": "text",
+      "reason": "text_only(chars=4440,drawings=0)"
+    },
+    {
+      "page": 290,
+      "strategy": "text",
+      "reason": "text_only(chars=2779,drawings=0)"
+    },
+    {
+      "page": 291,
+      "strategy": "text",
+      "reason": "text_only(chars=1402,drawings=17)"
+    },
+    {
+      "page": 292,
+      "strategy": "hybrid",
+      "reason": "many_drawings(42)"
+    },
+    {
+      "page": 293,
+      "strategy": "hybrid",
+      "reason": "many_drawings(47)"
+    },
+    {
+      "page": 294,
+      "strategy": "text",
+      "reason": "text_only(chars=2327,drawings=28)"
+    },
+    {
+      "page": 295,
+      "strategy": "hybrid",
+      "reason": "many_drawings(67)"
+    },
+    {
+      "page": 296,
+      "strategy": "hybrid",
+      "reason": "many_drawings(64)"
+    },
+    {
+      "page": 297,
+      "strategy": "text",
+      "reason": "text_only(chars=847,drawings=23)"
+    },
+    {
+      "page": 298,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 299,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 300,
+      "strategy": "hybrid",
+      "reason": "many_drawings(43)"
+    },
+    {
+      "page": 301,
+      "strategy": "text",
+      "reason": "text_only(chars=3281,drawings=29)"
+    },
+    {
+      "page": 302,
+      "strategy": "hybrid",
+      "reason": "many_drawings(30)"
+    },
+    {
+      "page": 303,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 304,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 305,
+      "strategy": "hybrid",
+      "reason": "many_drawings(37)"
+    },
+    {
+      "page": 306,
+      "strategy": "hybrid",
+      "reason": "many_drawings(44)"
+    },
+    {
+      "page": 307,
+      "strategy": "text",
+      "reason": "text_only(chars=2673,drawings=22)"
+    },
+    {
+      "page": 308,
+      "strategy": "hybrid",
+      "reason": "many_drawings(45)"
+    },
+    {
+      "page": 309,
+      "strategy": "text",
+      "reason": "text_only(chars=2609,drawings=26)"
+    },
+    {
+      "page": 310,
+      "strategy": "hybrid",
+      "reason": "many_drawings(54)"
+    },
+    {
+      "page": 311,
+      "strategy": "hybrid",
+      "reason": "many_drawings(49)"
+    },
+    {
+      "page": 312,
+      "strategy": "hybrid",
+      "reason": "many_drawings(61)"
+    },
+    {
+      "page": 313,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 314,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 315,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 316,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 317,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 318,
+      "strategy": "hybrid",
+      "reason": "many_drawings(38)"
+    },
+    {
+      "page": 319,
+      "strategy": "hybrid",
+      "reason": "many_drawings(38)"
+    },
+    {
+      "page": 320,
+      "strategy": "hybrid",
+      "reason": "many_drawings(53)"
+    },
+    {
+      "page": 321,
+      "strategy": "hybrid",
+      "reason": "many_drawings(39)"
+    },
+    {
+      "page": 322,
+      "strategy": "hybrid",
+      "reason": "many_drawings(53)"
+    },
+    {
+      "page": 323,
+      "strategy": "hybrid",
+      "reason": "many_drawings(39)"
+    },
+    {
+      "page": 324,
+      "strategy": "hybrid",
+      "reason": "many_drawings(39)"
+    },
+    {
+      "page": 325,
+      "strategy": "hybrid",
+      "reason": "many_drawings(39)"
+    },
+    {
+      "page": 326,
+      "strategy": "hybrid",
+      "reason": "many_drawings(59)"
+    },
+    {
+      "page": 327,
+      "strategy": "hybrid",
+      "reason": "many_drawings(35)"
+    },
+    {
+      "page": 328,
+      "strategy": "hybrid",
+      "reason": "many_drawings(51)"
+    },
+    {
+      "page": 329,
+      "strategy": "hybrid",
+      "reason": "many_drawings(75)"
+    },
+    {
+      "page": 330,
+      "strategy": "hybrid",
+      "reason": "many_drawings(48)"
+    },
+    {
+      "page": 331,
+      "strategy": "hybrid",
+      "reason": "many_drawings(32)"
+    },
+    {
+      "page": 332,
+      "strategy": "hybrid",
+      "reason": "many_drawings(67)"
+    },
+    {
+      "page": 333,
+      "strategy": "hybrid",
+      "reason": "many_drawings(37)"
+    },
+    {
+      "page": 334,
+      "strategy": "hybrid",
+      "reason": "many_drawings(38)"
+    },
+    {
+      "page": 335,
+      "strategy": "hybrid",
+      "reason": "many_drawings(51)"
+    },
+    {
+      "page": 336,
+      "strategy": "hybrid",
+      "reason": "many_drawings(56)"
+    },
+    {
+      "page": 337,
+      "strategy": "hybrid",
+      "reason": "many_drawings(46)"
+    },
+    {
+      "page": 338,
+      "strategy": "hybrid",
+      "reason": "many_drawings(45)"
+    },
+    {
+      "page": 339,
+      "strategy": "hybrid",
+      "reason": "many_drawings(40)"
+    },
+    {
+      "page": 340,
+      "strategy": "hybrid",
+      "reason": "many_drawings(39)"
+    },
+    {
+      "page": 341,
+      "strategy": "text",
+      "reason": "text_only(chars=2503,drawings=26)"
+    },
+    {
+      "page": 342,
+      "strategy": "text",
+      "reason": "text_only(chars=4865,drawings=0)"
+    },
+    {
+      "page": 343,
+      "strategy": "text",
+      "reason": "text_only(chars=3408,drawings=29)"
+    },
+    {
+      "page": 344,
+      "strategy": "text",
+      "reason": "text_only(chars=3166,drawings=0)"
+    },
+    {
+      "page": 345,
+      "strategy": "hybrid",
+      "reason": "many_drawings(41)"
+    },
+    {
+      "page": 346,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 347,
+      "strategy": "hybrid",
+      "reason": "many_drawings(42)"
+    },
+    {
+      "page": 348,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 349,
+      "strategy": "hybrid",
+      "reason": "many_drawings(68)"
+    },
+    {
+      "page": 350,
+      "strategy": "text",
+      "reason": "text_only(chars=3954,drawings=0)"
+    },
+    {
+      "page": 351,
+      "strategy": "text",
+      "reason": "text_only(chars=3613,drawings=28)"
+    },
+    {
+      "page": 352,
+      "strategy": "text",
+      "reason": "text_only(chars=2799,drawings=0)"
+    },
+    {
+      "page": 353,
+      "strategy": "text",
+      "reason": "text_only(chars=2556,drawings=14)"
+    },
+    {
+      "page": 354,
+      "strategy": "hybrid",
+      "reason": "many_drawings(40)"
+    },
+    {
+      "page": 355,
+      "strategy": "hybrid",
+      "reason": "many_drawings(44)"
+    },
+    {
+      "page": 356,
+      "strategy": "hybrid",
+      "reason": "many_drawings(40)"
+    },
+    {
+      "page": 357,
+      "strategy": "text",
+      "reason": "text_only(chars=3261,drawings=22)"
+    },
+    {
+      "page": 358,
+      "strategy": "text",
+      "reason": "text_only(chars=3358,drawings=17)"
+    },
+    {
+      "page": 359,
+      "strategy": "hybrid",
+      "reason": "many_drawings(30)"
+    },
+    {
+      "page": 360,
+      "strategy": "hybrid",
+      "reason": "many_drawings(43)"
+    },
+    {
+      "page": 361,
+      "strategy": "hybrid",
+      "reason": "many_drawings(53)"
+    },
+    {
+      "page": 362,
+      "strategy": "hybrid",
+      "reason": "many_drawings(42)"
+    },
+    {
+      "page": 363,
+      "strategy": "text",
+      "reason": "text_only(chars=2882,drawings=0)"
+    },
+    {
+      "page": 364,
+      "strategy": "text",
+      "reason": "text_only(chars=3045,drawings=16)"
+    },
+    {
+      "page": 365,
+      "strategy": "text",
+      "reason": "text_only(chars=2929,drawings=29)"
+    },
+    {
+      "page": 366,
+      "strategy": "hybrid",
+      "reason": "many_drawings(35)"
+    },
+    {
+      "page": 367,
+      "strategy": "text",
+      "reason": "text_only(chars=394,drawings=0)"
+    },
+    {
+      "page": 368,
+      "strategy": "hybrid",
+      "reason": "many_drawings(42)"
+    },
+    {
+      "page": 369,
+      "strategy": "hybrid",
+      "reason": "many_drawings(60)"
+    },
+    {
+      "page": 370,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 371,
+      "strategy": "hybrid",
+      "reason": "many_drawings(45)"
+    },
+    {
+      "page": 372,
+      "strategy": "hybrid",
+      "reason": "many_drawings(38)"
+    },
+    {
+      "page": 373,
+      "strategy": "hybrid",
+      "reason": "many_drawings(43)"
+    },
+    {
+      "page": 374,
+      "strategy": "hybrid",
+      "reason": "many_drawings(65)"
+    },
+    {
+      "page": 375,
+      "strategy": "hybrid",
+      "reason": "many_drawings(33)"
+    },
+    {
+      "page": 376,
+      "strategy": "text",
+      "reason": "text_only(chars=4361,drawings=0)"
+    },
+    {
+      "page": 377,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 378,
+      "strategy": "hybrid",
+      "reason": "many_drawings(42)"
+    },
+    {
+      "page": 379,
+      "strategy": "hybrid",
+      "reason": "many_drawings(34)"
+    },
+    {
+      "page": 380,
+      "strategy": "hybrid",
+      "reason": "many_drawings(52)"
+    },
+    {
+      "page": 381,
+      "strategy": "text",
+      "reason": "text_only(chars=1472,drawings=23)"
+    },
+    {
+      "page": 382,
+      "strategy": "text",
+      "reason": "text_only(chars=1538,drawings=15)"
+    },
+    {
+      "page": 383,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 384,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 385,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 386,
+      "strategy": "hybrid",
+      "reason": "many_drawings(39)"
+    },
+    {
+      "page": 387,
+      "strategy": "hybrid",
+      "reason": "many_drawings(48)"
+    },
+    {
+      "page": 388,
+      "strategy": "text",
+      "reason": "text_only(chars=1375,drawings=16)"
+    },
+    {
+      "page": 389,
+      "strategy": "hybrid",
+      "reason": "many_drawings(46)"
+    },
+    {
+      "page": 390,
+      "strategy": "hybrid",
+      "reason": "many_drawings(34)"
+    },
+    {
+      "page": 391,
+      "strategy": "hybrid",
+      "reason": "many_drawings(32)"
+    },
+    {
+      "page": 392,
+      "strategy": "hybrid",
+      "reason": "many_drawings(35)"
+    },
+    {
+      "page": 393,
+      "strategy": "hybrid",
+      "reason": "many_drawings(56)"
+    },
+    {
+      "page": 394,
+      "strategy": "hybrid",
+      "reason": "many_drawings(40)"
+    },
+    {
+      "page": 395,
+      "strategy": "hybrid",
+      "reason": "many_drawings(30)"
+    },
+    {
+      "page": 396,
+      "strategy": "text",
+      "reason": "text_only(chars=2844,drawings=26)"
+    },
+    {
+      "page": 397,
+      "strategy": "hybrid",
+      "reason": "many_drawings(31)"
+    },
+    {
+      "page": 398,
+      "strategy": "hybrid",
+      "reason": "many_drawings(37)"
+    },
+    {
+      "page": 399,
+      "strategy": "text",
+      "reason": "text_only(chars=1401,drawings=0)"
+    },
+    {
+      "page": 400,
+      "strategy": "text",
+      "reason": "text_only(chars=1133,drawings=0)"
+    },
+    {
+      "page": 401,
+      "strategy": "text",
+      "reason": "text_only(chars=1542,drawings=15)"
+    },
+    {
+      "page": 402,
+      "strategy": "text",
+      "reason": "text_only(chars=2522,drawings=0)"
+    },
+    {
+      "page": 403,
+      "strategy": "text",
+      "reason": "text_only(chars=2356,drawings=0)"
+    },
+    {
+      "page": 404,
+      "strategy": "text",
+      "reason": "text_only(chars=2862,drawings=0)"
+    },
+    {
+      "page": 405,
+      "strategy": "text",
+      "reason": "text_only(chars=1688,drawings=0)"
+    },
+    {
+      "page": 406,
+      "strategy": "text",
+      "reason": "text_only(chars=3439,drawings=0)"
+    },
+    {
+      "page": 407,
+      "strategy": "text",
+      "reason": "text_only(chars=2700,drawings=0)"
+    },
+    {
+      "page": 408,
+      "strategy": "text",
+      "reason": "text_only(chars=2179,drawings=18)"
+    },
+    {
+      "page": 409,
+      "strategy": "text",
+      "reason": "text_only(chars=1729,drawings=20)"
+    },
+    {
+      "page": 410,
+      "strategy": "text",
+      "reason": "text_only(chars=2223,drawings=18)"
+    },
+    {
+      "page": 411,
+      "strategy": "text",
+      "reason": "text_only(chars=1891,drawings=18)"
+    },
+    {
+      "page": 412,
+      "strategy": "text",
+      "reason": "text_only(chars=1218,drawings=18)"
+    },
+    {
+      "page": 413,
+      "strategy": "text",
+      "reason": "text_only(chars=1944,drawings=18)"
+    },
+    {
+      "page": 414,
+      "strategy": "text",
+      "reason": "text_only(chars=1398,drawings=18)"
+    },
+    {
+      "page": 415,
+      "strategy": "text",
+      "reason": "text_only(chars=2248,drawings=18)"
+    },
+    {
+      "page": 416,
+      "strategy": "text",
+      "reason": "text_only(chars=2255,drawings=19)"
+    },
+    {
+      "page": 417,
+      "strategy": "text",
+      "reason": "text_only(chars=1623,drawings=19)"
+    },
+    {
+      "page": 418,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 419,
+      "strategy": "hybrid",
+      "reason": "many_drawings(65)"
+    },
+    {
+      "page": 420,
+      "strategy": "hybrid",
+      "reason": "many_drawings(40)"
+    },
+    {
+      "page": 421,
+      "strategy": "hybrid",
+      "reason": "many_drawings(68)"
+    },
+    {
+      "page": 422,
+      "strategy": "text",
+      "reason": "text_only(chars=2543,drawings=0)"
+    },
+    {
+      "page": 423,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 424,
+      "strategy": "hybrid",
+      "reason": "many_drawings(63)"
+    },
+    {
+      "page": 425,
+      "strategy": "hybrid",
+      "reason": "many_drawings(54)"
+    },
+    {
+      "page": 426,
+      "strategy": "text",
+      "reason": "text_only(chars=943,drawings=17)"
+    },
+    {
+      "page": 427,
+      "strategy": "hybrid",
+      "reason": "many_drawings(52)"
+    },
+    {
+      "page": 428,
+      "strategy": "text",
+      "reason": "text_only(chars=2251,drawings=21)"
+    },
+    {
+      "page": 429,
+      "strategy": "hybrid",
+      "reason": "many_drawings(51)"
+    },
+    {
+      "page": 430,
+      "strategy": "text",
+      "reason": "text_only(chars=2474,drawings=22)"
+    },
+    {
+      "page": 431,
+      "strategy": "text",
+      "reason": "text_only(chars=2550,drawings=0)"
+    },
+    {
+      "page": 432,
+      "strategy": "text",
+      "reason": "text_only(chars=2232,drawings=0)"
+    },
+    {
+      "page": 433,
+      "strategy": "text",
+      "reason": "text_only(chars=2258,drawings=17)"
+    },
+    {
+      "page": 434,
+      "strategy": "text",
+      "reason": "text_only(chars=2255,drawings=13)"
+    },
+    {
+      "page": 435,
+      "strategy": "hybrid",
+      "reason": "many_drawings(36)"
+    },
+    {
+      "page": 436,
+      "strategy": "text",
+      "reason": "text_only(chars=1565,drawings=22)"
+    },
+    {
+      "page": 437,
+      "strategy": "text",
+      "reason": "text_only(chars=2044,drawings=0)"
+    },
+    {
+      "page": 438,
+      "strategy": "text",
+      "reason": "text_only(chars=308,drawings=0)"
+    },
+    {
+      "page": 439,
+      "strategy": "text",
+      "reason": "text_only(chars=3301,drawings=0)"
+    },
+    {
+      "page": 440,
+      "strategy": "text",
+      "reason": "text_only(chars=2418,drawings=0)"
+    },
+    {
+      "page": 441,
+      "strategy": "text",
+      "reason": "text_only(chars=298,drawings=0)"
+    },
+    {
+      "page": 442,
+      "strategy": "text",
+      "reason": "text_only(chars=2988,drawings=0)"
+    },
+    {
+      "page": 443,
+      "strategy": "text",
+      "reason": "text_only(chars=3596,drawings=0)"
+    },
+    {
+      "page": 444,
+      "strategy": "text",
+      "reason": "text_only(chars=3080,drawings=0)"
+    },
+    {
+      "page": 445,
+      "strategy": "text",
+      "reason": "text_only(chars=3056,drawings=0)"
+    },
+    {
+      "page": 446,
+      "strategy": "text",
+      "reason": "text_only(chars=1413,drawings=0)"
+    }
+  ],
+  "needs_redo": [
+    {
+      "page": 31,
+      "reason": "too_short"
+    }
+  ],
+  "needs_vision_desc": [],
+  "chapter_files": [
+    {
+      "filename": "01_points_of_contact.md",
+      "title": "Points of contact",
+      "page_range": "2-2",
+      "size_kb": 1.0
+    },
+    {
+      "filename": "02_abstract.md",
+      "title": "Abstract",
+      "page_range": "3-4",
+      "size_kb": 3.6
+    },
+    {
+      "filename": "03_revision_history.md",
+      "title": "Revision History",
+      "page_range": "5-10",
+      "size_kb": 9.3
+    },
+    {
+      "filename": "04_contents.md",
+      "title": "Contents",
+      "page_range": "11-22",
+      "size_kb": 82.4
+    },
+    {
+      "filename": "05_tables.md",
+      "title": "Tables",
+      "page_range": "23-30",
+      "size_kb": 48.7
+    },
+    {
+      "filename": "06_scsi_standards_family.md",
+      "title": "SCSI standards family",
+      "page_range": "31-33",
+      "size_kb": 4.7
+    },
+    {
+      "filename": "07_3_definitions_symbols_abbreviations_keywords_and_conventions.md",
+      "title": "3 Definitions, symbols, abbreviations, keywords, and conventions Introduction",
+      "page_range": "34-52",
+      "size_kb": 37.6
+    },
+    {
+      "filename": "08_46_physical_blocks.md",
+      "title": "4.6 Physical blocks",
+      "page_range": "53-56",
+      "size_kb": 9.0
+    },
+    {
+      "filename": "09_47_logical_block_provisioning.md",
+      "title": "4.7 Logical block provisioning",
+      "page_range": "57-73",
+      "size_kb": 44.9
+    },
+    {
+      "filename": "10_411_sanitize_operations.md",
+      "title": "4.11 Sanitize operations",
+      "page_range": "74-76",
+      "size_kb": 9.8
+    },
+    {
+      "filename": "11_413_medium_defects.md",
+      "title": "4.13 Medium defects",
+      "page_range": "77-79",
+      "size_kb": 9.2
+    },
+    {
+      "filename": "12_415_caches.md",
+      "title": "4.15 Caches",
+      "page_range": "80-83",
+      "size_kb": 12.8
+    },
+    {
+      "filename": "13_417_reservations.md",
+      "title": "4.17 Reservations",
+      "page_range": "84-85",
+      "size_kb": 4.9
+    },
+    {
+      "filename": "14_418_error_reporting.md",
+      "title": "4.18 Error reporting",
+      "page_range": "86-92",
+      "size_kb": 12.2
+    },
+    {
+      "filename": "15_419_rebuild_assist_mode.md",
+      "title": "4.19 Rebuild assist mode",
+      "page_range": "93-95",
+      "size_kb": 10.1
+    },
+    {
+      "filename": "16_420_start_stop_unit_and_power_conditions.md",
+      "title": "4.20 START STOP UNIT and power conditions",
+      "page_range": "96-107",
+      "size_kb": 27.6
+    },
+    {
+      "filename": "17_421_protection_information_model.md",
+      "title": "4.21 Protection information model",
+      "page_range": "108-118",
+      "size_kb": 23.9
+    },
+    {
+      "filename": "18_423_background_scan_operations.md",
+      "title": "4.23 Background scan operations",
+      "page_range": "119-123",
+      "size_kb": 14.7
+    },
+    {
+      "filename": "19_426_referrals.md",
+      "title": "4.26 Referrals",
+      "page_range": "124-126",
+      "size_kb": 8.1
+    },
+    {
+      "filename": "20_427_orwrite_commands.md",
+      "title": "4.27 ORWRITE commands",
+      "page_range": "127-129",
+      "size_kb": 8.2
+    },
+    {
+      "filename": "21_428_block_device_rod_token_operations.md",
+      "title": "4.28 Block device ROD token operations",
+      "page_range": "130-132",
+      "size_kb": 8.5
+    },
+    {
+      "filename": "22_429_atomic_writes.md",
+      "title": "4.29 Atomic writes",
+      "page_range": "133-135",
+      "size_kb": 10.1
+    },
+    {
+      "filename": "23_431_background_operation_control.md",
+      "title": "4.31 Background operation control",
+      "page_range": "136-137",
+      "size_kb": 7.4
+    },
+    {
+      "filename": "24_432_stream_control.md",
+      "title": "4.32 Stream control",
+      "page_range": "138-139",
+      "size_kb": 5.3
+    },
+    {
+      "filename": "25_433_format_operations.md",
+      "title": "4.33 Format operations",
+      "page_range": "140-143",
+      "size_kb": 10.6
+    },
+    {
+      "filename": "26_435_scattered_writes.md",
+      "title": "4.35 Scattered writes",
+      "page_range": "144-146",
+      "size_kb": 5.5
+    },
+    {
+      "filename": "27_436_storage_element_depopulation_and_restoration.md",
+      "title": "4.36 Storage element depopulation and restoration",
+      "page_range": "147-151",
+      "size_kb": 13.5
+    },
+    {
+      "filename": "28_5_commands_for_direct_access_block_devices.md",
+      "title": "5 Commands for direct access block devices",
+      "page_range": "152-156",
+      "size_kb": 7.8
+    },
+    {
+      "filename": "29_53_compare_and_write_command.md",
+      "title": "5.3 COMPARE AND WRITE command",
+      "page_range": "157-158",
+      "size_kb": 5.3
+    },
+    {
+      "filename": "30_54_format_unit_command.md",
+      "title": "5.4 FORMAT UNIT command",
+      "page_range": "159-166",
+      "size_kb": 19.5
+    },
+    {
+      "filename": "31_55_format_with_preset_command.md",
+      "title": "5.5 FORMAT WITH PRESET command",
+      "page_range": "167-168",
+      "size_kb": 5.4
+    },
+    {
+      "filename": "32_56_get_lba_status_16_command.md",
+      "title": "5.6 GET LBA STATUS (16) command",
+      "page_range": "169-172",
+      "size_kb": 6.7
+    },
+    {
+      "filename": "33_57_get_lba_status_32_command.md",
+      "title": "5.7 GET LBA STATUS (32) command",
+      "page_range": "173-174",
+      "size_kb": 3.6
+    },
+    {
+      "filename": "34_58_get_physical_element_status_command.md",
+      "title": "5.8 GET PHYSICAL ELEMENT STATUS command",
+      "page_range": "175-178",
+      "size_kb": 5.7
+    },
+    {
+      "filename": "35_59_get_stream_status_command.md",
+      "title": "5.9 GET STREAM STATUS command",
+      "page_range": "179-181",
+      "size_kb": 4.2
+    },
+    {
+      "filename": "36_510_orwrite_16_command.md",
+      "title": "5.10 ORWRITE (16) command",
+      "page_range": "182-188",
+      "size_kb": 13.3
+    },
+    {
+      "filename": "37_511_orwrite_32_command.md",
+      "title": "5.11 ORWRITE (32) command",
+      "page_range": "189-190",
+      "size_kb": 2.4
+    },
+    {
+      "filename": "38_512_populate_token_command.md",
+      "title": "5.12 POPULATE TOKEN command",
+      "page_range": "191-197",
+      "size_kb": 15.9
+    },
+    {
+      "filename": "39_516_read_10_command.md",
+      "title": "5.16 READ (10) command",
+      "page_range": "198-201",
+      "size_kb": 7.7
+    },
+    {
+      "filename": "40_517_read_12_command.md",
+      "title": "5.17 READ (12) command",
+      "page_range": "202-205",
+      "size_kb": 6.2
+    },
+    {
+      "filename": "41_520_read_capacity_10_command.md",
+      "title": "5.20 READ CAPACITY (10) command",
+      "page_range": "206-207",
+      "size_kb": 4.0
+    },
+    {
+      "filename": "42_521_read_capacity_16_command.md",
+      "title": "5.21 READ CAPACITY (16) command",
+      "page_range": "208-209",
+      "size_kb": 2.6
+    },
+    {
+      "filename": "43_522_read_defect_data_10_command.md",
+      "title": "5.22 READ DEFECT DATA (10) command",
+      "page_range": "210-211",
+      "size_kb": 4.7
+    },
+    {
+      "filename": "44_523_read_defect_data_12_command.md",
+      "title": "5.23 READ DEFECT DATA (12) command",
+      "page_range": "212-214",
+      "size_kb": 5.0
+    },
+    {
+      "filename": "45_524_reassign_blocks_command.md",
+      "title": "5.24 REASSIGN BLOCKS command",
+      "page_range": "215-218",
+      "size_kb": 7.4
+    },
+    {
+      "filename": "46_525_receive_rod_token_information.md",
+      "title": "5.25 RECEIVE ROD TOKEN INFORMATION",
+      "page_range": "219-223",
+      "size_kb": 7.6
+    },
+    {
+      "filename": "47_528_report_referrals_command.md",
+      "title": "5.28 REPORT REFERRALS command",
+      "page_range": "224-225",
+      "size_kb": 3.8
+    },
+    {
+      "filename": "48_529_restore_elements_and_rebuild_command.md",
+      "title": "5.29 RESTORE ELEMENTS AND REBUILD command",
+      "page_range": "226-227",
+      "size_kb": 2.4
+    },
+    {
+      "filename": "49_530_sanitize_command.md",
+      "title": "5.30 SANITIZE command",
+      "page_range": "228-231",
+      "size_kb": 10.3
+    },
+    {
+      "filename": "50_531_start_stop_unit_command.md",
+      "title": "5.31 START STOP UNIT command",
+      "page_range": "232-234",
+      "size_kb": 8.6
+    },
+    {
+      "filename": "51_532_stream_control_command.md",
+      "title": "5.32 STREAM CONTROL command",
+      "page_range": "235-236",
+      "size_kb": 3.0
+    },
+    {
+      "filename": "52_533_synchronize_cache_10_command.md",
+      "title": "5.33 SYNCHRONIZE CACHE (10) command",
+      "page_range": "237-239",
+      "size_kb": 4.1
+    },
+    {
+      "filename": "53_535_unmap_command.md",
+      "title": "5.35 UNMAP command",
+      "page_range": "240-241",
+      "size_kb": 4.0
+    },
+    {
+      "filename": "54_536_verify_10_command.md",
+      "title": "5.36 VERIFY (10) command",
+      "page_range": "242-258",
+      "size_kb": 30.8
+    },
+    {
+      "filename": "55_540_write_10_command.md",
+      "title": "5.40 WRITE (10) command",
+      "page_range": "259-272",
+      "size_kb": 24.4
+    },
+    {
+      "filename": "56_552_write_same_10_command.md",
+      "title": "5.52 WRITE SAME (10) command",
+      "page_range": "273-276",
+      "size_kb": 8.4
+    },
+    {
+      "filename": "57_554_write_same_32_command.md",
+      "title": "5.54 WRITE SAME (32) command",
+      "page_range": "277-278",
+      "size_kb": 3.2
+    },
+    {
+      "filename": "58_555_write_scattered_16_command.md",
+      "title": "5.55 WRITE SCATTERED (16) command",
+      "page_range": "279-282",
+      "size_kb": 8.1
+    },
+    {
+      "filename": "59_556_write_scattered_32_command.md",
+      "title": "5.56 WRITE SCATTERED (32) command",
+      "page_range": "283-285",
+      "size_kb": 3.1
+    },
+    {
+      "filename": "60_558_write_stream_32_command.md",
+      "title": "5.58 WRITE STREAM (32) command",
+      "page_range": "286-287",
+      "size_kb": 1.9
+    },
+    {
+      "filename": "61_559_write_using_token_command.md",
+      "title": "5.59 WRITE USING TOKEN command",
+      "page_range": "288-291",
+      "size_kb": 9.7
+    },
+    {
+      "filename": "62_6_parameters_for_direct_access_block_devices.md",
+      "title": "6 Parameters for direct access block devices",
+      "page_range": "292-297",
+      "size_kb": 11.5
+    },
+    {
+      "filename": "63_63_diagnostic_parameters.md",
+      "title": "6.3 Diagnostic parameters",
+      "page_range": "298-302",
+      "size_kb": 10.1
+    },
+    {
+      "filename": "64_64_log_parameters.md",
+      "title": "6.4 Log parameters",
+      "page_range": "303-339",
+      "size_kb": 60.7
+    },
+    {
+      "filename": "65_65_mode_parameters.md",
+      "title": "6.5 Mode parameters",
+      "page_range": "340-368",
+      "size_kb": 73.6
+    },
+    {
+      "filename": "66_66_vital_product_data_vpd_parameters.md",
+      "title": "6.6 Vital product data (VPD) parameters",
+      "page_range": "369-392",
+      "size_kb": 46.9
+    },
+    {
+      "filename": "67_68_logical_block_markup_descriptors.md",
+      "title": "6.8 Logical block markup descriptors",
+      "page_range": "393-398",
+      "size_kb": 11.4
+    },
+    {
+      "filename": "68_numeric_order_codes.md",
+      "title": "Numeric order codes",
+      "page_range": "398-400",
+      "size_kb": 3.4
+    },
+    {
+      "filename": "69_crc_example_in_c.md",
+      "title": "CRC example in C",
+      "page_range": "400-403",
+      "size_kb": 6.5
+    },
+    {
+      "filename": "70_optimizing_block_access_characteristics.md",
+      "title": "Optimizing block access characteristics",
+      "page_range": "403-407",
+      "size_kb": 12.6
+    },
+    {
+      "filename": "71_logical_block_provisioning_reporting_examples.md",
+      "title": "Logical block provisioning reporting examples",
+      "page_range": "407-419",
+      "size_kb": 25.4
+    },
+    {
+      "filename": "72_discovering_referrals_examples.md",
+      "title": "Discovering referrals examples",
+      "page_range": "419-423",
+      "size_kb": 7.7
+    },
+    {
+      "filename": "73_io_advice_hints_usage.md",
+      "title": "IO advice hints usage",
+      "page_range": "423-427",
+      "size_kb": 9.7
+    },
+    {
+      "filename": "74_sbc_feature_sets.md",
+      "title": "SBC feature sets",
+      "page_range": "427-441",
+      "size_kb": 27.8
+    },
+    {
+      "filename": "75_rebuild_assist_using_the_get_lba_status_command.md",
+      "title": "Rebuild assist using the GET LBA STATUS command",
+      "page_range": "441-443",
+      "size_kb": 5.6
+    },
+    {
+      "filename": "76_direct_access_block_devices_with_shared_resources.md",
+      "title": "Direct access block devices with shared resources",
+      "page_range": "443-447",
+      "size_kb": 13.9
+    }
+  ],
+  "descriptions": [
+    {
+      "file": "01_points_of_contact.md",
+      "title": "Points of contact",
+      "description": "列出 INCITS T10 技術委員會的聯絡資訊，包含 T10 Chair、Vice-Chair、秘書處地址、郵件反映器與標準購買管道。屬於行政資訊頁，對 RAG 查詢標準制定單位、聯絡窗口或提交 proposal 的流程時有用。",
+      "keywords": [
+        "incits",
+        "t10-committee",
+        "contacts",
+        "secretariat",
+        "standards-body"
+      ],
+      "page_range": "2-2"
+    },
+    {
+      "file": "02_abstract.md",
+      "title": "Abstract",
+      "description": "SBC-4 規格摘要：定義 SCSI Block Commands - 4 的功能需求，允許 rigid disk 等 SCSI block 邏輯單元連接電腦並提供使用定義。與 SBC-3 (INCITS 514-2014) 保持高度相容。包含 ANSI 正式核准說明、版權聲明與專利告知。",
+      "keywords": [
+        "sbc-4",
+        "abstract",
+        "ansi-approval",
+        "backward-compatibility",
+        "sbc-3",
+        "logical-unit"
+      ],
+      "page_range": "3-4"
+    },
+    {
+      "file": "03_revision_history.md",
+      "title": "Revision History",
+      "description": "SBC-4 從 Revision 0 (2014-02) 到 Revision 22 的全部修訂紀錄，逐版列出被合併的 proposal 編號與變更內容，包含 WRITE SAME、SANITIZE、unmap、zoned block、protection information 等關鍵功能的演進。查「某個功能什麼時候加入」時查這裡。",
+      "keywords": [
+        "revision-history",
+        "change-log",
+        "sbc-4-proposals",
+        "version-tracking",
+        "working-group"
+      ],
+      "page_range": "5-10"
+    },
+    {
+      "file": "04_contents.md",
+      "title": "Contents",
+      "description": "SBC-4 文件目錄，依章節編號列出所有 clause、subclause 的標題與頁碼，涵蓋 scope、definitions、direct access block device model、命令定義、mode/log pages、VPD pages 等全部主題。可作為全書導覽索引。",
+      "keywords": [
+        "table-of-contents",
+        "index",
+        "clause-listing",
+        "navigation"
+      ],
+      "page_range": "11-22"
+    },
+    {
+      "file": "05_tables.md",
+      "title": "Tables",
+      "description": "SBC-4 全文件的表格清單索引，列出所有表格編號、標題與所在頁碼。適合快速查找特定資料格式表格（例如 CDB 欄位表、sense code 表、VPD page 格式表）的位置。",
+      "keywords": [
+        "table-index",
+        "list-of-tables",
+        "navigation",
+        "figures-reference"
+      ],
+      "page_range": "23-30"
+    },
+    {
+      "file": "06_scsi_standards_family.md",
+      "title": "SCSI standards family",
+      "description": "說明 SBC-4 在整個 SCSI 標準家族中的定位，包含 SAM-6 架構模型、SPC-6 共用命令集、Device-type 特定命令集 (如 MMC-6、ZBC、SSC)、transport protocols (SPL、FCP) 與 interconnects (SAS、Fibre Channel) 的層級關係。Clause 1 Scope 與 Clause 2 Normative references 也在此章。",
+      "keywords": [
+        "scsi-architecture",
+        "sam-6",
+        "spc-6",
+        "standards-hierarchy",
+        "normative-references",
+        "scope"
+      ],
+      "page_range": "31-33"
+    },
+    {
+      "file": "07_3_definitions_symbols_abbreviations_keywords_and_conventions.md",
+      "title": "Definitions, symbols, abbreviations, keywords, and conventions",
+      "description": "SBC-4 用到的所有術語定義（atomic write、LBA、CDB、logical block、protection information 等百餘個）、符號、縮寫、關鍵字（shall/should/may）與編輯/數字/狀態機表示慣例。查技術名詞含意時首選此章。",
+      "keywords": [
+        "definitions",
+        "terminology",
+        "glossary",
+        "conventions",
+        "keywords",
+        "state-machine-notation"
+      ],
+      "page_range": "34-52"
+    },
+    {
+      "file": "08_46_physical_blocks.md",
+      "title": "4.6 Physical blocks",
+      "description": "描述 physical block 與 logical block 的關係，說明 SBC-4 如何處理 512e/4Kn 等 512-byte logical block 對應 4096-byte physical block 的 alignment、offset 與 performance 影響。在做 advanced format 硬碟或做對齊分析時參考此章。",
+      "keywords": [
+        "physical-block",
+        "logical-block",
+        "advanced-format",
+        "alignment",
+        "512e",
+        "4kn"
+      ],
+      "page_range": "53-56"
+    },
+    {
+      "file": "09_47_logical_block_provisioning.md",
+      "title": "4.7 Logical block provisioning",
+      "description": "SBC-4 thin provisioning 模型核心章節。定義 mapped / deallocated / anchored 三種 LBA 狀態、unmap 操作、WRITE SAME 觸發 unmap 的條件、LBPRZ（deallocated 讀回零）行為、與 Logical Block Provisioning VPD/log pages。做 TRIM、thin-provisioned SSD、或 storage array 時最常參考。",
+      "keywords": [
+        "thin-provisioning",
+        "unmap",
+        "deallocated",
+        "anchored",
+        "lbprz",
+        "trim"
+      ],
+      "page_range": "57-73"
+    },
+    {
+      "file": "10_411_sanitize_operations.md",
+      "title": "4.11 Sanitize operations",
+      "description": "Sanitize（安全清除）功能模型，定義 overwrite、block erase、crypto erase、exit failure mode 四種服務動作的語意，以及 sanitize 期間裝置的行為限制（disallow I/O、AUSE 旗標、失敗恢復）。合規需求如 NIST 800-88 purge 對應 SCSI 實作時查此章。",
+      "keywords": [
+        "sanitize",
+        "secure-erase",
+        "crypto-erase",
+        "block-erase",
+        "overwrite",
+        "data-destruction"
+      ],
+      "page_range": "74-76"
+    },
+    {
+      "file": "11_413_medium_defects.md",
+      "title": "4.13 Medium defects",
+      "description": "定義 primary defect list (PLIST)、grown defect list (GLIST)、certified list (CLIST) 的概念、REASSIGN BLOCKS 的 remapping 機制、以及 automatic/manual read/write reassignment 的行為。做硬碟壞軌處理、defect 統計分析或 RAID 重建診斷時用此章。",
+      "keywords": [
+        "defect-list",
+        "plist",
+        "glist",
+        "reassign-blocks",
+        "bad-sector",
+        "remapping"
+      ],
+      "page_range": "77-79"
+    },
+    {
+      "file": "12_415_caches.md",
+      "title": "4.15 Caches",
+      "description": "定義 logical unit 的 read cache、write cache 行為、FUA (Force Unit Access) 位元對 cache bypass 的影響、SYNCHRONIZE CACHE 命令的語意、以及 cache 與 volatile/non-volatile 儲存的關係。效能調校（WCE mode page、write-back vs write-through）與資料一致性相關問題看此章。",
+      "keywords": [
+        "cache",
+        "write-cache",
+        "read-cache",
+        "fua",
+        "synchronize-cache",
+        "wce"
+      ],
+      "page_range": "80-83"
+    },
+    {
+      "file": "13_417_reservations.md",
+      "title": "4.17 Reservations",
+      "description": "SBC-4 對 persistent reservations 的特定補充（主體定義在 SPC-6），說明在 direct access block device 上 reservation hold 時哪些命令被 allowed / conflict。做 cluster shared storage、failover、I/O fencing 時用此章確認命令行為。",
+      "keywords": [
+        "persistent-reservation",
+        "i-o-fencing",
+        "cluster-storage",
+        "reservation-conflict"
+      ],
+      "page_range": "84-85"
+    },
+    {
+      "file": "14_418_error_reporting.md",
+      "title": "4.18 Error reporting",
+      "description": "block device 特有的錯誤回報機制：sense key、additional sense code (ASC/ASCQ) 組合、INFORMATION field 用法（存 LBA）、deferred error 的處理、以及 error recovery flags (PER、DCR、DTE) 的行為。debug SCSI 錯誤時第一站。",
+      "keywords": [
+        "sense-data",
+        "asc-ascq",
+        "deferred-error",
+        "error-recovery",
+        "per",
+        "dte"
+      ],
+      "page_range": "86-92"
+    },
+    {
+      "file": "15_419_rebuild_assist_mode.md",
+      "title": "4.19 Rebuild assist mode",
+      "description": "定義 rebuild assist mode — 當 RAID array 重建時，device 回報「哪些 LBA 尚有可讀性」讓 RAID controller 只重建必要的範圍，加速重建並避免 read hard errors 干擾。配合 GET LBA STATUS 使用。做 RAID controller、storage array 或 proactive failure handling 時用此章。",
+      "keywords": [
+        "rebuild-assist",
+        "raid-rebuild",
+        "get-lba-status",
+        "read-hard-error",
+        "proactive-failure"
+      ],
+      "page_range": "93-95"
+    },
+    {
+      "file": "16_420_start_stop_unit_and_power_conditions.md",
+      "title": "4.20 START STOP UNIT and power conditions",
+      "description": "SBC-4 電源管理狀態機：定義 Active、Idle_a / Idle_b、Standby_y / Standby_z、Stopped 等狀態、對應的計時器與 transition 條件，以及 START STOP UNIT 命令與 Power Condition mode page 的互動。做省電策略、drive spin-up/spin-down、PCIe PM 整合時必看。",
+      "keywords": [
+        "power-conditions",
+        "start-stop-unit",
+        "idle",
+        "standby",
+        "power-management",
+        "spin-up"
+      ],
+      "page_range": "96-107"
+    },
+    {
+      "file": "17_421_protection_information_model.md",
+      "title": "4.21 Protection information model",
+      "description": "T10 PI (Protection Information / DIF) 完整模型：每個 logical block 附 8 bytes 的 guard (CRC)、application tag、reference tag，定義 Type 1/2/3 的差異、CHECK 欄位行為、PI interval、以及 end-to-end data integrity 的保護範圍。做 enterprise storage、PI-capable HBA、DIX 整合時核心參考。",
+      "keywords": [
+        "protection-information",
+        "t10-pi",
+        "dif",
+        "dix",
+        "data-integrity",
+        "guard-tag",
+        "crc"
+      ],
+      "page_range": "108-118"
+    },
+    {
+      "file": "18_423_background_scan_operations.md",
+      "title": "4.23 Background scan operations",
+      "description": "背景媒體巡檢機制：device 在閒置時自動 scan 整個 medium 尋找潛在 grown defect，並把結果寫入 Background Scan Results log page。搭配 Background Control mode page 設定 scan 行為。做 proactive disk health、predictive failure 分析或實作 DST (drive self-test) 整合時用此章。",
+      "keywords": [
+        "background-scan",
+        "media-scan",
+        "proactive-health",
+        "background-scan-log",
+        "dst"
+      ],
+      "page_range": "119-123"
+    },
+    {
+      "file": "19_426_referrals.md",
+      "title": "4.26 Referrals",
+      "description": "Referrals 機制允許 logical unit 把 LBA 範圍的實際資料位置「轉介」到另一個 target port 或 logical unit，給多路徑、分層式 storage 使用。定義 user data segment、segment multiplier、referral sense code 行為。實作 virtualised storage、thin fabric 時會用到。",
+      "keywords": [
+        "referrals",
+        "data-location",
+        "user-data-segment",
+        "multipath",
+        "virtual-storage"
+      ],
+      "page_range": "124-126"
+    },
+    {
+      "file": "20_427_orwrite_commands.md",
+      "title": "4.27 ORWRITE commands",
+      "description": "ORWRITE (16/32) 命令模型：把 Data-Out Buffer 的位元與 medium 上既有資料做 bitwise OR 後寫回，可用於合併 bitmap、無鎖更新旗標欄位等情境。搭配 expected initial logical block reference tag 驗證。適合 cluster 檔案系統或 dedup metadata 維護。",
+      "keywords": [
+        "orwrite",
+        "bitwise-or",
+        "atomic-bit-set",
+        "bitmap-merge"
+      ],
+      "page_range": "127-129"
+    },
+    {
+      "file": "21_428_block_device_rod_token_operations.md",
+      "title": "4.28 Block device ROD token operations",
+      "description": "ROD (Representation of Data) token 子模型：block-device 如何建立 / 使用 ROD token 做 offloaded 資料搬移，包含 POPULATE TOKEN 與 WRITE USING TOKEN 的交互、token 存活期、inactivate 規則。Windows ODX / VMware XCOPY lite 的底層 SCSI 定義。",
+      "keywords": [
+        "rod-token",
+        "odx",
+        "offloaded-copy",
+        "populate-token",
+        "xcopy",
+        "token-lifecycle"
+      ],
+      "page_range": "130-132"
+    },
+    {
+      "file": "22_429_atomic_writes.md",
+      "title": "4.29 Atomic writes",
+      "description": "Atomic write 模型：定義 maximum atomic transfer length、atomic alignment / granularity / boundary、atomic transfer length granularity 規則，以及單一命令內 all-or-nothing 寫入的保證。資料庫引擎（InnoDB、Postgres）與 journaling 檔案系統參考此章。",
+      "keywords": [
+        "atomic-write",
+        "all-or-nothing",
+        "atomic-boundary",
+        "database",
+        "torn-write"
+      ],
+      "page_range": "133-135"
+    },
+    {
+      "file": "23_431_background_operation_control.md",
+      "title": "4.31 Background operation control",
+      "description": "Advanced background operations（例如 SSD garbage collection、wear leveling）的控制機制：透過 Background Operation Control mode page 啟用 / 暫停 / 查詢狀態，並由 Background Operation log page 回報進度。實作 host-controlled background tasks 時使用。",
+      "keywords": [
+        "advanced-background-operation",
+        "garbage-collection",
+        "wear-leveling",
+        "background-control-mode-page"
+      ],
+      "page_range": "136-137"
+    },
+    {
+      "file": "24_432_stream_control.md",
+      "title": "4.32 Stream control",
+      "description": "Multi-stream 模型：host 用 STREAM CONTROL 命令開 / 關 stream，對 WRITE 命令帶 STR_ID 欄位讓 SSD 按 stream 分群存放。降低 write amplification、延長 SSD 壽命的關鍵功能。做 tiered storage、workload-aware SSD 時必看。",
+      "keywords": [
+        "streams",
+        "multi-stream",
+        "str-id",
+        "ssd-lifetime",
+        "write-amplification",
+        "data-placement"
+      ],
+      "page_range": "138-139"
+    },
+    {
+      "file": "25_433_format_operations.md",
+      "title": "4.33 Format operations",
+      "description": "FORMAT UNIT / FORMAT WITH PRESET 命令的行為模型：format progress、cancel、failure mode、FMTDATA / IP / FMT_PINFO 欄位語意、以及如何在 format 過程中處理 defect list、logical block length、protection information。做工廠 format 或 re-provision 時核心章節。",
+      "keywords": [
+        "format-unit",
+        "format-preset",
+        "logical-block-length",
+        "fmtdata",
+        "protection-information-setup"
+      ],
+      "page_range": "140-143"
+    },
+    {
+      "file": "26_435_scattered_writes.md",
+      "title": "4.35 Scattered writes",
+      "description": "WRITE SCATTERED 命令的模型：單一命令指定多個不連續 LBA range 做 vectored write，每個 range 可獨立設 protection information，並由 LBA range descriptor 描述。適合 snapshot restore、VM disk clone 等 sparse 寫入場景。",
+      "keywords": [
+        "scattered-write",
+        "vectored-write",
+        "lba-range-descriptor",
+        "sparse-write"
+      ],
+      "page_range": "144-146"
+    },
+    {
+      "file": "27_436_storage_element_depopulation_and_restoration.md",
+      "title": "4.36 Storage element depopulation and restoration",
+      "description": "Depopulation 功能讓多碟片硬碟把部分故障的 head / platter 停用、保留剩餘容量繼續使用，避免整顆硬碟報廢。定義 REMOVE ELEMENT AND TRUNCATE / RESTORE ELEMENTS AND REBUILD 命令、depopulation revocable / persistent 狀態機。hyperscale 資料中心壽命延伸的關鍵功能。",
+      "keywords": [
+        "depopulation",
+        "remove-element",
+        "restore-elements",
+        "hyperscale",
+        "failure-recovery",
+        "multi-head-drive"
+      ],
+      "page_range": "147-151"
+    },
+    {
+      "file": "28_5_commands_for_direct_access_block_devices.md",
+      "title": "5 Commands for direct access block devices",
+      "description": "Clause 5 總述：列出 SBC-4 定義的所有命令（opcode + service action）、CDB 長度、CDB 共同欄位（LOGICAL BLOCK ADDRESS、TRANSFER LENGTH、CONTROL、GROUP NUMBER），以及命令類別（READ / WRITE / VERIFY / UNMAP / ADMIN）。查命令對照表時用此章。",
+      "keywords": [
+        "command-reference",
+        "cdb",
+        "opcode",
+        "service-action",
+        "group-number"
+      ],
+      "page_range": "152-156"
+    },
+    {
+      "file": "29_53_compare_and_write_command.md",
+      "title": "5.3 COMPARE AND WRITE command",
+      "description": "COMPARE AND WRITE (CAW, opcode 89h) 命令：先比對 Data-Out Buffer 前半與 medium 既有資料，相同才寫入後半資料，等同 SCSI 層級的 CAS (compare-and-swap)。VMware VAAI ATS (Atomic Test and Set)、cluster lock 使用。失敗會回傳 MISCOMPARE。",
+      "keywords": [
+        "compare-and-write",
+        "caw",
+        "ats",
+        "vaai",
+        "compare-and-swap",
+        "cluster-lock"
+      ],
+      "page_range": "157-158"
+    },
+    {
+      "file": "30_54_format_unit_command.md",
+      "title": "5.4 FORMAT UNIT command",
+      "description": "FORMAT UNIT (opcode 04h) 完整 CDB 與參數列表格式、FMTDATA / CMPLST / DEFECT LIST FORMAT 欄位語意、IP / PIE / PI_EXPONENT 對 protection information 的設定、long / short header 格式差異。實作 low-level format、改變 logical block length、或設定 PI Type 時用此章。",
+      "keywords": [
+        "format-unit",
+        "cdb",
+        "fmtdata",
+        "protection-information-type",
+        "defect-list-format"
+      ],
+      "page_range": "159-166"
+    },
+    {
+      "file": "31_55_format_with_preset_command.md",
+      "title": "5.5 FORMAT WITH PRESET command",
+      "description": "FORMAT WITH PRESET (opcode 38h) 命令：用 PRESET IDENTIFIER 套用預先定義的 format profile（logical block length、PI type、LBPRZ 行為等），不用手動指定所有參數。適合 device 有多組預設 configuration 的情境。",
+      "keywords": [
+        "format-with-preset",
+        "preset-identifier",
+        "format-profile",
+        "reformat"
+      ],
+      "page_range": "167-168"
+    },
+    {
+      "file": "32_56_get_lba_status_16_command.md",
+      "title": "5.6 GET LBA STATUS (16) command",
+      "description": "GET LBA STATUS (16) (opcode 9Eh / SA 12h)：回報指定 LBA 起的 provisioning 狀態（mapped / deallocated / anchored），用於 thin-provisioning 客戶端查詢實際配置情形。包含 parameter data format、PROVISIONING STATUS 欄位、COMPLETION CONDITION。",
+      "keywords": [
+        "get-lba-status",
+        "provisioning-status",
+        "mapped",
+        "deallocated",
+        "thin-provisioning-query"
+      ],
+      "page_range": "169-172"
+    },
+    {
+      "file": "33_57_get_lba_status_32_command.md",
+      "title": "5.7 GET LBA STATUS (32) command",
+      "description": "GET LBA STATUS (32) (opcode 7Fh / SA 0012h) 是 16-byte 版本的 32-byte variable-length 擴展，支援 protection information 欄位 (LBAT / LBATM / EATM) 的過濾比對。用於需要 PI 驗證的 LBA 狀態查詢。",
+      "keywords": [
+        "get-lba-status-32",
+        "variable-length-cdb",
+        "protection-information-filter"
+      ],
+      "page_range": "173-174"
+    },
+    {
+      "file": "34_58_get_physical_element_status_command.md",
+      "title": "5.8 GET PHYSICAL ELEMENT STATUS command",
+      "description": "GET PHYSICAL ELEMENT STATUS (opcode 9Eh / SA 17h)：查詢多片 HDD 內每個 physical element（head/platter）的健康狀態、已 depopulate 與否、physical element ID。搭配 depopulation 功能。",
+      "keywords": [
+        "physical-element-status",
+        "physical-element-health",
+        "depopulation-query",
+        "multi-head-drive"
+      ],
+      "page_range": "175-178"
+    },
+    {
+      "file": "35_59_get_stream_status_command.md",
+      "title": "5.9 GET STREAM STATUS command",
+      "description": "GET STREAM STATUS 命令：列出目前 logical unit 上開啟中的 stream ID 清單、每個 stream 的 status。用來在 stream 配額滿時決定該關哪個 stream、或重建 host 對 stream 的狀態。",
+      "keywords": [
+        "get-stream-status",
+        "stream-id-list",
+        "open-streams",
+        "stream-management"
+      ],
+      "page_range": "179-181"
+    },
+    {
+      "file": "36_510_orwrite_16_command.md",
+      "title": "5.10 ORWRITE (16) command",
+      "description": "ORWRITE (16) (opcode 8Bh) 的完整 CDB 欄位：LOGICAL BLOCK ADDRESS、TRANSFER LENGTH、ORPROTECT、DPO、FUA、EXPECTED ORWGENERATION、ORWGENERATION。執行 bitwise OR 與 expected generation 驗證的命令定義。",
+      "keywords": [
+        "orwrite-16",
+        "cdb",
+        "orwgeneration",
+        "bitwise-or",
+        "orprotect"
+      ],
+      "page_range": "182-188"
+    },
+    {
+      "file": "37_511_orwrite_32_command.md",
+      "title": "5.11 ORWRITE (32) command",
+      "description": "ORWRITE (32) (opcode 7Fh / SA 000Eh)：ORWRITE 的 32-byte variable-length CDB 版本，支援 PI 欄位與 expected initial reference tag 的完整比對。給需要 end-to-end PI 保護的 bit-set 操作使用。",
+      "keywords": [
+        "orwrite-32",
+        "variable-length-cdb",
+        "expected-reference-tag",
+        "pi-protected-or"
+      ],
+      "page_range": "189-190"
+    },
+    {
+      "file": "38_512_populate_token_command.md",
+      "title": "5.12 POPULATE TOKEN command",
+      "description": "POPULATE TOKEN (opcode 83h / SA 10h) 建立 ROD token 代表一組來源 LBA 範圍的資料快照。CDB 欄位、LIST IDENTIFIER、ROD TYPE、inactivation timeout、block device range descriptor 格式。後續用 WRITE USING TOKEN 實現 server-side copy。",
+      "keywords": [
+        "populate-token",
+        "rod-token-create",
+        "xcopy-source",
+        "odx",
+        "server-side-copy"
+      ],
+      "page_range": "191-197"
+    },
+    {
+      "file": "39_516_read_10_command.md",
+      "title": "5.16 READ (10) command",
+      "description": "READ (10) (opcode 28h) — 最常用的讀取命令：4-byte LBA + 2-byte TRANSFER LENGTH，CDB 包含 RDPROTECT、DPO、FUA、RARC、GROUP NUMBER 等欄位。定義 protection information check 規則、cache 行為、recovery 策略。幾乎所有 host-initiated read IO 的基礎。",
+      "keywords": [
+        "read-10",
+        "cdb",
+        "rdprotect",
+        "fua",
+        "dpo",
+        "rarc"
+      ],
+      "page_range": "198-201"
+    },
+    {
+      "file": "40_517_read_12_command.md",
+      "title": "5.17 READ (12) command",
+      "description": "READ (12) (opcode A8h)：4-byte LBA + 4-byte TRANSFER LENGTH（支援更大單命令傳輸）。欄位與 READ (10) 相同但 transfer length 上限更大。也同時介紹 READ (16) / READ (32) 的對應差異。適合大區塊讀取場景。",
+      "keywords": [
+        "read-12",
+        "read-16",
+        "read-32",
+        "large-transfer",
+        "cdb"
+      ],
+      "page_range": "202-205"
+    },
+    {
+      "file": "41_520_read_capacity_10_command.md",
+      "title": "5.20 READ CAPACITY (10) command",
+      "description": "READ CAPACITY (10) (opcode 25h)：回傳 logical unit 的最後 LBA 與 block length。受限於 32-bit LBA（2 TiB 上限）。超過則回 FFFFFFFFh 指引 host 改用 READ CAPACITY (16)。相容性命令。",
+      "keywords": [
+        "read-capacity-10",
+        "last-lba",
+        "block-length",
+        "capacity-query",
+        "32-bit-lba-limit"
+      ],
+      "page_range": "206-207"
+    },
+    {
+      "file": "42_521_read_capacity_16_command.md",
+      "title": "5.21 READ CAPACITY (16) command",
+      "description": "READ CAPACITY (16) (opcode 9Eh / SA 10h)：64-bit LBA + logical/physical block length、alignment、protection type、P_I_EXPONENT、LBPME / LBPRZ 旗標。是現代大容量 device 的標準 capacity query，也回傳 thin-provisioning / PI 支援狀態。",
+      "keywords": [
+        "read-capacity-16",
+        "64-bit-lba",
+        "logical-physical-block",
+        "lbpme",
+        "lbprz",
+        "p-i-exponent"
+      ],
+      "page_range": "208-209"
+    },
+    {
+      "file": "43_522_read_defect_data_10_command.md",
+      "title": "5.22 READ DEFECT DATA (10) command",
+      "description": "READ DEFECT DATA (10) (opcode 37h)：回傳 primary / grown defect list。DEFECT LIST FORMAT 欄位選 block / bytes from index / physical sector 三種格式。偏向舊款相容命令，大容量 drive 建議用 (12) 版本。",
+      "keywords": [
+        "read-defect-data-10",
+        "defect-list",
+        "plist",
+        "glist",
+        "defect-format"
+      ],
+      "page_range": "210-211"
+    },
+    {
+      "file": "44_523_read_defect_data_12_command.md",
+      "title": "5.23 READ DEFECT DATA (12) command",
+      "description": "READ DEFECT DATA (12) (opcode B7h) 擴展版：4-byte allocation length 支援大量 defect 回傳、ADDRESS DESCRIPTOR INDEX 可做分頁查詢。做 full-drive defect 掃描統計與長壽 HDD 分析時使用。",
+      "keywords": [
+        "read-defect-data-12",
+        "defect-list-paging",
+        "address-descriptor-index",
+        "large-defect-list"
+      ],
+      "page_range": "212-214"
+    },
+    {
+      "file": "45_524_reassign_blocks_command.md",
+      "title": "5.24 REASSIGN BLOCKS command",
+      "description": "REASSIGN BLOCKS (opcode 07h)：讓 host 主動要求 device 把一組 LBA 重 map 到備用區塊。LONGLBA / LONGLIST / DEFECT LIST 欄位語意，以及 reassign 失敗後的 sense data。修復已知壞軌或 refresh 磁性衰弱區塊的手動介入命令。",
+      "keywords": [
+        "reassign-blocks",
+        "manual-remap",
+        "bad-block",
+        "spare-block",
+        "longlba"
+      ],
+      "page_range": "215-218"
+    },
+    {
+      "file": "46_525_receive_rod_token_information.md",
+      "title": "5.25 RECEIVE ROD TOKEN INFORMATION",
+      "description": "RECEIVE ROD TOKEN INFORMATION (opcode 84h / SA 07h)：查詢 POPULATE TOKEN 建立的 token 目前狀態、進度、complete 與否。offloaded copy 的進度回報機制。",
+      "keywords": [
+        "receive-rod-token-information",
+        "token-status",
+        "odx-progress",
+        "xcopy-status"
+      ],
+      "page_range": "219-223"
+    },
+    {
+      "file": "47_528_report_referrals_command.md",
+      "title": "5.28 REPORT REFERRALS command",
+      "description": "REPORT REFERRALS (opcode 9Eh / SA 13h)：回傳 logical unit 上所有 referrals（即 LBA 範圍被 redirect 到其他 target 的對應表），給 multipath / virtualization layer 建 routing 表使用。",
+      "keywords": [
+        "report-referrals",
+        "multipath",
+        "lba-redirect",
+        "virtual-storage-routing"
+      ],
+      "page_range": "224-225"
+    },
+    {
+      "file": "48_529_restore_elements_and_rebuild_command.md",
+      "title": "5.29 RESTORE ELEMENTS AND REBUILD command",
+      "description": "RESTORE ELEMENTS AND REBUILD (opcode 9Eh / SA 19h)：把先前 depopulated 的 physical element 重新啟用並重新 rebuild logical capacity。CDB 欄位與執行期間的限制。depopulation 配對命令。",
+      "keywords": [
+        "restore-elements-and-rebuild",
+        "depopulation-reverse",
+        "physical-element-restore",
+        "rebuild-capacity"
+      ],
+      "page_range": "226-227"
+    },
+    {
+      "file": "49_530_sanitize_command.md",
+      "title": "5.30 SANITIZE command",
+      "description": "SANITIZE (opcode 48h) 完整 CDB：SERVICE ACTION (OVERWRITE / BLOCK ERASE / CRYPTO ERASE / EXIT FAILURE MODE)、AUSE / ZNR / IMMED 旗標、parameter list 格式。做資料抹除合規實作（NIST 800-88 purge）的實際命令定義。",
+      "keywords": [
+        "sanitize-command",
+        "cdb",
+        "service-action",
+        "ause",
+        "znr",
+        "immed",
+        "secure-erase"
+      ],
+      "page_range": "228-231"
+    },
+    {
+      "file": "50_531_start_stop_unit_command.md",
+      "title": "5.31 START STOP UNIT command",
+      "description": "START STOP UNIT (opcode 1Bh) CDB：POWER CONDITION、POWER CONDITION MODIFIER、LOEJ、START、NO_FLUSH 欄位。驅動 device 在 Active / Idle / Standby / Stopped 間切換的實際命令。",
+      "keywords": [
+        "start-stop-unit",
+        "cdb",
+        "power-condition",
+        "loej",
+        "no-flush",
+        "spin-control"
+      ],
+      "page_range": "232-234"
+    },
+    {
+      "file": "51_532_stream_control_command.md",
+      "title": "5.32 STREAM CONTROL command",
+      "description": "STREAM CONTROL (opcode 9Eh / SA 14h)：host 發 OPEN / CLOSE action 建立或關閉 stream，device 回傳分配的 stream ID。multi-stream SSD 的控制面命令。",
+      "keywords": [
+        "stream-control-command",
+        "open-stream",
+        "close-stream",
+        "stream-id-allocation"
+      ],
+      "page_range": "235-236"
+    },
+    {
+      "file": "52_533_synchronize_cache_10_command.md",
+      "title": "5.33 SYNCHRONIZE CACHE (10) command",
+      "description": "SYNCHRONIZE CACHE (10) (opcode 35h)：強制把 write cache 中指定 LBA 範圍的資料 flush 到 medium，確保 durability。IMMED 旗標控制同步 / 非同步回應、NV_DIS 控制 non-volatile cache 行為。也包含 SYNCHRONIZE CACHE (16) 差異說明。",
+      "keywords": [
+        "synchronize-cache",
+        "cache-flush",
+        "durability",
+        "fsync",
+        "immed",
+        "nv-dis"
+      ],
+      "page_range": "237-239"
+    },
+    {
+      "file": "53_535_unmap_command.md",
+      "title": "5.35 UNMAP command",
+      "description": "UNMAP (opcode 42h)：告訴 device 指定 LBA 範圍的資料不再需要，允許 deallocate 對應 physical storage。UNMAP block descriptor list 格式、granularity alignment 規則。SSD TRIM 在 SCSI 世界的對應命令，thin-provisioning 必備。",
+      "keywords": [
+        "unmap",
+        "trim",
+        "deallocation",
+        "unmap-block-descriptor",
+        "thin-provisioning"
+      ],
+      "page_range": "240-241"
+    },
+    {
+      "file": "54_536_verify_10_command.md",
+      "title": "5.36 VERIFY (10) command",
+      "description": "VERIFY 命令家族（10/12/16/32）：只驗證資料可讀 / 比對 Data-Out Buffer，不回傳 logical block data 到 host。BYTCHK 欄位（0/1/3）決定純 medium check、byte-by-byte compare、或 logical block 比對模式。做 background scrub、integrity check 時用。",
+      "keywords": [
+        "verify-10",
+        "verify-16",
+        "bytchk",
+        "medium-scrub",
+        "integrity-check",
+        "data-compare"
+      ],
+      "page_range": "242-258"
+    },
+    {
+      "file": "55_540_write_10_command.md",
+      "title": "5.40 WRITE (10) command",
+      "description": "WRITE 命令家族核心：WRITE (10)(opcode 2Ah)、以及 WRITE (12/16/32) 的 CDB 差異。欄位包含 WRPROTECT、DPO、FUA、FUA_NV、GROUP NUMBER。定義 protection information 寫入行為、cache 策略、overlapping range 規則。所有 write IO 的基礎。",
+      "keywords": [
+        "write-10",
+        "write-16",
+        "write-32",
+        "cdb",
+        "wrprotect",
+        "fua-nv",
+        "group-number"
+      ],
+      "page_range": "259-272"
+    },
+    {
+      "file": "56_552_write_same_10_command.md",
+      "title": "5.52 WRITE SAME (10) command",
+      "description": "WRITE SAME (10) (opcode 41h)：把 Data-Out Buffer 的一個 logical block pattern 重複寫到指定 LBA 範圍，典型用途是「零填 / 格式化 free space」。搭配 UNMAP bit 或 ANCHOR bit 可觸發 unmap 或 anchor 操作。16 / 32 bit variable-length 版本也說明。",
+      "keywords": [
+        "write-same-10",
+        "zero-fill",
+        "unmap-bit",
+        "anchor-bit",
+        "pattern-fill"
+      ],
+      "page_range": "273-276"
+    },
+    {
+      "file": "57_554_write_same_32_command.md",
+      "title": "5.54 WRITE SAME (32) command",
+      "description": "WRITE SAME (32) (opcode 7Fh / SA 000Dh) 是 variable-length CDB 版本，支援完整 PI 欄位（EXPECTED_INITIAL_LBAT / LBATM / EATM）與 NDOB (No Data-Out Buffer) 旗標。PI-aware zero-fill 場景使用。",
+      "keywords": [
+        "write-same-32",
+        "variable-length-cdb",
+        "ndob",
+        "pi-aware-zero-fill"
+      ],
+      "page_range": "277-278"
+    },
+    {
+      "file": "58_555_write_scattered_16_command.md",
+      "title": "5.55 WRITE SCATTERED (16) command",
+      "description": "WRITE SCATTERED (16) (opcode 9Fh / SA 11h) 完整 CDB：BUFFER TRANSFER LENGTH、LBA RANGE DESCRIPTOR 陣列、WRPROTECT / DPO / FUA 欄位、scatter gather 風格的多區段 write 定義。",
+      "keywords": [
+        "write-scattered-16",
+        "cdb",
+        "lba-range-descriptor",
+        "vectored-write"
+      ],
+      "page_range": "279-282"
+    },
+    {
+      "file": "59_556_write_scattered_32_command.md",
+      "title": "5.56 WRITE SCATTERED (32) command",
+      "description": "WRITE SCATTERED (32) (opcode 7Fh / SA 0011h)：variable-length 版本，LBA range descriptor 支援完整 PI 欄位、expected reference tag。做 PI-protected sparse write 時使用。",
+      "keywords": [
+        "write-scattered-32",
+        "variable-length-cdb",
+        "pi-protected-scatter"
+      ],
+      "page_range": "283-285"
+    },
+    {
+      "file": "60_558_write_stream_32_command.md",
+      "title": "5.58 WRITE STREAM (32) command",
+      "description": "WRITE STREAM (32)：帶 STR_ID 欄位的寫入命令，讓 SSD 按 stream 分群資料放置。包含 WRITE STREAM (16)(opcode 9Ah) 與 (32) 差異。multi-stream SSD 的資料 IO 命令。",
+      "keywords": [
+        "write-stream",
+        "str-id",
+        "multi-stream-write",
+        "ssd-data-placement"
+      ],
+      "page_range": "286-287"
+    },
+    {
+      "file": "61_559_write_using_token_command.md",
+      "title": "5.59 WRITE USING TOKEN command",
+      "description": "WRITE USING TOKEN (opcode 83h / SA 11h)：用先前 POPULATE TOKEN 建立的 ROD token 作為來源，把資料寫到目的 LBA。CDB 欄位、LIST IDENTIFIER、目的 LBA range descriptor 格式。ODX 的目的端命令。",
+      "keywords": [
+        "write-using-token",
+        "rod-token-consume",
+        "odx-destination",
+        "xcopy-write"
+      ],
+      "page_range": "288-291"
+    },
+    {
+      "file": "62_6_parameters_for_direct_access_block_devices.md",
+      "title": "6 Parameters for direct access block devices",
+      "description": "Clause 6 總述 SBC-4 定義的所有 block device 相關 parameters，涵蓋 diagnostic、log、mode、VPD pages 四大類。列出 block-specific 參數頁的編號對照。要查某個 mode/log/VPD 頁的內容時從此章切入。",
+      "keywords": [
+        "parameters-overview",
+        "mode-pages",
+        "log-pages",
+        "vpd-pages",
+        "diagnostic-parameters"
+      ],
+      "page_range": "292-297"
+    },
+    {
+      "file": "63_63_diagnostic_parameters.md",
+      "title": "6.3 Diagnostic parameters",
+      "description": "block device 的 diagnostic pages 定義：Translate Address page、Supported Diagnostic Pages、Self-Test page。SEND DIAGNOSTIC / RECEIVE DIAGNOSTIC RESULTS 命令搭配使用。做硬碟自我診斷、address translation 驗證時參考。",
+      "keywords": [
+        "diagnostic-pages",
+        "translate-address",
+        "self-test",
+        "send-diagnostic",
+        "receive-diagnostic-results"
+      ],
+      "page_range": "298-302"
+    },
+    {
+      "file": "64_64_log_parameters.md",
+      "title": "6.4 Log parameters",
+      "description": "block device 所有 log pages 詳細定義，包含 Format Status、LBA Status、Logical Block Provisioning、Non-Volatile Cache、Background Scan、Background Operation、Solid State Media、Utilization、Zoned Block Device Statistics、Defect 相關 log pages。做 device 健康監控、SMART 等價查詢、long-term wear 追蹤時的主要資訊來源。本書最長的章節之一。",
+      "keywords": [
+        "log-pages",
+        "smart",
+        "background-scan-log",
+        "solid-state-media",
+        "utilization",
+        "lba-status-log"
+      ],
+      "page_range": "303-339"
+    },
+    {
+      "file": "65_65_mode_parameters.md",
+      "title": "6.5 Mode parameters",
+      "description": "完整 mode pages 定義：Read-Write Error Recovery、Verify Error Recovery、Caching、Rigid Disk Geometry、Flexible Disk、Format Device、Notch and Partition、Power Condition、Application Tag、Background Control、Logical Block Provisioning、IO Advice Hints Grouping、Background Operation Control mode page。設定 device behavior tuning 的控制介面。",
+      "keywords": [
+        "mode-pages",
+        "caching-mode-page",
+        "read-write-error-recovery",
+        "power-condition",
+        "io-advice-hints",
+        "background-control"
+      ],
+      "page_range": "340-368"
+    },
+    {
+      "file": "66_66_vital_product_data_vpd_parameters.md",
+      "title": "6.6 Vital product data (VPD) parameters",
+      "description": "SBC-4 定義的 VPD pages：Block Device Characteristics (B1h)、Block Limits (B0h)、Logical Block Provisioning (B2h)、Referrals (B3h)、Supported Block Lengths and Protection Types (B4h)、Block Device Characteristics Extension (B5h)、Zoned Block Device Characteristics (B6h)、Format Presets (B7h)、Concurrent Positioning Ranges (B9h) 等。INQUIRY 命令取得 device capability 的主要資料源。實作 capability discovery 必讀。",
+      "keywords": [
+        "vpd-pages",
+        "block-limits",
+        "block-device-characteristics",
+        "supported-block-lengths",
+        "format-presets",
+        "concurrent-positioning-ranges"
+      ],
+      "page_range": "369-392"
+    },
+    {
+      "file": "67_68_logical_block_markup_descriptors.md",
+      "title": "6.8 Logical block markup descriptors",
+      "description": "Logical Block Markup descriptor 格式：host 對 LBA 打標記（IO hints、tag），device 可用這些資訊做 data placement 優化。跟 IO Advice Hints 搭配的 metadata 格式。",
+      "keywords": [
+        "logical-block-markup",
+        "lb-markup-descriptor",
+        "io-hints",
+        "data-placement-hint"
+      ],
+      "page_range": "393-398"
+    },
+    {
+      "file": "68_numeric_order_codes.md",
+      "title": "Numeric order codes (Annex)",
+      "description": "依 opcode / service action 數值順序列出 SBC-4 所有命令的對照表，給 firmware / driver 開發做逆向查詢（看到 opcode 想知道是哪個命令）使用。",
+      "keywords": [
+        "opcode-table",
+        "command-code-lookup",
+        "annex-numeric-order",
+        "reverse-reference"
+      ],
+      "page_range": "398-400"
+    },
+    {
+      "file": "69_crc_example_in_c.md",
+      "title": "CRC example in C (Annex)",
+      "description": "附錄：Protection Information GUARD 欄位所用 CRC-16-T10-DIF 多項式的 C 語言參考實作範例碼。實作 PI-aware software / firmware 驗證時用來對 CRC 結果。",
+      "keywords": [
+        "crc-16-t10-dif",
+        "crc-example",
+        "c-code",
+        "guard-computation",
+        "annex"
+      ],
+      "page_range": "400-403"
+    },
+    {
+      "file": "70_optimizing_block_access_characteristics.md",
+      "title": "Optimizing block access characteristics (Annex)",
+      "description": "附錄：教 host / driver 如何利用 Block Limits VPD (optimal transfer length、optimal read / write granularity) 與 Block Device Characteristics VPD 的參數來優化 IO pattern、與 device preferred access pattern 對齊。效能調校實務指南。",
+      "keywords": [
+        "block-limits",
+        "optimal-transfer-length",
+        "io-alignment",
+        "performance-tuning",
+        "annex"
+      ],
+      "page_range": "403-407"
+    },
+    {
+      "file": "71_logical_block_provisioning_reporting_examples.md",
+      "title": "Logical block provisioning reporting examples (Annex)",
+      "description": "附錄：對 thin-provisioning 相關 log / mode / VPD / GET LBA STATUS 的實際數值範例，包含 threshold 觸發、mapped / deallocated 比例變化的報表樣本。做 LBP 客戶端實作或 debug 時對照使用。",
+      "keywords": [
+        "logical-block-provisioning",
+        "examples",
+        "threshold-event",
+        "lba-status-examples",
+        "annex"
+      ],
+      "page_range": "407-419"
+    },
+    {
+      "file": "72_discovering_referrals_examples.md",
+      "title": "Discovering referrals examples (Annex)",
+      "description": "附錄：用 REPORT REFERRALS 與相關 log page 發現 logical unit 上 referrals 分布、user data segment 邊界對應的操作流程範例。給 multipath / virtualization stack 實作參考。",
+      "keywords": [
+        "referrals",
+        "discover-examples",
+        "user-data-segment",
+        "multipath-discovery",
+        "annex"
+      ],
+      "page_range": "419-423"
+    },
+    {
+      "file": "73_io_advice_hints_usage.md",
+      "title": "IO advice hints usage (Annex)",
+      "description": "附錄：IO Advice Hints Grouping mode page 的使用範例，說明 host 怎麼對每個 IO 指定 access frequency / latency priority / cache retention 等 hint，device 如何據此調整 cache / placement 策略。效能 hint 機制的實務指南。",
+      "keywords": [
+        "io-advice-hints",
+        "cache-hint",
+        "access-frequency",
+        "latency-priority",
+        "annex"
+      ],
+      "page_range": "423-427"
+    },
+    {
+      "file": "74_sbc_feature_sets.md",
+      "title": "SBC feature sets (Annex)",
+      "description": "附錄：定義幾組常見「feature set」標籤（例如 BASIC、COMMAND DURATION LIMITS、ZBC 相容、THIN PROVISIONING、FORMAT PRESET），列出每組 feature set 要求實作的必要命令、mode pages、VPD pages 的清單。做相容性合規聲明時用。",
+      "keywords": [
+        "feature-sets",
+        "compliance",
+        "basic-feature-set",
+        "thin-provisioning-feature",
+        "mandatory-commands"
+      ],
+      "page_range": "427-441"
+    },
+    {
+      "file": "75_rebuild_assist_using_the_get_lba_status_command.md",
+      "title": "Rebuild assist using the GET LBA STATUS command (Annex)",
+      "description": "附錄：示範 RAID controller 如何結合 Rebuild Assist mode 與 GET LBA STATUS 命令，找出 failing drive 上仍可讀取的 LBA、跳過已知受損 LBA，加速 RAID rebuild。RAID 韌體工程師實用範例。",
+      "keywords": [
+        "rebuild-assist",
+        "get-lba-status",
+        "raid-rebuild-examples",
+        "proactive-copy",
+        "annex"
+      ],
+      "page_range": "441-443"
+    },
+    {
+      "file": "76_direct_access_block_devices_with_shared_resources.md",
+      "title": "Direct access block devices with shared resources (Annex)",
+      "description": "附錄：討論多個 direct access block device 共用底層資源（例如單一 media、SoC 共用 controller）時的命令交互、resource contention 處理、target 行為。virtualised storage enclosure / 多 LUN 裝置參考。",
+      "keywords": [
+        "shared-resources",
+        "multi-lun",
+        "resource-contention",
+        "virtualised-storage",
+        "annex"
+      ],
+      "page_range": "443-447"
+    }
+  ]
+}

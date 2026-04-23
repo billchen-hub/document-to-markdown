@@ -1,0 +1,7 @@
+{
+  "file": "64_64_log_parameters.md",
+  "title": "6.4 Log parameters",
+  "description": "block device 所有 log pages 詳細定義，包含 Format Status、LBA Status、Logical Block Provisioning、Non-Volatile Cache、Background Scan、Background Operation、Solid State Media、Utilization、Zoned Block Device Statistics、Defect 相關 log pages。做 device 健康監控、SMART 等價查詢、long-term wear 追蹤時的主要資訊來源。本書最長的章節之一。",
+  "keywords": ["log-pages", "smart", "background-scan-log", "solid-state-media", "utilization", "lba-status-log"],
+  "page_range": "303-339"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "08_5131_persistent_reservations_overview.md",
+  "title": "5.13.1 Persistent Reservations overview",
+  "description": "Persistent Reservation 架構總覽：reservation type（Write Exclusive、Exclusive Access、各種 Registrants Only / All Registrants 變體）、reservation key、holder、PERSISTENT RESERVE IN/OUT 的基本機制。cluster shared storage、WSFC、VMware 的 fencing 基礎。",
+  "keywords": ["persistent-reservation", "reservation-type", "cluster-fencing", "scsi-3-pr", "mpio"],
+  "page_range": "200-205"
+}

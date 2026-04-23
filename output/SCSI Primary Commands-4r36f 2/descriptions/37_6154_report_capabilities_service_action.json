@@ -1,0 +1,7 @@
+{
+  "file": "37_6154_report_capabilities_service_action.md",
+  "title": "6.15.4 REPORT CAPABILITIES service action",
+  "description": "PERSISTENT RESERVE IN REPORT CAPABILITIES：回傳 device 支援的 PR 能力（type mask、allow commands、SIP_C、CRH、ATP_C、SPEC_I_PT、PTPL_A、PTPL_C 等旗標）。實作 PR client 前檢查 device 能力。",
+  "keywords": ["report-capabilities", "pr-capabilities", "ptpl", "crh", "type-mask"],
+  "page_range": "455-458"
+}

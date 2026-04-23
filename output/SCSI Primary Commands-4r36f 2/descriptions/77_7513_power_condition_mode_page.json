@@ -1,0 +1,7 @@
+{
+  "file": "77_7513_power_condition_mode_page.md",
+  "title": "7.5.13 Power Condition mode page",
+  "description": "Power Condition mode page (1Ah)：Idle_a/b/c、Standby_y/z 的 timer condition enable 與 duration 設定。做電源管理策略調校（讓 drive 多久 idle 後轉 standby）的主要介面。",
+  "keywords": ["power-condition-mode-page", "page-1ah", "idle-timer", "standby-timer"],
+  "page_range": "693-698"
+}

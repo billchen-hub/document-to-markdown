@@ -1,0 +1,7 @@
+{
+  "file": "58_735_cache_memory_statistics_log_page.md",
+  "title": "7.3.5 Cache Memory Statistics log page",
+  "description": "Cache Memory Statistics log page (19h)：讀 / 寫 cache hit rate、bytes read from cache、bytes written to cache 的 counter。做 cache 效能分析、hit-ratio 監控用。",
+  "keywords": ["cache-statistics", "cache-hit-ratio", "page-19h", "cache-performance"],
+  "page_range": "606-613"
+}

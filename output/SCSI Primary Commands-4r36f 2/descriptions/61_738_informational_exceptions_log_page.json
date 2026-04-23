@@ -1,0 +1,7 @@
+{
+  "file": "61_738_informational_exceptions_log_page.md",
+  "title": "7.3.8 Informational Exceptions log page",
+  "description": "Informational Exceptions log page (2Fh)：SMART-like 預測性失敗通知的 log。device 觸發 exception 時（threshold 超標、impending failure）寫入此 page。SMART trip 的 SCSI 版本。",
+  "keywords": ["informational-exceptions", "smart-trip", "page-2fh", "predictive-failure"],
+  "page_range": "627-628"
+}

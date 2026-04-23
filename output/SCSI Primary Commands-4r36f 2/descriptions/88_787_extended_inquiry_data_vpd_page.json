@@ -1,0 +1,7 @@
+{
+  "file": "88_787_extended_inquiry_data_vpd_page.md",
+  "title": "7.8.7 Extended INQUIRY Data VPD page",
+  "description": "Extended INQUIRY Data VPD page (86h)：ACTIVATE_MICROCODE、SPT、GRD_CHK、APP_CHK、REF_CHK、UASK_SUP、GROUP_SUP、PRIOR_SUP、HEADSUP、ORDSUP、SIMPSUP、WU_SUP、CRD_SUP、NV_SUP、V_SUP、P_I_I_SUP、LUICLR、R_SUP 等旗標。查 device 支援哪些 PI / queue 能力。",
+  "keywords": ["extended-inquiry-data", "vpd-86h", "spt", "grd-chk", "queue-capabilities"],
+  "page_range": "825-828"
+}

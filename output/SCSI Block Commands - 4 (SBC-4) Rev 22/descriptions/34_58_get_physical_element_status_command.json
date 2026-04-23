@@ -1,0 +1,7 @@
+{
+  "file": "34_58_get_physical_element_status_command.md",
+  "title": "5.8 GET PHYSICAL ELEMENT STATUS command",
+  "description": "GET PHYSICAL ELEMENT STATUS (opcode 9Eh / SA 17h)：查詢多片 HDD 內每個 physical element（head/platter）的健康狀態、已 depopulate 與否、physical element ID。搭配 depopulation 功能。",
+  "keywords": ["physical-element-status", "physical-element-health", "depopulation-query", "multi-head-drive"],
+  "page_range": "175-178"
+}

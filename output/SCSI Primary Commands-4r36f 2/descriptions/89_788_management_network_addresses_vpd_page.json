@@ -1,0 +1,7 @@
+{
+  "file": "89_788_management_network_addresses_vpd_page.md",
+  "title": "7.8.8 Management Network Addresses VPD page",
+  "description": "Management Network Addresses VPD page (85h)：回報 device 的 out-of-band management 網路位址（通常是 IP address / URL）。datacenter 裝置盤點、自動發現時使用。",
+  "keywords": ["management-network-addresses", "vpd-85h", "out-of-band-management", "discovery"],
+  "page_range": "829-830"
+}

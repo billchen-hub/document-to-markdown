@@ -11,6 +11,7 @@ import click
 
 from doc_to_markdown.config import (
     ANTHROPIC_API_KEY,
+    CONVERSION_MODE,
     DEFAULT_VISION_MODEL,
     OUTPUT_DIR,
     STEPS,
@@ -49,15 +50,36 @@ def _check_disk_space(path: Path, min_mb: int = 100) -> bool:
 @click.command()
 @click.argument("pdf_path", type=click.Path(exists=True))
 @click.option("-o", "--output", "output_dir", default=None, help="Output directory")
+@click.option(
+    "--mode",
+    type=click.Choice(["cli", "api"]),
+    default=None,
+    help=(
+        "Conversion mode. 'cli' (default): no API calls; this Claude Code "
+        "session reads rendered PNGs. 'api': call a Vision/LLM API for "
+        "redos and descriptions."
+    ),
+)
 @click.option("--model", default=None, help=f"Vision API model (default: {DEFAULT_VISION_MODEL})")
-@click.option("--full-vision", is_flag=True, help="Skip Marker, use Vision API for all pages")
+@click.option("--full-vision", is_flag=True, help="Skip Marker, use Vision API for all pages (api mode only)")
+@click.option(
+    "--text-first",
+    is_flag=True,
+    help=(
+        "Skip Marker and Vision. Extract the embedded text layer directly "
+        "with PyMuPDF. Best for native-digital technical PDFs where text "
+        "accuracy matters more than perfect table formatting."
+    ),
+)
 @click.option("--resume", "do_resume", is_flag=True, help="Resume from last checkpoint")
 @click.option("--desc-only", is_flag=True, help="Only regenerate descriptions")
 def main(
     pdf_path: str,
     output_dir: str | None,
+    mode: str | None,
     model: str | None,
     full_vision: bool,
+    text_first: bool,
     do_resume: bool,
     desc_only: bool,
 ):
@@ -65,6 +87,27 @@ def main(
 
     PDF_PATH is the path to the PDF file to convert.
     """
+    # Resolve effective mode: CLI flag > env var > default "cli"
+    effective_mode = mode or CONVERSION_MODE or "cli"
+    if effective_mode not in ("cli", "api"):
+        click.echo(f"ERROR: invalid --mode '{effective_mode}', use 'cli' or 'api'.")
+        sys.exit(1)
+
+    if full_vision and text_first:
+        click.echo("ERROR: --full-vision and --text-first are mutually exclusive.")
+        sys.exit(1)
+
+    if full_vision and effective_mode == "cli":
+        click.echo(
+            "NOTE: --full-vision with --mode cli means every page will be "
+            "handed to this Claude Code session."
+        )
+
+    if text_first:
+        click.echo(
+            "NOTE: --text-first mode: extracting embedded text directly with "
+            "PyMuPDF. Marker and Vision are skipped."
+        )
     pdf_path_obj = Path(pdf_path)
     pdf_name = pdf_path_obj.stem
 
@@ -177,7 +220,50 @@ def main(
     marker_results: dict[int, str] = {}
 
     if not desc_only and _should_run_step(progress, "marker_convert"):
-        if full_vision:
+        if text_first:
+            _print_step(2, total_steps, "Text-first extraction: starting...")
+
+            from doc_to_markdown.text_extractor import (
+                extract_all_pages,
+                save_classifications_report,
+            )
+
+            texts, classifications = extract_all_pages(str(pdf_path_obj))
+
+            marker_cache_dir = out_dir / "marker_cache"
+            marker_cache_dir.mkdir(exist_ok=True)
+            for p, md in texts.items():
+                marker_results[p] = md
+                (marker_cache_dir / f"page_{p:04d}.md").write_text(md, encoding="utf-8")
+
+            save_classifications_report(
+                classifications, out_dir / "text_extraction_report.json"
+            )
+
+            # Track which pages still need vision (hybrid/vision strategy)
+            progress["text_first_classifications"] = [
+                {"page": c.page, "strategy": c.strategy, "reason": c.reason}
+                for c in classifications
+            ]
+
+            from collections import Counter
+            counts = Counter(c.strategy for c in classifications)
+            for p, md in texts.items():
+                key = str(p)
+                if key not in progress["pages"]:
+                    progress["pages"][key] = {}
+                progress["pages"][key]["text_first"] = "done"
+            progress["stats"]["marker_completed"] = len(texts)
+            progress["current_step"] = "quality_rules"
+            _save_progress(progress_path, progress)
+
+            _print_step(
+                2, total_steps,
+                f"Text-first extraction: {len(texts)}/{page_count} pages "
+                f"(text={counts.get('text',0)}, hybrid={counts.get('hybrid',0)}, "
+                f"vision={counts.get('vision',0)}) [OK]"
+            )
+        elif full_vision:
             _print_step(2, total_steps, "Marker conversion: SKIPPED (--full-vision mode) [OK]")
             progress["current_step"] = "quality_rules"
             _save_progress(progress_path, progress)
@@ -266,9 +352,14 @@ def main(
         needs_vision_desc = progress.get("needs_vision_desc", [])
 
     # ---------------------------------------------------------------
-    # Step 4: Quality Check - Sampling
+    # Step 4: Quality Check - Sampling (API mode only)
     # ---------------------------------------------------------------
-    if not desc_only and not full_vision and _should_run_step(progress, "quality_sampling"):
+    if (
+        not desc_only
+        and not full_vision
+        and effective_mode == "api"
+        and _should_run_step(progress, "quality_sampling")
+    ):
         _print_step(4, total_steps, "Quality check (sampling)...")
 
         from doc_to_markdown.quality_checker import QualityChecker
@@ -318,11 +409,83 @@ def main(
         _print_step(4, total_steps, "Quality check (sampling): SKIPPED (--full-vision mode) [OK]")
         progress["current_step"] = "vision_redo"
         _save_progress(progress_path, progress)
+    elif not desc_only and effective_mode == "cli" and _should_run_step(progress, "quality_sampling"):
+        _print_step(
+            4, total_steps,
+            "Quality check (sampling): SKIPPED (cli mode - no API calls) [OK]",
+        )
+        progress["current_step"] = "vision_redo"
+        _save_progress(progress_path, progress)
 
     # ---------------------------------------------------------------
-    # Step 5: Vision API Redo + Image Descriptions
+    # Step 5: Vision Redo + Image Descriptions
     # ---------------------------------------------------------------
-    if not desc_only and _should_run_step(progress, "vision_redo"):
+    if not desc_only and _should_run_step(progress, "vision_redo") and effective_mode == "cli":
+        # CLI mode: render PNGs + write task manifest, then either load
+        # Claude-written markdown (if complete) or exit for Claude to work.
+        from doc_to_markdown.cli_vision_handler import (
+            check_vision_tasks_complete,
+            prepare_vision_tasks,
+        )
+
+        total_vision = len(needs_redo) + len(needs_vision_desc)
+
+        if total_vision == 0:
+            _print_step(5, total_steps, "Vision (cli): no pages need processing [OK]")
+            progress["current_step"] = "merge"
+            _save_progress(progress_path, progress)
+        else:
+            complete, missing = check_vision_tasks_complete(out_dir)
+
+            if not complete:
+                _print_step(
+                    5, total_steps,
+                    f"Vision (cli): preparing {total_vision} page tasks...",
+                )
+                summary = prepare_vision_tasks(
+                    pdf_info, needs_redo, needs_vision_desc, out_dir
+                )
+                manifest_path = summary["manifest_path"]
+                progress["stats"]["vision_total"] = total_vision
+                progress["stats"]["vision_pending"] = len(missing) if missing else total_vision
+                _save_progress(progress_path, progress)
+
+                click.echo("")
+                click.echo(
+                    "=" * 70 + "\n"
+                    f"CLI MODE: Pipeline paused at Step 5.\n"
+                    f"  Manifest: {manifest_path}\n"
+                    f"  Pages rendered to: {summary['pages_dir']}\n"
+                    f"  Total tasks: {summary['total_tasks']}\n\n"
+                    "Claude Code: please process each task in the manifest by reading\n"
+                    "the PNG and writing the resulting markdown to the path in\n"
+                    "`output_md`. When every task has its output_md populated,\n"
+                    "re-run this command with --resume to continue.\n"
+                    + "=" * 70
+                )
+                sys.exit(0)
+
+            # All tasks complete - load Claude-written md from marker_cache
+            _print_step(
+                5, total_steps,
+                f"Vision (cli): loading {total_vision} Claude-written pages...",
+            )
+            marker_cache_dir = out_dir / "marker_cache"
+            for task_file in sorted(marker_cache_dir.glob("page_*.md")):
+                try:
+                    page_num = int(task_file.stem.split("_")[1])
+                    marker_results[page_num] = task_file.read_text(encoding="utf-8")
+                except (ValueError, OSError):
+                    continue
+            progress["stats"]["vision_total"] = total_vision
+            progress["stats"]["vision_completed"] = total_vision
+            progress["stats"]["vision_pending"] = 0
+            progress["current_step"] = "merge"
+            _save_progress(progress_path, progress)
+            _print_step(5, total_steps, f"Vision (cli): {total_vision} pages loaded [OK]")
+
+    elif not desc_only and _should_run_step(progress, "vision_redo"):
+        # API mode (original logic)
         from doc_to_markdown.vision_converter import VisionConverter, RateLimitExhausted
 
         if "vision" not in dir():
@@ -332,7 +495,7 @@ def main(
         if needs_redo or needs_vision_desc:
             _print_step(5, total_steps, "Vision API: validating API key...")
             if not vision.validate_api_key():
-                click.echo("ERROR: Invalid ANTHROPIC_API_KEY. Set it and use --resume.")
+                click.echo("ERROR: Invalid API key. Set it and use --resume.")
                 progress["status"] = "paused"
                 _save_progress(progress_path, progress)
                 sys.exit(1)
@@ -459,7 +622,49 @@ def main(
     # ---------------------------------------------------------------
     # Step 7: Generate Descriptions
     # ---------------------------------------------------------------
-    if _should_run_step(progress, "descriptions") or desc_only:
+    if (_should_run_step(progress, "descriptions") or desc_only) and effective_mode == "cli":
+        from doc_to_markdown.cli_vision_handler import (
+            check_desc_tasks_complete,
+            load_desc_results,
+            prepare_desc_tasks,
+        )
+
+        complete, missing = check_desc_tasks_complete(out_dir)
+
+        if not complete or not (out_dir / "need_desc.json").exists():
+            _print_step(
+                7, total_steps,
+                f"Descriptions (cli): preparing {len(chapter_files)} chapter tasks...",
+            )
+            summary = prepare_desc_tasks(chapter_files, out_dir)
+            click.echo("")
+            click.echo(
+                "=" * 70 + "\n"
+                f"CLI MODE: Pipeline paused at Step 7.\n"
+                f"  Manifest: {summary['manifest_path']}\n"
+                f"  Total tasks: {summary['total_tasks']}\n\n"
+                "Claude Code: please read each chapter and write a description\n"
+                "JSON to the path in `output_json` (see manifest for schema).\n"
+                "Then re-run with --resume --mode cli to finish.\n"
+                + "=" * 70
+            )
+            sys.exit(0)
+
+        _print_step(
+            7, total_steps,
+            f"Descriptions (cli): loading {len(chapter_files)} Claude-written files...",
+        )
+        descriptions = load_desc_results(descriptions_dir, chapter_files)
+        progress["descriptions"] = descriptions
+        progress["current_step"] = "catalog"
+        _save_progress(progress_path, progress)
+        _print_step(
+            7, total_steps,
+            f"Descriptions (cli): {len(descriptions)}/{len(chapter_files)} loaded [OK]",
+        )
+
+    elif _should_run_step(progress, "descriptions") or desc_only:
+        # API mode
         _print_step(7, total_steps, "Generating descriptions...")
 
         from doc_to_markdown.desc_generator import DescGenerator

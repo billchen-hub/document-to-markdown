@@ -1,0 +1,7 @@
+{
+  "file": "67_68_logical_block_markup_descriptors.md",
+  "title": "6.8 Logical block markup descriptors",
+  "description": "Logical Block Markup descriptor 格式：host 對 LBA 打標記（IO hints、tag），device 可用這些資訊做 data placement 優化。跟 IO Advice Hints 搭配的 metadata 格式。",
+  "keywords": ["logical-block-markup", "lb-markup-descriptor", "io-hints", "data-placement-hint"],
+  "page_range": "393-398"
+}

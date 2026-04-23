@@ -1,0 +1,7 @@
+{
+  "file": "59_556_write_scattered_32_command.md",
+  "title": "5.56 WRITE SCATTERED (32) command",
+  "description": "WRITE SCATTERED (32) (opcode 7Fh / SA 0011h)：variable-length 版本，LBA range descriptor 支援完整 PI 欄位、expected reference tag。做 PI-protected sparse write 時使用。",
+  "keywords": ["write-scattered-32", "variable-length-cdb", "pi-protected-scatter"],
+  "page_range": "283-285"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "48_6323_identifying_information_supported_parameter_data.md",
+  "title": "6.32.3 IDENTIFYING INFORMATION SUPPORTED parameter data",
+  "description": "回報 device 支援哪幾種 identifying information type 的 parameter data 格式、SET IDENTIFYING INFORMATION 可寫性。識別資訊 discovery 階段用。",
+  "keywords": ["identifying-information-supported", "supported-types", "set-identifying-information"],
+  "page_range": "526-531"
+}

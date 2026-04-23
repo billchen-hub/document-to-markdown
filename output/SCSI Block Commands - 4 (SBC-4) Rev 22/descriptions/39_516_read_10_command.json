@@ -1,0 +1,7 @@
+{
+  "file": "39_516_read_10_command.md",
+  "title": "5.16 READ (10) command",
+  "description": "READ (10) (opcode 28h) — 最常用的讀取命令：4-byte LBA + 2-byte TRANSFER LENGTH，CDB 包含 RDPROTECT、DPO、FUA、RARC、GROUP NUMBER 等欄位。定義 protection information check 規則、cache 行為、recovery 策略。幾乎所有 host-initiated read IO 的基礎。",
+  "keywords": ["read-10", "cdb", "rdprotect", "fua", "dpo", "rarc"],
+  "page_range": "198-201"
+}

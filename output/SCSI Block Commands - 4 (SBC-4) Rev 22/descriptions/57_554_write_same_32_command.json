@@ -1,0 +1,7 @@
+{
+  "file": "57_554_write_same_32_command.md",
+  "title": "5.54 WRITE SAME (32) command",
+  "description": "WRITE SAME (32) (opcode 7Fh / SA 000Dh) 是 variable-length CDB 版本，支援完整 PI 欄位（EXPECTED_INITIAL_LBAT / LBATM / EATM）與 NDOB (No Data-Out Buffer) 旗標。PI-aware zero-fill 場景使用。",
+  "keywords": ["write-same-32", "variable-length-cdb", "ndob", "pi-aware-zero-fill"],
+  "page_range": "277-278"
+}

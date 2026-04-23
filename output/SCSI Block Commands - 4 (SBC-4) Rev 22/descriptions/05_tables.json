@@ -1,0 +1,7 @@
+{
+  "file": "05_tables.md",
+  "title": "Tables",
+  "description": "SBC-4 全文件的表格清單索引，列出所有表格編號、標題與所在頁碼。適合快速查找特定資料格式表格（例如 CDB 欄位表、sense code 表、VPD page 格式表）的位置。",
+  "keywords": ["table-index", "list-of-tables", "navigation", "figures-reference"],
+  "page_range": "23-30"
+}

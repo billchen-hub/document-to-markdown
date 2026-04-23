@@ -1,0 +1,7 @@
+{
+  "file": "65_7312_power_condition_transitions_log_page.md",
+  "title": "7.3.12 Power Condition Transitions log page",
+  "description": "Power Condition Transitions log page (1Ah)：記錄每種 power state 轉換發生次數（Active→Idle、Idle→Standby 等）。做電源策略調校、節能效果驗證用。",
+  "keywords": ["power-condition-transitions", "page-1ah", "power-state-count", "energy-audit"],
+  "page_range": "635-636"
+}

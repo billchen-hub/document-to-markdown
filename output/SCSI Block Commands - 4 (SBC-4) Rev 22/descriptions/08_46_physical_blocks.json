@@ -1,0 +1,7 @@
+{
+  "file": "08_46_physical_blocks.md",
+  "title": "4.6 Physical blocks",
+  "description": "描述 physical block 與 logical block 的關係，說明 SBC-4 如何處理 512e/4Kn 等 512-byte logical block 對應 4096-byte physical block 的 alignment、offset 與 performance 影響。在做 advanced format 硬碟或做對齊分析時參考此章。",
+  "keywords": ["physical-block", "logical-block", "advanced-format", "alignment", "512e", "4kn"],
+  "page_range": "53-56"
+}

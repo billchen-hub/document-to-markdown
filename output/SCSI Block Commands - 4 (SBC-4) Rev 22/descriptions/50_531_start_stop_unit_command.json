@@ -1,0 +1,7 @@
+{
+  "file": "50_531_start_stop_unit_command.md",
+  "title": "5.31 START STOP UNIT command",
+  "description": "START STOP UNIT (opcode 1Bh) CDB：POWER CONDITION、POWER CONDITION MODIFIER、LOEJ、START、NO_FLUSH 欄位。驅動 device 在 Active / Idle / Standby / Stopped 間切換的實際命令。",
+  "keywords": ["start-stop-unit", "cdb", "power-condition", "loej", "no-flush", "spin-control"],
+  "page_range": "232-234"
+}

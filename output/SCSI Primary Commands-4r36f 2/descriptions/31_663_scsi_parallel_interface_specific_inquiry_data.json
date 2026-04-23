@@ -1,0 +1,7 @@
+{
+  "file": "31_663_scsi_parallel_interface_specific_inquiry_data.md",
+  "title": "6.6.3 SCSI Parallel Interface specific INQUIRY data",
+  "description": "傳統 SPI (SCSI Parallel Interface) 特定的 INQUIRY 欄位，主要為相容舊硬體保留。現代 SAS / FC / iSCSI 已不使用。",
+  "keywords": ["inquiry", "spi", "parallel-scsi", "legacy-inquiry"],
+  "page_range": "429-430"
+}

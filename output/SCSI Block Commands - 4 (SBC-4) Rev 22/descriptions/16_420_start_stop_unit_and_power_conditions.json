@@ -1,0 +1,7 @@
+{
+  "file": "16_420_start_stop_unit_and_power_conditions.md",
+  "title": "4.20 START STOP UNIT and power conditions",
+  "description": "SBC-4 電源管理狀態機：定義 Active、Idle_a / Idle_b、Standby_y / Standby_z、Stopped 等狀態、對應的計時器與 transition 條件，以及 START STOP UNIT 命令與 Power Condition mode page 的互動。做省電策略、drive spin-up/spin-down、PCIe PM 整合時必看。",
+  "keywords": ["power-conditions", "start-stop-unit", "idle", "standby", "power-management", "spin-up"],
+  "page_range": "96-107"
+}

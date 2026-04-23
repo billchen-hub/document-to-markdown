@@ -1,0 +1,7 @@
+{
+  "file": "42_521_read_capacity_16_command.md",
+  "title": "5.21 READ CAPACITY (16) command",
+  "description": "READ CAPACITY (16) (opcode 9Eh / SA 10h)：64-bit LBA + logical/physical block length、alignment、protection type、P_I_EXPONENT、LBPME / LBPRZ 旗標。是現代大容量 device 的標準 capacity query，也回傳 thin-provisioning / PI 支援狀態。",
+  "keywords": ["read-capacity-16", "64-bit-lba", "logical-physical-block", "lbpme", "lbprz", "p-i-exponent"],
+  "page_range": "208-209"
+}

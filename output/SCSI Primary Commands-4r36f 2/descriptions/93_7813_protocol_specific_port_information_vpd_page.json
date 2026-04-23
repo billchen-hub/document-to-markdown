@@ -1,0 +1,7 @@
+{
+  "file": "93_7813_protocol_specific_port_information_vpd_page.md",
+  "title": "7.8.13 Protocol Specific Port Information VPD page",
+  "description": "Protocol Specific Port Information VPD page (91h)：依 transport 回報 target port 級 information（例如 SAS PHY info、FC world wide port name）。",
+  "keywords": ["protocol-specific-port-info", "vpd-91h", "sas-phy-info", "fc-wwpn"],
+  "page_range": "838-839"
+}

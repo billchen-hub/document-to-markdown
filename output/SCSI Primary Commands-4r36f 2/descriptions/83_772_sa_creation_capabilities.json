@@ -1,0 +1,7 @@
+{
+  "file": "83_772_sa_creation_capabilities.md",
+  "title": "7.7.2 SA creation capabilities",
+  "description": "SA Creation Capabilities parameter：device 支援的 key exchange algorithm、encryption / integrity algorithm、hash、PRF 清單。建立 SA 前 host 查詢 device 能力。",
+  "keywords": ["sa-creation-capabilities", "supported-algorithms", "key-exchange", "prf"],
+  "page_range": "731-732"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "63_7310_last_n_error_events_log_page.md",
+  "title": "7.3.10 Last n Error Events log page",
+  "description": "Last n Error Events log page (07h)：保留最後 n 筆 error event 的通用記錄。每筆包含 timestamp、sense data、相關 LBA。做 RMA 診斷、post-mortem 分析用。",
+  "keywords": ["last-n-error-events", "page-07h", "error-log", "rma-diagnosis"],
+  "page_range": "631-632"
+}

@@ -36,11 +36,13 @@ class DescGenerator:
     def __init__(self, model: str | None = None, api_key: str | None = None):
         self.model = model or DEFAULT_VISION_MODEL
         self.api_key = api_key or ANTHROPIC_API_KEY
-        if not self.api_key:
-            raise ValueError(
-                "ANTHROPIC_API_KEY not set. Set it as environment variable or pass api_key."
-            )
-        self.client = anthropic.Anthropic(api_key=self.api_key)
+        # Defer API client creation until we actually need it. This lets
+        # CLI mode instantiate DescGenerator (for generate_catalog /
+        # generate_readme, which are pure local file writes) without
+        # requiring an API key.
+        self.client: anthropic.Anthropic | None = None
+        if self.api_key:
+            self.client = anthropic.Anthropic(api_key=self.api_key)
 
     def generate(
         self, md_content: str, filename: str, title: str, page_range: str
@@ -178,6 +180,11 @@ class DescGenerator:
 
     def _call_api(self, prompt: str) -> str:
         """Call Claude API with retry logic."""
+        if self.client is None:
+            raise ValueError(
+                "ANTHROPIC_API_KEY not set. Set it as environment variable or pass api_key, "
+                "or use --mode cli to skip API calls."
+            )
         for attempt in range(MAX_RETRIES + 1):
             try:
                 response = self.client.messages.create(

@@ -1,0 +1,7 @@
+{
+  "file": "66_66_vital_product_data_vpd_parameters.md",
+  "title": "6.6 Vital product data (VPD) parameters",
+  "description": "SBC-4 定義的 VPD pages：Block Device Characteristics (B1h)、Block Limits (B0h)、Logical Block Provisioning (B2h)、Referrals (B3h)、Supported Block Lengths and Protection Types (B4h)、Block Device Characteristics Extension (B5h)、Zoned Block Device Characteristics (B6h)、Format Presets (B7h)、Concurrent Positioning Ranges (B9h) 等。INQUIRY 命令取得 device capability 的主要資料源。實作 capability discovery 必讀。",
+  "keywords": ["vpd-pages", "block-limits", "block-device-characteristics", "supported-block-lengths", "format-presets", "concurrent-positioning-ranges"],
+  "page_range": "369-392"
+}

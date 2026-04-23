@@ -1,0 +1,7 @@
+{
+  "file": "15_5144_using_ikev2-scsi_to_create_an_sa.md",
+  "title": "5.14.4 Using IKEv2-SCSI to create an SA",
+  "description": "IKEv2-SCSI 建立 SA 的完整流程：IKE_SA_INIT、IKE_AUTH、CREATE_CHILD_SA 訊息交換對應的 SECURITY PROTOCOL IN/OUT 操作、payload 格式、Diffie-Hellman 交換。SCSI 安全通道建立的核心章節，篇幅較長。",
+  "keywords": ["ikev2-scsi", "security-protocol", "diffie-hellman", "sa-negotiation", "authentication"],
+  "page_range": "235-262"
+}

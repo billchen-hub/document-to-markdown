@@ -1,0 +1,7 @@
+{
+  "file": "64_7311_non-medium_error_log_page.md",
+  "title": "7.3.11 Non-Medium Error log page",
+  "description": "Non-Medium Error log page (06h)：統計非 medium 相關錯誤（protocol error、abort、hardware error）的累計次數。跟 Read/Write Error Counter page 互補。",
+  "keywords": ["non-medium-error", "page-06h", "protocol-error", "hardware-error"],
+  "page_range": "633-634"
+}

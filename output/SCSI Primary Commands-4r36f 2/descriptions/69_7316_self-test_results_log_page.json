@@ -1,0 +1,7 @@
+{
+  "file": "69_7316_self-test_results_log_page.md",
+  "title": "7.3.16 Self-Test Results log page",
+  "description": "Self-Test Results log page (10h)：保留最近 20 筆 self-test 結果，每筆含 self-test code、result、power-on hours、address of first failure、sense code。SMART self-test 歷史查詢。",
+  "keywords": ["self-test-results", "page-10h", "self-test-history", "first-failure-address"],
+  "page_range": "643-646"
+}

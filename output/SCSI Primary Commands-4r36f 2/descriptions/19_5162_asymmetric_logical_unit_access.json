@@ -1,0 +1,7 @@
+{
+  "file": "19_5162_asymmetric_logical_unit_access.md",
+  "title": "5.16.2 Asymmetric logical unit access",
+  "description": "ALUA (Asymmetric Logical Unit Access) 模型：target port group、Active/Optimized、Active/Non-Optimized、Standby、Unavailable 等 state，以及 Implicit/Explicit ALUA 切換。Enterprise storage array 多 controller 路徑優先權的核心規範。",
+  "keywords": ["alua", "asymmetric-access", "target-port-group", "multipath", "explicit-alua", "implicit-alua"],
+  "page_range": "306-312"
+}

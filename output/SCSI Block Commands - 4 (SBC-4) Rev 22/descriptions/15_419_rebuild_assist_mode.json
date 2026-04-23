@@ -1,0 +1,7 @@
+{
+  "file": "15_419_rebuild_assist_mode.md",
+  "title": "4.19 Rebuild assist mode",
+  "description": "定義 rebuild assist mode — 當 RAID array 重建時，device 回報「哪些 LBA 尚有可讀性」讓 RAID controller 只重建必要的範圍，加速重建並避免 read hard errors 干擾。配合 GET LBA STATUS 使用。做 RAID controller、storage array 或 proactive failure handling 時用此章。",
+  "keywords": ["rebuild-assist", "raid-rebuild", "get-lba-status", "read-hard-error", "proactive-failure"],
+  "page_range": "93-95"
+}

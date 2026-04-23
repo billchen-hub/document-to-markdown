@@ -1,0 +1,7 @@
+{
+  "file": "06_5112_request_sense_pollable_sense_data.md",
+  "title": "5.11.2 REQUEST SENSE pollable sense data",
+  "description": "REQUEST SENSE 命令的 pollable (asynchronous) sense data 模型：host 可週期性 poll device 取得最新狀態、pending deferred error、background condition。autosense 機制的基礎。",
+  "keywords": ["request-sense", "pollable-sense", "deferred-error", "autosense"],
+  "page_range": "187-192"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "09_47_logical_block_provisioning.md",
+  "title": "4.7 Logical block provisioning",
+  "description": "SBC-4 thin provisioning 模型核心章節。定義 mapped / deallocated / anchored 三種 LBA 狀態、unmap 操作、WRITE SAME 觸發 unmap 的條件、LBPRZ（deallocated 讀回零）行為、與 Logical Block Provisioning VPD/log pages。做 TRIM、thin-provisioned SSD、或 storage array 時最常參考。",
+  "keywords": ["thin-provisioning", "unmap", "deallocated", "anchored", "lbprz", "trim"],
+  "page_range": "57-73"
+}

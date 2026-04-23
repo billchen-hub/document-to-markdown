@@ -1,0 +1,7 @@
+{
+  "file": "81_764_transportid_identifiers.md",
+  "title": "7.6.4 TransportID identifiers",
+  "description": "TransportID 通用格式：在 PR、EXTENDED COPY 等命令中識別特定 I_T nexus 的結構。依 PROTOCOL IDENTIFIER 分 SAS、FC、iSCSI、SOP、USB Attached SCSI 等 variant 的具體 byte layout。",
+  "keywords": ["transport-id", "protocol-identifier", "i-t-nexus", "pr-transport-id"],
+  "page_range": "717-724"
+}

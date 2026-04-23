@@ -1,0 +1,7 @@
+{
+  "file": "23_431_background_operation_control.md",
+  "title": "4.31 Background operation control",
+  "description": "Advanced background operations（例如 SSD garbage collection、wear leveling）的控制機制：透過 Background Operation Control mode page 啟用 / 暫停 / 查詢狀態，並由 Background Operation log page 回報進度。實作 host-controlled background tasks 時使用。",
+  "keywords": ["advanced-background-operation", "garbage-collection", "wear-leveling", "background-control-mode-page"],
+  "page_range": "136-137"
+}

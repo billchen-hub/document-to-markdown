@@ -1,0 +1,7 @@
+{
+  "file": "52_64915_download_application_client_error_history_mode_1ch.md",
+  "title": "6.49.15 Download application client error history mode (1Ch)",
+  "description": "WRITE BUFFER mode 1Ch：讓 application client download error history / debug log 進 device 的模式。與 READ BUFFER 1Ch 互補的上行管道。",
+  "keywords": ["write-buffer-1ch", "download-error-history", "application-client-log"],
+  "page_range": "583-586"
+}

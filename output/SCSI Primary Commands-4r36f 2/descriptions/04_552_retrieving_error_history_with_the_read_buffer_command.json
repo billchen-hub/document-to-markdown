@@ -1,0 +1,7 @@
+{
+  "file": "04_552_retrieving_error_history_with_the_read_buffer_command.md",
+  "title": "5.5.2 Retrieving error history with the READ BUFFER command",
+  "description": "用 READ BUFFER 搭配 error history mode 下載 device 保存的錯誤歷史 log（類似 firmware debug dump）的流程。做 RMA 分析、failure diagnostic 時用。",
+  "keywords": ["read-buffer", "error-history", "firmware-dump", "diagnostic-data", "rma-analysis"],
+  "page_range": "181-182"
+}

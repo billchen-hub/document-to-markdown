@@ -1,0 +1,1658 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Doc to Markdown — 面向 RAG 的高品質 PDF 轉換</title>
+
+<!-- === FONTS ============================================================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,700;1,9..144,400;1,9..144,500&family=Noto+Serif+TC:wght@400;500;700;900&family=Noto+Sans+TC:wght@300;400;500;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+/* === VIEWPORT BASE (mandatory, unchanged) =============================== */
+html, body { height: 100%; overflow-x: hidden; }
+html { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+.slide {
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.slide-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 100%;
+    overflow: hidden;
+    padding: var(--slide-padding);
+}
+:root {
+    --title-size: clamp(1.6rem, 5.2vw, 4.2rem);
+    --h2-size: clamp(1.35rem, 3.6vw, 2.75rem);
+    --h3-size: clamp(1rem, 2vw, 1.5rem);
+    --body-size: clamp(0.8rem, 1.4vw, 1.05rem);
+    --small-size: clamp(0.65rem, 1vw, 0.82rem);
+    --slide-padding: clamp(1.2rem, 4.5vw, 4.5rem);
+    --content-gap: clamp(0.5rem, 2vw, 2rem);
+    --element-gap: clamp(0.25rem, 1vw, 1rem);
+}
+.card, .container, .content-box {
+    max-width: min(90vw, 1100px);
+    max-height: min(80vh, 720px);
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+    gap: clamp(0.5rem, 1.5vw, 1rem);
+}
+img, .image-container { max-width: 100%; max-height: min(50vh, 400px); object-fit: contain; }
+
+@media (max-height: 700px) {
+    :root {
+        --slide-padding: clamp(0.8rem, 3.2vw, 2.2rem);
+        --content-gap: clamp(0.4rem, 1.5vw, 1rem);
+        --title-size: clamp(1.3rem, 4.6vw, 2.6rem);
+        --h2-size: clamp(1.1rem, 3vw, 1.9rem);
+    }
+}
+@media (max-height: 600px) {
+    :root {
+        --slide-padding: clamp(0.5rem, 2.5vw, 1.5rem);
+        --content-gap: clamp(0.3rem, 1vw, 0.75rem);
+        --title-size: clamp(1.1rem, 4vw, 2rem);
+        --body-size: clamp(0.7rem, 1.2vw, 0.95rem);
+    }
+    .nav-dots, .slide-num, .slide-tag, .issue-num, .rule-top { display: none !important; }
+}
+@media (max-height: 500px) {
+    :root {
+        --slide-padding: clamp(0.4rem, 2vw, 1rem);
+        --title-size: clamp(1rem, 3.5vw, 1.5rem);
+        --h2-size: clamp(0.9rem, 2.5vw, 1.25rem);
+        --body-size: clamp(0.65rem, 1vw, 0.85rem);
+    }
+}
+@media (max-width: 600px) {
+    :root { --title-size: clamp(1.3rem, 7vw, 2.6rem); }
+    .grid { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.2s !important; }
+    html { scroll-behavior: auto; }
+}
+
+/* === DESIGN TOKENS — EDITORIAL / MAGAZINE ============================== */
+:root {
+    --bg:         #F7F3EC;  /* warm cream paper */
+    --bg-deep:    #EFE8DA;  /* slight tint for cards */
+    --ink:        #0E2B54;  /* deep navy primary */
+    --ink-soft:   #2F4567;  /* body ink */
+    --ink-dim:    #6B7A95;  /* muted meta */
+    --rule:       rgba(14, 43, 84, 0.14);
+    --rule-medium:rgba(14, 43, 84, 0.28);
+    --rule-strong:rgba(14, 43, 84, 0.48);
+    --orange:     #F26A21;  /* signature accent */
+    --orange-deep:#C94F0F;  /* pressed */
+    --orange-tint:rgba(242, 106, 33, 0.08);
+    --navy-tint:  rgba(14, 43, 84, 0.045);
+
+    /* Type */
+    --font-cjk-serif: "Noto Serif TC", "Source Han Serif TC", serif;
+    --font-cjk-sans:  "Noto Sans TC", "Source Han Sans TC", "Microsoft JhengHei", sans-serif;
+    --font-serif:     "Fraunces", "Noto Serif TC", Georgia, serif;
+    --font-sans:      "IBM Plex Sans", "Noto Sans TC", -apple-system, sans-serif;
+    --font-mono:      "JetBrains Mono", ui-monospace, monospace;
+
+    /* Spacing */
+    --space-xs: clamp(0.25rem, 0.5vw, 0.4rem);
+    --space-sm: clamp(0.4rem, 0.8vw, 0.65rem);
+    --space-md: clamp(0.8rem, 1.5vw, 1.2rem);
+    --space-lg: clamp(1.2rem, 2.5vw, 2rem);
+    --space-xl: clamp(2rem, 4vw, 3.5rem);
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.003em;
+}
+
+/* === EDITORIAL CHROME: per-slide masthead =============================== */
+.issue-num {
+    position: absolute;
+    top: clamp(1rem, 2.8vw, 2.2rem);
+    left: clamp(1.2rem, 4.5vw, 4.5rem);
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-style: italic;
+    font-size: clamp(2.5rem, 7vw, 6rem);
+    line-height: 0.8;
+    color: var(--orange);
+    letter-spacing: -0.04em;
+    z-index: 2;
+    font-variation-settings: "opsz" 144, "SOFT" 50;
+}
+.issue-num::after {
+    content: "";
+    display: block;
+    width: clamp(2.5rem, 4vw, 3.5rem);
+    height: 2px;
+    background: var(--orange);
+    margin-top: clamp(0.3rem, 0.6vw, 0.55rem);
+}
+
+.slide-masthead {
+    position: absolute;
+    top: clamp(1.2rem, 2.8vw, 2.3rem);
+    right: clamp(1.2rem, 4.5vw, 4.5rem);
+    display: flex;
+    align-items: center;
+    gap: clamp(0.5rem, 1vw, 0.9rem);
+    font-family: var(--font-mono);
+    font-size: var(--small-size);
+    color: var(--ink-dim);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    z-index: 2;
+}
+.slide-masthead .ms-title {
+    color: var(--ink);
+    font-weight: 500;
+}
+.slide-masthead .ms-divider {
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.slide-num {
+    position: absolute;
+    bottom: clamp(1rem, 2vw, 1.8rem);
+    right: clamp(1.2rem, 4.5vw, 4.5rem);
+    font-family: var(--font-mono);
+    font-size: clamp(0.6rem, 0.9vw, 0.75rem);
+    color: var(--ink-dim);
+    letter-spacing: 0.22em;
+    z-index: 2;
+}
+.slide-num strong {
+    color: var(--orange);
+    font-weight: 500;
+}
+
+/* subtle paper texture — cream grain */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image:
+      radial-gradient(circle at 30% 20%, rgba(14, 43, 84, 0.02) 0, transparent 40%),
+      radial-gradient(circle at 70% 80%, rgba(242, 106, 33, 0.03) 0, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+}
+.slide > * { position: relative; z-index: 1; }
+
+/* === TYPOGRAPHY HIERARCHY =============================================== */
+.slide h1, .slide h2, .slide h3 { margin: 0; color: var(--ink); line-height: 1.12; }
+.slide h1 {
+    font-family: var(--font-cjk-serif);
+    font-weight: 500;
+    font-size: var(--title-size);
+    letter-spacing: -0.02em;
+}
+.slide h2 {
+    font-family: var(--font-cjk-serif);
+    font-weight: 500;
+    font-size: var(--h2-size);
+    letter-spacing: -0.015em;
+    line-height: 1.22;
+}
+.slide h3 {
+    font-family: var(--font-cjk-serif);
+    font-weight: 500;
+    font-size: var(--h3-size);
+    letter-spacing: -0.005em;
+}
+.slide h2 em, .slide h1 em {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    color: var(--orange);
+    font-variation-settings: "opsz" 144, "SOFT" 50;
+}
+.slide p {
+    font-family: var(--font-cjk-sans);
+    font-size: var(--body-size);
+    color: var(--ink-soft);
+    line-height: 1.75;
+    max-width: 54ch;
+    margin: 0;
+    font-weight: 400;
+}
+.slide p.latin { font-family: var(--font-sans); line-height: 1.6; }
+
+.kicker {
+    font-family: var(--font-mono);
+    font-size: var(--small-size);
+    color: var(--orange);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7em;
+    margin-bottom: clamp(0.5rem, 1.2vw, 1rem);
+}
+.kicker::before {
+    content: "";
+    width: clamp(1.2rem, 2vw, 1.8rem);
+    height: 1px;
+    background: var(--orange);
+}
+
+.sub-en {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(0.85rem, 1.5vw, 1.15rem);
+    color: var(--ink-dim);
+    letter-spacing: -0.005em;
+    margin-top: 0.25em;
+    font-variation-settings: "opsz" 144;
+}
+
+/* === STAGGER ============================================================ */
+@keyframes riseIn {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.stagger > * { opacity: 0; animation: riseIn 0.7s cubic-bezier(0.22, 0.75, 0.2, 1) forwards; }
+.stagger > *:nth-child(1) { animation-delay: 0.10s; }
+.stagger > *:nth-child(2) { animation-delay: 0.20s; }
+.stagger > *:nth-child(3) { animation-delay: 0.30s; }
+.stagger > *:nth-child(4) { animation-delay: 0.40s; }
+.stagger > *:nth-child(5) { animation-delay: 0.50s; }
+.stagger > *:nth-child(6) { animation-delay: 0.60s; }
+.stagger > *:nth-child(7) { animation-delay: 0.70s; }
+.stagger > *:nth-child(8) { animation-delay: 0.80s; }
+.slide:not(.active) .stagger > * { animation: none; opacity: 0; }
+.slide.active .slide-content { animation: fadeIn 0.6s ease-out; }
+
+/* === SLIDE 1 · COVER ==================================================== */
+.slide-cover {
+    background:
+      linear-gradient(180deg, var(--bg) 0%, var(--bg) 50%, var(--bg-deep) 100%);
+}
+.cover-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+    max-width: 26ch;
+}
+.cover-issue {
+    font-family: var(--font-mono);
+    font-size: clamp(0.7rem, 1vw, 0.85rem);
+    color: var(--ink-dim);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+}
+.cover-issue .ring {
+    width: 0.6em; height: 0.6em;
+    border: 1px solid var(--orange);
+    border-radius: 50%;
+    display: inline-block;
+}
+.cover-issue .sep { color: var(--orange); }
+
+.cover-title {
+    font-family: var(--font-cjk-serif);
+    font-weight: 500;
+    font-size: clamp(3rem, 10vw, 9rem);
+    line-height: 0.92;
+    color: var(--ink);
+    letter-spacing: -0.04em;
+    margin: 0;
+}
+.cover-title .en {
+    display: block;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    color: var(--orange);
+    font-size: clamp(1.4rem, 4vw, 3.5rem);
+    margin-top: clamp(0.3rem, 0.8vw, 0.6rem);
+    letter-spacing: -0.02em;
+    font-variation-settings: "opsz" 144, "SOFT" 60;
+}
+.cover-title .arrow {
+    font-style: normal;
+    color: var(--orange);
+    font-family: var(--font-serif);
+    margin: 0 0.08em;
+}
+
+.cover-dek {
+    font-family: var(--font-cjk-sans);
+    font-size: clamp(1rem, 1.8vw, 1.35rem);
+    color: var(--ink-soft);
+    max-width: 32ch;
+    line-height: 1.65;
+    font-weight: 400;
+    border-left: 2px solid var(--orange);
+    padding-left: clamp(0.8rem, 1.5vw, 1.2rem);
+}
+.cover-dek .en {
+    display: block;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 0.85em;
+    color: var(--ink-dim);
+    margin-top: 0.5em;
+    line-height: 1.5;
+}
+
+.cover-meta {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: clamp(1rem, 3vw, 3rem);
+    margin-top: clamp(1rem, 2vw, 2rem);
+    padding-top: clamp(0.8rem, 1.8vw, 1.3rem);
+    border-top: 1px solid var(--rule-medium);
+    max-width: fit-content;
+}
+.cover-meta .mi-lbl {
+    font-family: var(--font-mono);
+    font-size: clamp(0.55rem, 0.85vw, 0.7rem);
+    color: var(--ink-dim);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.3em;
+}
+.cover-meta .mi-val {
+    font-family: var(--font-cjk-sans);
+    font-weight: 500;
+    font-size: var(--body-size);
+    color: var(--ink);
+}
+.cover-meta .mi-val .cn { display: block; font-size: 0.95em; }
+.cover-meta .mi-val .en {
+    font-family: var(--font-serif);
+    font-style: italic;
+    color: var(--ink-dim);
+    font-size: 0.85em;
+    font-weight: 400;
+}
+
+/* === DUAL TITLE BLOCK (CJK lead + Latin support) ======================== */
+.dual-title {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.3rem, 0.8vw, 0.6rem);
+    margin-bottom: clamp(0.8rem, 2vw, 1.5rem);
+    max-width: 30ch;
+}
+
+/* === SLIDE 2 · STATS ==================================================== */
+.stats-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: clamp(1rem, 3vw, 3rem);
+    margin: clamp(1rem, 2.5vw, 2rem) 0;
+    max-width: 1000px;
+    padding-top: clamp(0.8rem, 1.5vw, 1.3rem);
+    border-top: 1px solid var(--rule-medium);
+}
+.stat {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.2rem, 0.5vw, 0.4rem);
+}
+.stat-num {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2.2rem, 5.5vw, 4.5rem);
+    line-height: 0.95;
+    color: var(--orange);
+    letter-spacing: -0.03em;
+    font-variation-settings: "opsz" 144, "SOFT" 40;
+}
+.stat-label {
+    font-family: var(--font-cjk-sans);
+    font-size: var(--body-size);
+    color: var(--ink);
+    font-weight: 500;
+    margin-top: 0.2em;
+}
+.stat-desc {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: var(--small-size);
+    color: var(--ink-dim);
+    max-width: 22ch;
+    line-height: 1.4;
+}
+
+/* === SLIDE 3 · TOOLS TABLE ============================================== */
+.tool-table {
+    width: 100%;
+    max-width: 1150px;
+    border-collapse: collapse;
+    font-size: clamp(0.72rem, 1.2vw, 0.95rem);
+    margin: clamp(0.8rem, 1.8vw, 1.4rem) 0;
+    font-family: var(--font-sans);
+}
+.tool-table th, .tool-table td {
+    padding: clamp(0.55rem, 1.2vw, 0.95rem) clamp(0.5rem, 1.4vw, 1.1rem);
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid var(--rule);
+}
+.tool-table th {
+    font-family: var(--font-mono);
+    font-size: clamp(0.6rem, 0.95vw, 0.72rem);
+    color: var(--ink-dim);
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--orange);
+    padding-bottom: clamp(0.4rem, 1vw, 0.7rem);
+}
+.tool-table .tool-name {
+    font-family: var(--font-cjk-serif);
+    font-weight: 500;
+    color: var(--ink);
+    font-size: clamp(0.85rem, 1.5vw, 1.15rem);
+    width: 16%;
+}
+.tool-table .tool-name.ours {
+    color: var(--orange);
+}
+.tool-table .tool-name.ours::before {
+    content: "▸";
+    margin-right: 0.3em;
+    color: var(--orange);
+}
+.tool-table tbody tr:last-child {
+    border-top: 1px solid var(--rule-medium);
+    background: var(--orange-tint);
+}
+.tool-table tbody tr:last-child td { border-bottom: 0; padding-top: clamp(0.7rem, 1.4vw, 1.1rem); padding-bottom: clamp(0.7rem, 1.4vw, 1.1rem); }
+
+.rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    font-family: var(--font-cjk-sans);
+    font-size: clamp(0.7rem, 1.15vw, 0.88rem);
+    font-weight: 400;
+}
+.rating::before {
+    content: "";
+    width: 0.55em;
+    height: 0.55em;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.rating.ok::before { background: var(--orange); }
+.rating.mid::before { background: var(--ink-dim); border: 1px solid var(--ink-soft); background: transparent; }
+.rating.bad::before { background: transparent; border: 1px solid var(--rule-strong); width: 0.5em; height: 1px; border-radius: 0; position: relative; top: -0.1em; }
+.rating.ok  { color: var(--ink); font-weight: 500; }
+.rating.mid { color: var(--ink-soft); }
+.rating.bad { color: var(--ink-dim); font-style: italic; }
+
+.quote-block {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: clamp(0.6rem, 1.5vw, 1.2rem);
+    align-items: start;
+    margin-top: clamp(0.8rem, 1.8vw, 1.4rem);
+    max-width: 1000px;
+    padding-top: clamp(0.6rem, 1.2vw, 1rem);
+    border-top: 1px solid var(--rule);
+}
+.quote-mark {
+    font-family: var(--font-serif);
+    font-size: clamp(2rem, 4.5vw, 3.5rem);
+    color: var(--orange);
+    line-height: 0.5;
+    font-style: italic;
+    font-weight: 400;
+    padding-top: 0.15em;
+}
+.quote-block .q {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(0.85rem, 1.45vw, 1.1rem);
+    color: var(--ink);
+    line-height: 1.5;
+    max-width: 70ch;
+}
+.quote-block .attr {
+    display: block;
+    margin-top: 0.6em;
+    font-family: var(--font-mono);
+    font-size: clamp(0.6rem, 0.9vw, 0.72rem);
+    color: var(--ink-dim);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+/* === SLIDE 4/6 · DUAL CARDS ============================================= */
+.dual-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(1rem, 2.5vw, 2.2rem);
+    margin-top: clamp(0.8rem, 1.8vw, 1.4rem);
+    max-width: 1150px;
+}
+.panel {
+    padding: clamp(1rem, 2.2vw, 1.8rem);
+    border-top: 2px solid var(--rule-medium);
+    background: var(--bg-deep);
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.5rem, 1.2vw, 1rem);
+}
+.panel.fit    { border-top-color: var(--orange); }
+.panel.break  { border-top-color: var(--ink); }
+.panel.cli    { border-top-color: var(--orange); }
+.panel.api    { border-top-color: var(--ink); }
+.panel-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1em;
+    margin-bottom: clamp(0.3rem, 0.8vw, 0.6rem);
+    padding-bottom: clamp(0.3rem, 0.8vw, 0.6rem);
+    border-bottom: 1px solid var(--rule);
+}
+.panel-head h3 { color: var(--ink); }
+.panel-head h3 em {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.7em;
+    color: var(--ink-dim);
+    display: block;
+    margin-top: 0.1em;
+}
+.panel-tag {
+    font-family: var(--font-mono);
+    font-size: clamp(0.6rem, 0.9vw, 0.72rem);
+    padding: 0.25em 0.7em;
+    border: 1px solid currentColor;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+.fit   .panel-tag { color: var(--orange); }
+.break .panel-tag { color: var(--ink); }
+.cli   .panel-tag { color: var(--orange); }
+.api   .panel-tag { color: var(--ink); }
+
+.panel ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.35rem, 0.9vw, 0.65rem);
+}
+.panel li {
+    display: grid;
+    grid-template-columns: 1.2em 1fr;
+    gap: 0.5em;
+    align-items: baseline;
+    font-family: var(--font-cjk-sans);
+    font-size: var(--body-size);
+    color: var(--ink-soft);
+    line-height: 1.55;
+}
+.panel li::before {
+    content: "—";
+    color: var(--orange);
+    font-weight: 500;
+    font-family: var(--font-sans);
+}
+
+/* === SLIDE 5 · ARCHITECTURE LAYERS ====================================== */
+.arch {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.7rem, 1.6vw, 1.2rem);
+    margin-top: clamp(0.8rem, 1.8vw, 1.4rem);
+    max-width: 1100px;
+}
+.arch-layer {
+    display: grid;
+    grid-template-columns: clamp(110px, 15vw, 170px) 1fr;
+    gap: clamp(0.8rem, 2vw, 1.5rem);
+    align-items: start;
+    padding: clamp(0.9rem, 1.8vw, 1.4rem) 0;
+    border-top: 1px solid var(--rule);
+    position: relative;
+}
+.arch-layer:first-child { border-top: 2px solid var(--ink); }
+.arch-layer::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: clamp(3rem, 5vw, 4.5rem);
+    height: 2px;
+    background: var(--orange);
+}
+.arch-layer.reinforce::before { width: clamp(5rem, 8vw, 7rem); }
+.arch-label {
+    font-family: var(--font-mono);
+    font-size: clamp(0.6rem, 0.9vw, 0.72rem);
+    color: var(--orange);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 0.3em;
+}
+.arch-title {
+    font-family: var(--font-cjk-serif);
+    font-weight: 500;
+    font-size: clamp(1.1rem, 2.2vw, 1.65rem);
+    color: var(--ink);
+    line-height: 1.25;
+    margin-bottom: 0.2em;
+}
+.arch-title em {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    color: var(--orange);
+}
+.arch-body {
+    font-family: var(--font-cjk-sans);
+    font-size: var(--body-size);
+    color: var(--ink-soft);
+    line-height: 1.7;
+    max-width: 60ch;
+}
+.arch-meta {
+    font-family: var(--font-mono);
+    font-size: var(--small-size);
+    color: var(--ink-dim);
+    margin-top: clamp(0.3rem, 0.8vw, 0.5rem);
+    letter-spacing: 0.04em;
+}
+
+/* === SLIDE 7 · STEP LIST ================================================ */
+.step-list {
+    list-style: none;
+    padding: 0;
+    margin: clamp(0.8rem, 1.8vw, 1.3rem) 0 0;
+    counter-reset: stepcount;
+    max-width: 1000px;
+}
+.step-list li {
+    display: grid;
+    grid-template-columns: clamp(2.2rem, 3.5vw, 3rem) 1fr;
+    gap: clamp(0.8rem, 1.5vw, 1.2rem);
+    align-items: baseline;
+    padding: clamp(0.45rem, 1vw, 0.8rem) 0;
+    border-top: 1px solid var(--rule);
+    counter-increment: stepcount;
+}
+.step-list li:first-child { border-top: 1px solid var(--rule-medium); }
+.step-list li::before {
+    content: counter(stepcount, decimal-leading-zero);
+    font-family: var(--font-serif);
+    font-style: italic;
+    color: var(--orange);
+    font-size: clamp(1rem, 1.8vw, 1.5rem);
+    font-weight: 500;
+    line-height: 1;
+    font-variation-settings: "opsz" 144;
+}
+.step-list li .body {
+    font-family: var(--font-cjk-sans);
+    font-size: var(--body-size);
+    color: var(--ink-soft);
+    line-height: 1.6;
+}
+.step-list li .body strong {
+    font-family: var(--font-cjk-serif);
+    font-weight: 500;
+    color: var(--ink);
+}
+.step-list li .body code {
+    font-family: var(--font-mono);
+    font-size: 0.92em;
+    background: var(--navy-tint);
+    padding: 0.1em 0.4em;
+    border-radius: 2px;
+    color: var(--ink);
+}
+
+/* === CODE BLOCKS ======================================================== */
+pre.code {
+    background: var(--ink);
+    color: #E5E9F0;
+    border-radius: 2px;
+    padding: clamp(1rem, 2vw, 1.6rem) clamp(1.2rem, 2.4vw, 2rem);
+    font-family: var(--font-mono);
+    font-size: clamp(0.72rem, 1.2vw, 0.95rem);
+    line-height: 1.65;
+    margin: 0;
+    max-width: 1050px;
+    overflow: hidden;
+    position: relative;
+    border-left: 3px solid var(--orange);
+}
+pre.code::before {
+    content: attr(data-file);
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+    font-family: var(--font-mono);
+    font-size: 0.7em;
+    color: #8895B0;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+pre.code .c { color: #8895B0; font-style: italic; }
+pre.code .k { color: #F6C177; font-weight: 500; }
+pre.code .s { color: #A8E6A3; }
+pre.code .v { color: #FFA970; }
+pre.code .o { color: var(--orange); font-weight: 500; }
+pre.code .n { color: #B8C5E0; }
+
+.cta {
+    margin-top: clamp(0.8rem, 1.8vw, 1.4rem);
+    padding: clamp(0.75rem, 1.5vw, 1.15rem) clamp(1rem, 2vw, 1.6rem);
+    background: var(--ink);
+    color: #E5E9F0;
+    border-left: 3px solid var(--orange);
+    font-family: var(--font-mono);
+    font-size: clamp(0.8rem, 1.3vw, 1rem);
+    display: inline-block;
+    max-width: fit-content;
+    letter-spacing: -0.01em;
+}
+.cta .dollar { color: var(--orange); margin-right: 0.8em; user-select: none; }
+.cta .flag { color: var(--orange); }
+.cta .arg { color: #A8E6A3; }
+
+/* === SLIDE 9 · FLOW GRID ================================================ */
+.flow {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: clamp(0.3rem, 0.6vw, 0.55rem);
+    margin: clamp(0.8rem, 1.8vw, 1.4rem) 0 clamp(0.5rem, 1vw, 0.8rem);
+    max-width: 1250px;
+}
+.flow-step {
+    position: relative;
+    padding: clamp(0.7rem, 1.5vw, 1.2rem) clamp(0.4rem, 0.9vw, 0.8rem);
+    background: var(--bg-deep);
+    border-top: 2px solid var(--ink);
+    display: flex;
+    flex-direction: column;
+    gap: 0.45em;
+    transition: transform 0.25s cubic-bezier(0.22, 0.75, 0.2, 1);
+}
+.flow-step:hover { transform: translateY(-3px); }
+.flow-step .n {
+    font-family: var(--font-serif);
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+    font-style: italic;
+    color: var(--orange);
+    font-weight: 500;
+    line-height: 1;
+    font-variation-settings: "opsz" 144;
+}
+.flow-step .lbl-cn {
+    font-family: var(--font-cjk-serif);
+    font-size: clamp(0.65rem, 1.05vw, 0.88rem);
+    color: var(--ink);
+    font-weight: 500;
+    line-height: 1.3;
+}
+.flow-step .lbl-en {
+    font-family: var(--font-mono);
+    font-size: clamp(0.5rem, 0.85vw, 0.66rem);
+    color: var(--ink-dim);
+    letter-spacing: 0.08em;
+    line-height: 1.35;
+}
+.flow-step.api-only { border-top-color: var(--ink-dim); background: var(--navy-tint); }
+.flow-step.branching { border-top-color: var(--orange); background: var(--orange-tint); }
+
+.legend {
+    display: flex;
+    gap: clamp(0.8rem, 2vw, 1.8rem);
+    font-family: var(--font-mono);
+    font-size: var(--small-size);
+    color: var(--ink-dim);
+    margin-top: clamp(0.3rem, 0.8vw, 0.6rem);
+    flex-wrap: wrap;
+    letter-spacing: 0.06em;
+}
+.legend-swatch {
+    display: inline-block;
+    width: 1em;
+    height: 0.15em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    background: var(--ink);
+}
+.legend .api .legend-swatch { background: var(--ink-dim); }
+.legend .branch .legend-swatch { background: var(--orange); }
+
+/* === SLIDE 10 · QA LAYERS =============================================== */
+.qa-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(1rem, 2.5vw, 2.2rem);
+    margin-top: clamp(0.8rem, 1.8vw, 1.4rem);
+    max-width: 1150px;
+}
+.qa-card {
+    padding: clamp(1rem, 2vw, 1.6rem);
+    border-top: 2px solid var(--orange);
+    background: var(--bg-deep);
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.5rem, 1vw, 0.85rem);
+}
+.qa-card.layer2 { border-top-color: var(--ink); }
+.qa-head {
+    font-family: var(--font-mono);
+    font-size: var(--small-size);
+    color: var(--orange);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    display: flex;
+    gap: 0.6em;
+    align-items: baseline;
+}
+.qa-card.layer2 .qa-head { color: var(--ink); }
+.qa-head .tag-num { font-weight: 700; }
+.qa-head .tag-sep { color: var(--ink-dim); font-weight: 400; }
+
+.qa-card h3 em {
+    display: block;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.7em;
+    color: var(--ink-dim);
+    margin-top: 0.15em;
+}
+.qa-checks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35em;
+    font-family: var(--font-cjk-sans);
+    font-size: clamp(0.75rem, 1.25vw, 0.95rem);
+    color: var(--ink-soft);
+}
+.qa-checks li { padding-left: 1.3em; position: relative; line-height: 1.55; }
+.qa-checks li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    top: 0.05em;
+    color: var(--orange);
+    font-size: 0.85em;
+}
+
+/* === SLIDE 11 · OUTPUT ================================================== */
+.output-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: clamp(1rem, 2vw, 2rem);
+    margin-top: clamp(0.8rem, 1.8vw, 1.3rem);
+    max-width: 1150px;
+    align-items: start;
+}
+.file-tree {
+    font-family: var(--font-mono);
+    font-size: clamp(0.68rem, 1.1vw, 0.88rem);
+    line-height: 1.85;
+    background: var(--bg-deep);
+    padding: clamp(1rem, 1.8vw, 1.3rem) clamp(1.2rem, 2vw, 1.6rem);
+    color: var(--ink-soft);
+    border-top: 2px solid var(--ink);
+    margin: 0;
+    overflow: hidden;
+}
+.file-tree .folder { color: var(--ink); font-weight: 500; }
+.file-tree .file { color: var(--ink-soft); }
+.file-tree .key { color: var(--orange); font-weight: 500; }
+.file-tree .comment { color: var(--ink-dim); font-style: italic; }
+
+/* === SLIDE 12 · DECISION TABLE ========================================== */
+.decision {
+    display: flex;
+    flex-direction: column;
+    margin-top: clamp(0.8rem, 1.8vw, 1.4rem);
+    max-width: 1050px;
+}
+.dec-row {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: clamp(0.8rem, 2vw, 1.8rem);
+    align-items: center;
+    padding: clamp(0.7rem, 1.5vw, 1.2rem) 0;
+    border-top: 1px solid var(--rule);
+}
+.dec-row:first-child { border-top: 1px solid var(--rule-medium); }
+.dec-row:last-child { border-bottom: 1px solid var(--rule-medium); }
+.dec-q {
+    font-family: var(--font-cjk-serif);
+    font-weight: 500;
+    font-size: clamp(0.9rem, 1.6vw, 1.2rem);
+    color: var(--ink);
+    line-height: 1.4;
+}
+.dec-q em {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: var(--ink-dim);
+    display: block;
+    margin-top: 0.15em;
+}
+.dec-arrow {
+    font-family: var(--font-serif);
+    font-size: clamp(1.1rem, 2vw, 1.6rem);
+    color: var(--orange);
+    font-weight: 500;
+}
+.dec-a {
+    font-family: var(--font-cjk-sans);
+    font-weight: 500;
+    font-size: clamp(0.88rem, 1.5vw, 1.1rem);
+    padding: clamp(0.5rem, 1vw, 0.8rem) clamp(0.8rem, 1.5vw, 1.2rem);
+    line-height: 1.4;
+}
+.dec-a em {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.78em;
+    color: var(--ink-dim);
+    display: block;
+    margin-top: 0.1em;
+}
+.dec-a.cli { color: var(--orange); border-left: 2px solid var(--orange); background: var(--orange-tint); }
+.dec-a.api { color: var(--ink); border-left: 2px solid var(--ink); background: var(--navy-tint); }
+.dec-a.no  { color: var(--ink-dim); border-left: 2px solid var(--rule-medium); }
+
+.final-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: clamp(1rem, 2vw, 1.5rem);
+    font-family: var(--font-mono);
+    font-size: var(--small-size);
+    color: var(--ink-dim);
+    letter-spacing: 0.1em;
+}
+
+/* === NAV DOTS =========================================================== */
+.nav-dots {
+    position: fixed;
+    right: clamp(0.8rem, 1.2vw, 1.3rem);
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.45rem, 0.85vw, 0.75rem);
+    z-index: 100;
+}
+.nav-dot {
+    width: clamp(6px, 0.65vw, 8px);
+    height: 1px;
+    background: var(--rule-strong);
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.35s cubic-bezier(0.22, 0.75, 0.2, 1);
+    border-radius: 0;
+}
+.nav-dot:hover { background: var(--ink); width: clamp(12px, 1.2vw, 16px); }
+.nav-dot.active {
+    background: var(--orange);
+    width: clamp(20px, 2vw, 26px);
+    height: 2px;
+}
+</style>
+</head>
+<body>
+
+<!-- =========================================================
+     SLIDE 1 · COVER
+     ========================================================= -->
+<section class="slide slide-cover active" id="s1">
+    <div class="slide-content stagger">
+        <div class="cover-issue">
+            <span class="ring"></span>
+            ISSUE 01 <span class="sep">/</span> 12 <span class="sep">·</span> 2026 INTERNAL
+        </div>
+        <h1 class="cover-title">
+            文件到<br>Markdown<br>
+            <span class="en">Doc<span class="arrow">→</span><em>Markdown</em></span>
+        </h1>
+        <div class="cover-dek">
+            面向 RAG 知識庫的高品質 PDF 轉換流程。Marker OCR 打底，視覺模型補強。
+            <span class="en">High-fidelity PDF to Markdown for technical-spec RAG. Marker base + vision reinforcement.</span>
+        </div>
+        <div class="cover-meta">
+            <div class="mi">
+                <span class="mi-lbl">Mode A</span>
+                <span class="mi-val"><span class="cn">CLI 模式</span><span class="en">Claude Code session</span></span>
+            </div>
+            <div class="mi">
+                <span class="mi-lbl">Mode B</span>
+                <span class="mi-val"><span class="cn">API 模式</span><span class="en">Anthropic · on-prem AI</span></span>
+            </div>
+            <div class="mi">
+                <span class="mi-lbl">Built for</span>
+                <span class="mi-val"><span class="cn">SCSI · UFS · JEDEC</span><span class="en">Tech-spec documents</span></span>
+            </div>
+        </div>
+    </div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>A PIPELINE FOR RAG</span>
+    </div>
+    <div class="slide-num">No. <strong>01</strong> / 12</div>
+</section>
+
+<!-- =========================================================
+     SLIDE 2 · PROBLEM
+     ========================================================= -->
+<section class="slide" id="s2">
+    <div class="slide-content stagger">
+        <div class="kicker">問題 / Problem</div>
+        <div class="dual-title">
+            <h2>技術規格 PDF 是一整牆的表格、<em>timing diagram、state machine</em>。</h2>
+            <div class="sub-en">Tech-spec PDFs are a wall of tables, timing diagrams and state machines.</div>
+        </div>
+        <div class="stats-row">
+            <div class="stat">
+                <div class="stat-num">1,459</div>
+                <div class="stat-label">總頁數</div>
+                <div class="stat-desc">SBC-4 + SPC-4 兩份 SCSI 規格合計</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">178</div>
+                <div class="stat-label">章節數</div>
+                <div class="stat-desc">需按章節切片給 RAG 建索引</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">80<span style="font-size: 0.55em; color: var(--ink-dim); margin-left: 0.1em;">%</span></div>
+                <div class="stat-label">結構丟失率</div>
+                <div class="stat-desc">一般 PDF 抽取器無法保留的比例</div>
+            </div>
+        </div>
+        <p>
+            RAG 的品質上限就是 ingestion 的品質。如果一張 opcode 表被壓成一段純文字，
+            檢索永遠抓不到正確的 register field。我們需要的是能保留結構的抽取器。
+        </p>
+    </div>
+    <div class="issue-num">02</div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>PROBLEM</span>
+    </div>
+    <div class="slide-num">No. <strong>02</strong> / 12</div>
+</section>
+
+<!-- =========================================================
+     SLIDE 3 · TOOL LANDSCAPE
+     ========================================================= -->
+<section class="slide" id="s3">
+    <div class="slide-content stagger">
+        <div class="kicker">工具盤點 / Landscape 2026</div>
+        <div class="dual-title">
+            <h2>常見開源方案 — 以及它們各自的<em>天花板</em>。</h2>
+            <div class="sub-en">The usual suspects, and where each one breaks.</div>
+        </div>
+        <table class="tool-table">
+            <thead>
+                <tr>
+                    <th>工具 / Tool</th>
+                    <th>表格品質</th>
+                    <th>標題與 Layout</th>
+                    <th>圖片</th>
+                    <th>技術 spec 合適度</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tool-name">Marker</td>
+                    <td><span class="rating mid">中 · 複雜表較弱</span></td>
+                    <td><span class="rating ok">良好</span></td>
+                    <td><span class="rating ok">原圖保留</span></td>
+                    <td><span class="rating mid">補強後可用</span></td>
+                </tr>
+                <tr>
+                    <td class="tool-name">MinerU</td>
+                    <td><span class="rating ok">高 · 內嵌 HTML</span></td>
+                    <td><span class="rating ok">自動偵測佳</span></td>
+                    <td><span class="rating mid">偶有裁切誤差</span></td>
+                    <td><span class="rating ok">最強但需 GPU</span></td>
+                </tr>
+                <tr>
+                    <td class="tool-name">MarkItDown</td>
+                    <td><span class="rating bad">純文字 · 樣式全失</span></td>
+                    <td><span class="rating bad">無 heading 層級</span></td>
+                    <td><span class="rating mid">基本抽取</span></td>
+                    <td><span class="rating bad">不適合</span></td>
+                </tr>
+                <tr>
+                    <td class="tool-name ours">本方案</td>
+                    <td><span class="rating ok">Marker + 視覺補強</span></td>
+                    <td><span class="rating ok">TOC 驅動章節切分</span></td>
+                    <td><span class="rating ok">視覺模型生成描述</span></td>
+                    <td><span class="rating ok">為此場景設計</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="quote-block">
+            <div class="quote-mark">"</div>
+            <div>
+                <div class="q">MarkItDown PDF conversion extracts plain text only, no heading levels or layout. Tables are mostly plain text, complex styles lost.</div>
+                <span class="attr">Jimmy Song · PDF-to-Markdown Deep Dive · 2026</span>
+            </div>
+        </div>
+    </div>
+    <div class="issue-num">03</div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>LANDSCAPE</span>
+    </div>
+    <div class="slide-num">No. <strong>03</strong> / 12</div>
+</section>
+
+<!-- =========================================================
+     SLIDE 4 · MARKITDOWN — RIGHT TOOL, WRONG JOB
+     ========================================================= -->
+<section class="slide" id="s4">
+    <div class="slide-content stagger">
+        <div class="kicker">定位議題 / Not a slam dunk</div>
+        <div class="dual-title">
+            <h2>MarkItDown 很優秀 — <em>前提是用對場景</em>。</h2>
+            <div class="sub-en">MarkItDown is excellent for the documents it was built for.</div>
+        </div>
+        <div class="dual-grid">
+            <div class="panel fit">
+                <div class="panel-head">
+                    <h3>適合的場景 <em>Where it shines</em></h3>
+                    <span class="panel-tag">RIGHT JOB</span>
+                </div>
+                <ul>
+                    <li>純文字流的 .docx memo</li>
+                    <li>.xlsx / .pptx — 結構已在檔案裡</li>
+                    <li>多格式批次 ingestion（email、HTML、圖）</li>
+                    <li>快速建一份混合格式 RAG corpus</li>
+                </ul>
+            </div>
+            <div class="panel break">
+                <div class="panel-head">
+                    <h3>不適合的場景 <em>Where it breaks</em></h3>
+                    <span class="panel-tag">WRONG JOB</span>
+                </div>
+                <ul>
+                    <li>JEDEC / T10 規格書中的 register 表</li>
+                    <li>timing diagram、state machine、waveform</li>
+                    <li>多欄排版的 typeset 頁面</li>
+                    <li>表格本身就是內容的文件</li>
+                </ul>
+            </div>
+        </div>
+        <p>
+            本專案仍然裝了 MarkItDown — 它有它的位置。對 spec 我們帶更重的武器。
+        </p>
+    </div>
+    <div class="issue-num">04</div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>POSITIONING</span>
+    </div>
+    <div class="slide-num">No. <strong>04</strong> / 12</div>
+</section>
+
+<!-- =========================================================
+     SLIDE 5 · HYBRID ARCHITECTURE
+     ========================================================= -->
+<section class="slide" id="s5">
+    <div class="slide-content stagger">
+        <div class="kicker">我們的做法 / Our approach</div>
+        <div class="dual-title">
+            <h2>Marker 打底。視覺模型<em>收拾剩下的</em>。</h2>
+            <div class="sub-en">Marker does the bulk. A vision model fixes the rest.</div>
+        </div>
+        <div class="arch">
+            <div class="arch-layer base">
+                <div class="arch-label">LAYER 01</div>
+                <div>
+                    <div class="arch-title">Marker OCR 基底</div>
+                    <div class="arch-body">
+                        對每一頁都產出 Markdown。分頁輸出保留 per-page provenance，
+                        下游可精準針對需要補強的頁面處理。
+                    </div>
+                    <div class="arch-meta">~15s / page · CPU-capable · keeps images · weak on complex tables</div>
+                </div>
+            </div>
+            <div class="arch-layer reinforce">
+                <div class="arch-label">LAYER 02</div>
+                <div>
+                    <div class="arch-title">視覺模型補強</div>
+                    <div class="arch-body">
+                        規則掃描標記問題頁（亂碼、空表、缺圖），
+                        這些頁再交給視覺模型 — Claude、Anthropic API、或公司地端 AI。
+                    </div>
+                    <div class="arch-meta">full-page redo + per-figure descriptions for RAG retrieval</div>
+                </div>
+            </div>
+        </div>
+        <p style="margin-top: clamp(0.8rem, 1.8vw, 1.3rem);">
+            關鍵在於 — <strong style="color: var(--ink); font-weight: 500;">視覺模型是誰，可以配置</strong>。
+            這就是兩種模式的由來。
+        </p>
+    </div>
+    <div class="issue-num">05</div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>ARCHITECTURE</span>
+    </div>
+    <div class="slide-num">No. <strong>05</strong> / 12</div>
+</section>
+
+<!-- =========================================================
+     SLIDE 6 · TWO MODES
+     ========================================================= -->
+<section class="slide" id="s6">
+    <div class="slide-content stagger">
+        <div class="kicker">一套流程，兩種分派 / Same pipeline, two dispatches</div>
+        <div class="dual-title">
+            <h2>依文件性質，選擇不同的<em>視覺模型</em>。</h2>
+            <div class="sub-en">Pick the vision model that matches the document.</div>
+        </div>
+        <div class="dual-grid">
+            <div class="panel cli">
+                <div class="panel-head">
+                    <h3>CLI Mode <em>For public documents</em></h3>
+                    <span class="panel-tag">公開文件</span>
+                </div>
+                <ul>
+                    <li>零外部 API 呼叫，資料不離開本機</li>
+                    <li>當前 Claude Code session 就是視覺模型</li>
+                    <li>pipeline render PNG、產 manifest、暫停、交棒</li>
+                    <li>Claude 讀 PNG 寫 Markdown，pipeline 繼續</li>
+                    <li>成本：零</li>
+                </ul>
+            </div>
+            <div class="panel api">
+                <div class="panel-head">
+                    <h3>API Mode <em>For confidential documents</em></h3>
+                    <span class="panel-tag">機密文件</span>
+                </div>
+                <ul>
+                    <li>可替換 provider：Anthropic / OpenAI-compatible</li>
+                    <li>對接公司地端 AI（Qwen / LLaMA / 自有 gateway）</li>
+                    <li>完全自動，不需 session 介入</li>
+                    <li>文件從不離開企業邊界</li>
+                    <li>成本：依服務商；地端通常 ~0</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="issue-num">06</div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>TWO MODES</span>
+    </div>
+    <div class="slide-num">No. <strong>06</strong> / 12</div>
+</section>
+
+<!-- =========================================================
+     SLIDE 7 · CLI MODE FLOW
+     ========================================================= -->
+<section class="slide" id="s7">
+    <div class="slide-content stagger">
+        <div class="kicker">Mode A · 公開文件 / Public documents</div>
+        <div class="dual-title">
+            <h2>CLI Mode — <em>session 本身就是那個模型</em>。</h2>
+            <div class="sub-en">The Claude Code session becomes the vision model.</div>
+        </div>
+        <ol class="step-list">
+            <li><span class="body"><strong>Marker</strong> 轉換每頁；規則掃描標記 N 頁問題。</span></li>
+            <li><span class="body">Pipeline 把問題頁 <strong>render 成 PNG</strong>，放進 <code>pages_for_vision/</code>。</span></li>
+            <li><span class="body">寫入 <code>need_vision.json</code> 任務清單，然後<strong>乾淨退出</strong>。</span></li>
+            <li><span class="body">Claude Code session 讀 manifest、<strong>看每張 PNG</strong>、把 Markdown 寫回 <code>marker_cache/page_NNNN.md</code>。</span></li>
+            <li><span class="body">操作者以 <code>--resume</code> 再跑；pipeline <strong>驗證每個 task 都寫完</strong>，然後合併章節。</span></li>
+            <li><span class="body">章節 description 階段（Step 7）同樣<strong>暫停-繼續</strong>機制。</span></li>
+        </ol>
+        <div class="cta">
+            <span class="dollar">$</span>python -m doc_to_markdown.main input/spec.pdf <span class="flag">--mode cli</span>
+        </div>
+    </div>
+    <div class="issue-num">07</div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>CLI FLOW</span>
+    </div>
+    <div class="slide-num">No. <strong>07</strong> / 12</div>
+</section>
+
+<!-- =========================================================
+     SLIDE 8 · API MODE FLOW
+     ========================================================= -->
+<section class="slide" id="s8">
+    <div class="slide-content stagger">
+        <div class="kicker">Mode B · 機密文件 / Confidential documents</div>
+        <div class="dual-title">
+            <h2>API Mode — <em>一行環境變數</em>，切到自家 AI gateway。</h2>
+            <div class="sub-en">A one-line swap to your on-prem AI endpoint.</div>
+        </div>
+        <p style="margin-bottom: clamp(0.6rem, 1.2vw, 1rem);">
+            同一份原始碼。Anthropic、OpenAI-compatible 地端 AI、或任何相容 gateway — 只改環境變數。
+        </p>
+<pre class="code" data-file="shell"><span class="c"># 公司地端 AI（Qwen / LLaMA / 內部 gateway）</span>
+<span class="k">export</span> <span class="v">VISION_PROVIDER</span>=<span class="s">openai-compatible</span>
+<span class="k">export</span> <span class="v">VISION_BASE_URL</span>=<span class="s">https://your-company-ai.internal/v1</span>
+<span class="k">export</span> <span class="v">VISION_API_KEY</span>=<span class="s">$TOKEN</span>
+<span class="k">export</span> <span class="v">VISION_MODEL</span>=<span class="s">qwen-vl-max</span>
+
+<span class="n">python</span> -m doc_to_markdown.main input/<span class="s">confidential.pdf</span> <span class="o">--mode api</span></pre>
+        <p style="margin-top: clamp(0.8rem, 1.5vw, 1.1rem);">
+            改回 <code style="font-family: var(--font-mono); background: var(--navy-tint); padding: 0.1em 0.4em;">VISION_PROVIDER=anthropic</code> 即是公開 Anthropic API。
+            對接內部 endpoint 時，文件從不離開企業邊界。
+        </p>
+    </div>
+    <div class="issue-num">08</div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>API FLOW</span>
+    </div>
+    <div class="slide-num">No. <strong>08</strong> / 12</div>
+</section>
+
+<!-- =========================================================
+     SLIDE 9 · PIPELINE
+     ========================================================= -->
+<section class="slide" id="s9">
+    <div class="slide-content stagger">
+        <div class="kicker">引擎蓋下 / Under the hood</div>
+        <div class="dual-title">
+            <h2>八個步驟；其中<em>兩步</em>依模式分支。</h2>
+            <div class="sub-en">Eight steps. Two of them branch by mode.</div>
+        </div>
+        <div class="flow">
+            <div class="flow-step"><span class="n">01</span><span class="lbl-cn">解析 PDF</span><span class="lbl-en">PDF Parse</span></div>
+            <div class="flow-step"><span class="n">02</span><span class="lbl-cn">Marker 轉換</span><span class="lbl-en">Per-page MD</span></div>
+            <div class="flow-step"><span class="n">03</span><span class="lbl-cn">規則檢查</span><span class="lbl-en">Rule Check</span></div>
+            <div class="flow-step api-only"><span class="n">04</span><span class="lbl-cn">抽樣比對</span><span class="lbl-en">Sampling (api)</span></div>
+            <div class="flow-step branching"><span class="n">05</span><span class="lbl-cn">視覺補強</span><span class="lbl-en">Vision Redo</span></div>
+            <div class="flow-step"><span class="n">06</span><span class="lbl-cn">章節合併</span><span class="lbl-en">Merge</span></div>
+            <div class="flow-step branching"><span class="n">07</span><span class="lbl-cn">生成 Description</span><span class="lbl-en">Descriptions</span></div>
+            <div class="flow-step"><span class="n">08</span><span class="lbl-cn">建 Catalog</span><span class="lbl-en">Catalog</span></div>
+        </div>
+        <div class="legend">
+            <span><span class="legend-swatch"></span>共用步驟 / Shared</span>
+            <span class="api"><span class="legend-swatch"></span>僅 API 模式 / API only</span>
+            <span class="branch"><span class="legend-swatch"></span>依模式分支 / Branches by mode</span>
+        </div>
+        <p style="margin-top: clamp(0.7rem, 1.5vw, 1.1rem);">
+            每一步都寫進 <code style="font-family: var(--font-mono); background: var(--navy-tint); padding: 0.1em 0.4em;">progress.json</code>。任何地方崩潰或退出 — <code style="font-family: var(--font-mono); background: var(--navy-tint); padding: 0.1em 0.4em;">--resume</code> 直接接上。
+        </p>
+    </div>
+    <div class="issue-num">09</div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>PIPELINE</span>
+    </div>
+    <div class="slide-num">No. <strong>09</strong> / 12</div>
+</section>
+
+<!-- =========================================================
+     SLIDE 10 · QUALITY LAYERS
+     ========================================================= -->
+<section class="slide" id="s10">
+    <div class="slide-content stagger">
+        <div class="kicker">品質控制 / Quality control</div>
+        <div class="dual-title">
+            <h2>兩層保障 — <em>一層擋不住的那層</em>。</h2>
+            <div class="sub-en">Two layers catch what one cannot.</div>
+        </div>
+        <div class="qa-grid">
+            <div class="qa-card">
+                <div class="qa-head"><span class="tag-num">LAYER 01</span><span class="tag-sep">·</span><span>規則掃描 / Rules</span></div>
+                <h3>快速、免費、確定性 <em>Fast, free, deterministic</em></h3>
+                <ul class="qa-checks">
+                    <li>亂碼字元比例 &gt; 5%</li>
+                    <li>有表頭但無資料列</li>
+                    <li>頁面有圖片，Markdown 卻沒有</li>
+                    <li>內容長度 &lt; 50 字元</li>
+                    <li>格式破損（未閉表、孤立標題）</li>
+                </ul>
+            </div>
+            <div class="qa-card layer2">
+                <div class="qa-head"><span class="tag-num">LAYER 02</span><span class="tag-sep">·</span><span>抽樣比對 / Sampling (api only)</span></div>
+                <h3>分類抽檢 <em>Category spot-check</em></h3>
+                <ul class="qa-checks">
+                    <li>按 table / image / text 類別比例抽樣</li>
+                    <li>Vision 比對 MD 與頁面圖像，回傳 0-1 相似度</li>
+                    <li>低於 0.70 標記為問題頁</li>
+                    <li>若某分類失敗率 &gt; 50%，整類重做</li>
+                </ul>
+            </div>
+        </div>
+        <p style="margin-top: clamp(0.7rem, 1.5vw, 1.1rem);">
+            CLI Mode 跳過需要 API 的抽樣層。規則層已擋下 <strong style="color: var(--ink); font-weight: 500;">~95% 的問題</strong>，剩下由視覺補強收尾。
+        </p>
+    </div>
+    <div class="issue-num">10</div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>QA LAYERS</span>
+    </div>
+    <div class="slide-num">No. <strong>10</strong> / 12</div>
+</section>
+
+<!-- =========================================================
+     SLIDE 11 · OUTPUT FOR RAG
+     ========================================================= -->
+<section class="slide" id="s11">
+    <div class="slide-content stagger">
+        <div class="kicker">為 RAG 而生 / Built for RAG ingestion</div>
+        <div class="dual-title">
+            <h2>輸出結構就是 retriever <em>要的形狀</em>。</h2>
+            <div class="sub-en">Output is already the shape your retriever wants.</div>
+        </div>
+        <div class="output-grid">
+<pre class="file-tree"><span class="folder">output/&lt;pdf_name&gt;/</span>
+├── <span class="folder">chapters/</span>           <span class="comment"># 按章節切的 .md</span>
+├── <span class="folder">descriptions/</span>       <span class="comment"># 每章 JSON</span>
+├── <span class="folder">marker_cache/</span>       <span class="comment"># 每頁 MD</span>
+├── <span class="folder">pages_for_vision/</span>   <span class="comment"># CLI 補強 PNG</span>
+├── <span class="key">catalog.json</span>        <span class="comment"># RAG 索引</span>
+├── <span class="file">need_vision.json</span>
+├── <span class="file">need_desc.json</span>
+├── <span class="file">progress.json</span>
+├── <span class="file">quality_report.json</span>
+└── <span class="file">README.md</span></pre>
+<pre class="code" data-file="catalog.json"><span class="c">// catalog.json</span>
+{
+  <span class="v">"total_files"</span>: <span class="o">76</span>,
+  <span class="v">"files"</span>: [
+    {
+      <span class="v">"file"</span>: <span class="s">"03_introduction.md"</span>,
+      <span class="v">"title"</span>: <span class="s">"Introduction"</span>,
+      <span class="v">"description"</span>: <span class="s">"SCSI Block Commands-4..."</span>,
+      <span class="v">"keywords"</span>: [<span class="s">"scsi"</span>, <span class="s">"sbc-4"</span>],
+      <span class="v">"page_range"</span>: <span class="s">"11-22"</span>
+    }
+  ]
+}</pre>
+        </div>
+        <p style="margin-top: clamp(0.7rem, 1.4vw, 1.1rem);">
+            description 用繁體中文、keywords 用英文 — <strong style="color: var(--ink); font-weight: 500;">中英雙語檢索開箱即用</strong>。
+        </p>
+    </div>
+    <div class="issue-num">11</div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>OUTPUT</span>
+    </div>
+    <div class="slide-num">No. <strong>11</strong> / 12</div>
+</section>
+
+<!-- =========================================================
+     SLIDE 12 · DECISION & CLOSING
+     ========================================================= -->
+<section class="slide" id="s12">
+    <div class="slide-content stagger">
+        <div class="kicker">重點總結 / Takeaway</div>
+        <div class="dual-title">
+            <h2>選好模式，<em>再跑一行指令</em>。</h2>
+            <div class="sub-en">Choose your mode, then run one command.</div>
+        </div>
+        <div class="decision">
+            <div class="dec-row">
+                <div class="dec-q">公開文件 / 標準組織文件<em>Public or standards-body documents</em></div>
+                <div class="dec-arrow">→</div>
+                <div class="dec-a cli">CLI Mode <em>Zero cost, zero egress</em></div>
+            </div>
+            <div class="dec-row">
+                <div class="dec-q">機密文件 / IP 文件<em>Confidential or proprietary</em></div>
+                <div class="dec-arrow">→</div>
+                <div class="dec-a api">API Mode · 地端 AI <em>On-prem endpoint</em></div>
+            </div>
+            <div class="dec-row">
+                <div class="dec-q">只要 .docx / .xlsx 的純文字<em>Plain text from Office docs</em></div>
+                <div class="dec-arrow">→</div>
+                <div class="dec-a no">MarkItDown 更輕 <em>Use the lighter tool</em></div>
+            </div>
+        </div>
+        <div class="cta">
+            <span class="dollar">$</span>python -m doc_to_markdown.main <span class="arg">input/your_spec.pdf</span>
+        </div>
+        <div class="final-footer">
+            <span>完整文件 · <code style="font-family: var(--font-mono); color: var(--ink);">README.md</code> / <code style="font-family: var(--font-mono); color: var(--ink);">USAGE.md</code></span>
+            <span>DOC2MD · 2026</span>
+        </div>
+    </div>
+    <div class="issue-num">12</div>
+    <div class="slide-masthead">
+        <span class="ms-title">DOC2MD</span>
+        <span class="ms-divider">/</span>
+        <span>CLOSING</span>
+    </div>
+    <div class="slide-num">No. <strong>12</strong> / 12</div>
+</section>
+
+<!-- === NAV DOTS ============================================== -->
+<nav class="nav-dots" aria-label="slide navigation">
+    <button class="nav-dot active" data-target="s1"  aria-label="slide 1"></button>
+    <button class="nav-dot" data-target="s2"  aria-label="slide 2"></button>
+    <button class="nav-dot" data-target="s3"  aria-label="slide 3"></button>
+    <button class="nav-dot" data-target="s4"  aria-label="slide 4"></button>
+    <button class="nav-dot" data-target="s5"  aria-label="slide 5"></button>
+    <button class="nav-dot" data-target="s6"  aria-label="slide 6"></button>
+    <button class="nav-dot" data-target="s7"  aria-label="slide 7"></button>
+    <button class="nav-dot" data-target="s8"  aria-label="slide 8"></button>
+    <button class="nav-dot" data-target="s9"  aria-label="slide 9"></button>
+    <button class="nav-dot" data-target="s10" aria-label="slide 10"></button>
+    <button class="nav-dot" data-target="s11" aria-label="slide 11"></button>
+    <button class="nav-dot" data-target="s12" aria-label="slide 12"></button>
+</nav>
+
+<script>
+// === SLIDE INTERACTION ============================================
+(function () {
+    const slides = Array.from(document.querySelectorAll('.slide'));
+    const dots = Array.from(document.querySelectorAll('.nav-dot'));
+
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+            if (e.intersectionRatio > 0.6) {
+                slides.forEach((s) => s.classList.remove('active'));
+                e.target.classList.add('active');
+                const id = e.target.id;
+                dots.forEach((d) => d.classList.toggle('active', d.dataset.target === id));
+            }
+        });
+    }, { threshold: [0, 0.3, 0.6, 0.9] });
+
+    slides.forEach((s) => io.observe(s));
+
+    dots.forEach((d) => {
+        d.addEventListener('click', () => {
+            const t = document.getElementById(d.dataset.target);
+            if (t) t.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+
+    function go(dir) {
+        const idx = slides.findIndex((s) => s.classList.contains('active'));
+        const next = Math.min(Math.max(idx + dir, 0), slides.length - 1);
+        slides[next].scrollIntoView({ behavior: 'smooth' });
+    }
+    window.addEventListener('keydown', (e) => {
+        switch (e.key) {
+            case 'ArrowDown':
+            case 'ArrowRight':
+            case 'PageDown':
+            case ' ':
+                e.preventDefault(); go(1); break;
+            case 'ArrowUp':
+            case 'ArrowLeft':
+            case 'PageUp':
+                e.preventDefault(); go(-1); break;
+            case 'Home': e.preventDefault(); slides[0].scrollIntoView({ behavior: 'smooth' }); break;
+            case 'End': e.preventDefault(); slides[slides.length - 1].scrollIntoView({ behavior: 'smooth' }); break;
+        }
+    });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "file": "68_numeric_order_codes.md",
+  "title": "Numeric order codes (Annex)",
+  "description": "依 opcode / service action 數值順序列出 SBC-4 所有命令的對照表，給 firmware / driver 開發做逆向查詢（看到 opcode 想知道是哪個命令）使用。",
+  "keywords": ["opcode-table", "command-code-lookup", "annex-numeric-order", "reverse-reference"],
+  "page_range": "398-400"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "61_559_write_using_token_command.md",
+  "title": "5.59 WRITE USING TOKEN command",
+  "description": "WRITE USING TOKEN (opcode 83h / SA 11h)：用先前 POPULATE TOKEN 建立的 ROD token 作為來源，把資料寫到目的 LBA。CDB 欄位、LIST IDENTIFIER、目的 LBA range descriptor 格式。ODX 的目的端命令。",
+  "keywords": ["write-using-token", "rod-token-consume", "odx-destination", "xcopy-write"],
+  "page_range": "288-291"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "12_415_caches.md",
+  "title": "4.15 Caches",
+  "description": "定義 logical unit 的 read cache、write cache 行為、FUA (Force Unit Access) 位元對 cache bypass 的影響、SYNCHRONIZE CACHE 命令的語意、以及 cache 與 volatile/non-volatile 儲存的關係。效能調校（WCE mode page、write-back vs write-through）與資料一致性相關問題看此章。",
+  "keywords": ["cache", "write-cache", "read-cache", "fua", "synchronize-cache", "wce"],
+  "page_range": "80-83"
+}

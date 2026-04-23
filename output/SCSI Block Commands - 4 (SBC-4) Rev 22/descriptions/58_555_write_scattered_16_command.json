@@ -1,0 +1,7 @@
+{
+  "file": "58_555_write_scattered_16_command.md",
+  "title": "5.55 WRITE SCATTERED (16) command",
+  "description": "WRITE SCATTERED (16) (opcode 9Fh / SA 11h) 完整 CDB：BUFFER TRANSFER LENGTH、LBA RANGE DESCRIPTOR 陣列、WRPROTECT / DPO / FUA 欄位、scatter gather 風格的多區段 write 定義。",
+  "keywords": ["write-scattered-16", "cdb", "lba-range-descriptor", "vectored-write"],
+  "page_range": "279-282"
+}

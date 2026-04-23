@@ -1,0 +1,7 @@
+{
+  "file": "38_512_populate_token_command.md",
+  "title": "5.12 POPULATE TOKEN command",
+  "description": "POPULATE TOKEN (opcode 83h / SA 10h) 建立 ROD token 代表一組來源 LBA 範圍的資料快照。CDB 欄位、LIST IDENTIFIER、ROD TYPE、inactivation timeout、block device range descriptor 格式。後續用 WRITE USING TOKEN 實現 server-side copy。",
+  "keywords": ["populate-token", "rod-token-create", "xcopy-source", "odx", "server-side-copy"],
+  "page_range": "191-197"
+}

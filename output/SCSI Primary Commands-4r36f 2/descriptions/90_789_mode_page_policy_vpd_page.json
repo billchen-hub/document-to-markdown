@@ -1,0 +1,7 @@
+{
+  "file": "90_789_mode_page_policy_vpd_page.md",
+  "title": "7.8.9 Mode Page Policy VPD page",
+  "description": "Mode Page Policy VPD page (87h)：列出每個 mode page 的 shared / per-I_T nexus / per-target-port 策略。多 initiator 環境下理解 mode setting 是否互相可見的依據。",
+  "keywords": ["mode-page-policy", "vpd-87h", "per-it-nexus", "shared-mode-page"],
+  "page_range": "831-832"
+}

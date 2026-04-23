@@ -1,0 +1,7 @@
+{
+  "file": "39_6161_persistent_reserve_out_command_introduction.md",
+  "title": "6.16.1 PERSISTENT RESERVE OUT command introduction",
+  "description": "PERSISTENT RESERVE OUT (opcode 5Fh) 命令簡介：service action 分類（REGISTER、RESERVE、RELEASE、CLEAR、PREEMPT、PREEMPT AND ABORT、REGISTER AND IGNORE EXISTING KEY、REGISTER AND MOVE）、CDB 欄位、scope/type 組合。cluster / failover 操作的核心命令。",
+  "keywords": ["persistent-reserve-out", "service-action", "register-and-move", "pro-command"],
+  "page_range": "461-463"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "56_733_application_client_log_page.md",
+  "title": "7.3.3 Application Client log page",
+  "description": "Application Client log page (0Fh)：application 可自定義 log parameter 寫入 device 的 log buffer。給上層軟體 instrument trace data 用的 generic log channel。",
+  "keywords": ["application-client-log", "page-0fh", "user-defined-log", "trace-data"],
+  "page_range": "601-602"
+}

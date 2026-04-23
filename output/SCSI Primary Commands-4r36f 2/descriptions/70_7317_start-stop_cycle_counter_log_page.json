@@ -1,0 +1,7 @@
+{
+  "file": "70_7317_start-stop_cycle_counter_log_page.md",
+  "title": "7.3.17 Start-Stop Cycle Counter log page",
+  "description": "Start-Stop Cycle Counter log page (0Eh)：Date of Manufacture、Accounting Date、Specified Cycle Count Over Device Lifetime、Accumulated Start-Stop Cycles、等 drive 壽命相關參數。做 drive 老化評估、PoH 報告時核心資料。",
+  "keywords": ["start-stop-cycle", "page-0eh", "device-lifetime", "power-on-hours", "date-of-manufacture"],
+  "page_range": "647-655"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "44_523_read_defect_data_12_command.md",
+  "title": "5.23 READ DEFECT DATA (12) command",
+  "description": "READ DEFECT DATA (12) (opcode B7h) 擴展版：4-byte allocation length 支援大量 defect 回傳、ADDRESS DESCRIPTOR INDEX 可做分頁查詢。做 full-drive defect 掃描統計與長壽 HDD 分析時使用。",
+  "keywords": ["read-defect-data-12", "defect-list-paging", "address-descriptor-index", "large-defect-list"],
+  "page_range": "212-214"
+}

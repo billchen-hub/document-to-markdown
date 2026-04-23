@@ -1,0 +1,7 @@
+{
+  "file": "27_643_shared_extended_copy_parameter_list_fields.md",
+  "title": "6.4.3 Shared EXTENDED COPY parameter list fields",
+  "description": "LID1 與 LID4 共用的 parameter list header 欄位：LIST IDENTIFIER、PRIORITY、G_SENSE、IMMED、LIST ID USAGE 等，以及 Target Descriptor List Length、Segment Descriptor List Length 的結構。",
+  "keywords": ["extended-copy", "parameter-list-header", "priority", "list-id-usage", "immed"],
+  "page_range": "355-359"
+}

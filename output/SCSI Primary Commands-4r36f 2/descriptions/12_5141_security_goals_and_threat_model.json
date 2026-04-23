@@ -1,0 +1,7 @@
+{
+  "file": "12_5141_security_goals_and_threat_model.md",
+  "title": "5.14.1 Security goals and threat model",
+  "description": "SCSI layer 的安全目標與 threat model：authentication、confidentiality、integrity、replay protection 對應的攻擊場景。啟動 IKEv2-SCSI / ESP-SCSI / CbCS 等安全協定前的背景說明。",
+  "keywords": ["scsi-security", "threat-model", "authentication", "confidentiality", "integrity"],
+  "page_range": "225-226"
+}

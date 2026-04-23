@@ -1,0 +1,7 @@
+{
+  "file": "94_7814_scsi_ports_vpd_page.md",
+  "title": "7.8.14 SCSI Ports VPD page",
+  "description": "SCSI Ports VPD page (88h)：列出 device 上所有 target port 的 relative port identifier、target port identifiers、initiator port identifiers。做 multipath 探索、port 層級盤點時用。",
+  "keywords": ["scsi-ports-vpd", "vpd-88h", "relative-port-identifier", "target-port-identifiers"],
+  "page_range": "840-844"
+}

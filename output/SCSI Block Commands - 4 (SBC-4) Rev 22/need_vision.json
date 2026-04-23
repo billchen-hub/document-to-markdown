@@ -1,0 +1,16 @@
+{
+  "mode": "cli",
+  "stage": "vision_redo",
+  "total_tasks": 1,
+  "tasks": [
+    {
+      "page_0based": 31,
+      "page_1based": 32,
+      "png": "pages_for_vision/page_0031.png",
+      "action": "convert_to_markdown",
+      "output_md": "marker_cache/page_0031.md",
+      "reason": "too_short"
+    }
+  ],
+  "instructions_for_claude": "For each task in `tasks`:\n  1. Read the PNG at `png` (relative to this output directory).\n  2. If action == 'convert_to_markdown': produce high-fidelity Markdown\n     preserving headings, text, ALL tables (use | syntax), and\n     describing figures in [Figure: ...] brackets. Write to `output_md`.\n  3. If action == 'append_image_description': read any existing\n     markdown at `output_md`, append '\\n\\n[Image Description: <detailed technical description of every diagram/figure on the page>]', write back.\nWhen every task has its `output_md` populated, run:\n  python -m doc_to_markdown.main <pdf> --resume --mode cli\n"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "24_621_change_aliases_command_introduction.md",
+  "title": "6.2.1 CHANGE ALIASES command introduction",
+  "description": "CHANGE ALIASES 命令：管理 device 的 alias entries（替代命名）。用於 device identification 有多重視角（protocol-independent / protocol-specific）時的統一 alias 管理。",
+  "keywords": ["change-aliases", "alias-entry", "device-identification", "alias-management"],
+  "page_range": "347-349"
+}

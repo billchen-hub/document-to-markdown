@@ -1,0 +1,7 @@
+{
+  "file": "18_423_background_scan_operations.md",
+  "title": "4.23 Background scan operations",
+  "description": "背景媒體巡檢機制：device 在閒置時自動 scan 整個 medium 尋找潛在 grown defect，並把結果寫入 Background Scan Results log page。搭配 Background Control mode page 設定 scan 行為。做 proactive disk health、predictive failure 分析或實作 DST (drive self-test) 整合時用此章。",
+  "keywords": ["background-scan", "media-scan", "proactive-health", "background-scan-log", "dst"],
+  "page_range": "119-123"
+}

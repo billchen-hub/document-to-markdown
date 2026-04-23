@@ -1,0 +1,7 @@
+{
+  "file": "76_7510_disconnect-reconnect_mode_page.md",
+  "title": "7.5.10 Disconnect-Reconnect mode page",
+  "description": "Disconnect-Reconnect mode page (02h)：Buffer Full Ratio、Buffer Empty Ratio、Bus Inactivity Limit、Disconnect Time Limit、Connect Time Limit、Maximum Burst Size 等 parallel SCSI / SAS transport 行為調校。現代系統多沿用預設值。",
+  "keywords": ["disconnect-reconnect", "page-02h", "bus-inactivity-limit", "maximum-burst-size"],
+  "page_range": "689-692"
+}

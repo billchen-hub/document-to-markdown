@@ -1,0 +1,7 @@
+{
+  "file": "30_54_format_unit_command.md",
+  "title": "5.4 FORMAT UNIT command",
+  "description": "FORMAT UNIT (opcode 04h) 完整 CDB 與參數列表格式、FMTDATA / CMPLST / DEFECT LIST FORMAT 欄位語意、IP / PIE / PI_EXPONENT 對 protection information 的設定、long / short header 格式差異。實作 low-level format、改變 logical block length、或設定 PI Type 時用此章。",
+  "keywords": ["format-unit", "cdb", "fmtdata", "protection-information-type", "defect-list-format"],
+  "page_range": "159-166"
+}

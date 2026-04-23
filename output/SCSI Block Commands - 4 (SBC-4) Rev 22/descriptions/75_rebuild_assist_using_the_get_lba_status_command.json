@@ -1,0 +1,7 @@
+{
+  "file": "75_rebuild_assist_using_the_get_lba_status_command.md",
+  "title": "Rebuild assist using the GET LBA STATUS command (Annex)",
+  "description": "附錄：示範 RAID controller 如何結合 Rebuild Assist mode 與 GET LBA STATUS 命令，找出 failing drive 上仍可讀取的 LBA、跳過已知受損 LBA，加速 RAID rebuild。RAID 韌體工程師實用範例。",
+  "keywords": ["rebuild-assist", "get-lba-status", "raid-rebuild-examples", "proactive-copy", "annex"],
+  "page_range": "441-443"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "92_7812_protocol_specific_logical_unit_information_vpd_page.md",
+  "title": "7.8.12 Protocol Specific Logical Unit Information VPD page",
+  "description": "Protocol Specific Logical Unit Information VPD page (90h)：依 transport protocol 回報 LUN 級 information（例如 SAS TLR 能力）。由 transport 標準（SPL、FCP）延伸定義。",
+  "keywords": ["protocol-specific-lu-info", "vpd-90h", "sas-tlr", "per-lun-transport-info"],
+  "page_range": "836-837"
+}

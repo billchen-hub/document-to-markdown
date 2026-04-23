@@ -1,0 +1,7 @@
+{
+  "file": "49_6351_report_supported_operation_codes_command_introduction.md",
+  "title": "6.35.1 REPORT SUPPORTED OPERATION CODES command introduction",
+  "description": "REPORT SUPPORTED OPERATION CODES (opcode A3h / SA 0Ch)：列出 device 支援的所有 opcode + service action、CDB 長度、command timeouts。做 driver capability discovery 時最常用的命令之一。",
+  "keywords": ["report-supported-operation-codes", "opcode-discovery", "cdb-usage-data", "capability-discovery"],
+  "page_range": "532-534"
+}

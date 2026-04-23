@@ -1,0 +1,7 @@
+{
+  "file": "51_532_stream_control_command.md",
+  "title": "5.32 STREAM CONTROL command",
+  "description": "STREAM CONTROL (opcode 9Eh / SA 14h)：host 發 OPEN / CLOSE action 建立或關閉 stream，device 回傳分配的 stream ID。multi-stream SSD 的控制面命令。",
+  "keywords": ["stream-control-command", "open-stream", "close-stream", "stream-id-allocation"],
+  "page_range": "235-236"
+}

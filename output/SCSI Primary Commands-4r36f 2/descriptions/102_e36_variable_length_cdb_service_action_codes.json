@@ -1,0 +1,7 @@
+{
+  "file": "102_e36_variable_length_cdb_service_action_codes.md",
+  "title": "E.3.6 Variable length CDB service action codes (Annex)",
+  "description": "附錄 E：32-byte variable-length CDB（opcode 7Fh）的 service action code 對照表，列出所有已定義的 16-bit service action + 對應命令名稱。解析 32-byte CDB 時第一站。",
+  "keywords": ["variable-length-cdb", "service-action-codes", "opcode-7fh", "32-byte-cdb", "annex-e"],
+  "page_range": "965-1012"
+}

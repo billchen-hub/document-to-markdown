@@ -1,0 +1,7 @@
+{
+  "file": "26_642_extended_copylid4_parameter_data.md",
+  "title": "6.4.2 EXTENDED COPY(LID4) parameter data",
+  "description": "EXTENDED COPY 的 LID4 (List Identifier 4-byte) 變體 parameter list 結構，支援大於 LID1 的 copy operation、更長的 CSCD list、完整 PI 欄位。現代 storage array 做 cross-LUN 複製的主流變體。",
+  "keywords": ["extended-copy-lid4", "parameter-data", "list-identifier", "large-copy-operation"],
+  "page_range": "353-354"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "91_7810_power_condition_vpd_page.md",
+  "title": "7.8.10 Power Condition VPD page",
+  "description": "Power Condition VPD page (8Ah)：回報 device 各 power state（Active、Idle_a/b/c、Standby_y/z）的預估 transition time（stopped → active、standby → active）。power management 策略做延遲預估用。",
+  "keywords": ["power-condition-vpd", "vpd-8ah", "stopped-to-active", "standby-to-active", "transition-time"],
+  "page_range": "833-835"
+}

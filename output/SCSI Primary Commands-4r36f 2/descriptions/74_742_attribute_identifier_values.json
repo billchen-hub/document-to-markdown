@@ -1,0 +1,7 @@
+{
+  "file": "74_742_attribute_identifier_values.md",
+  "title": "7.4.2 Attribute identifier values",
+  "description": "MAM (Medium Auxiliary Memory) attribute 完整 identifier 清單 + 格式：device attribute（Remaining Capacity、Load Count...）、media attribute、host specific attribute。主要供 tape / removable media 使用。",
+  "keywords": ["mam", "attribute-identifier", "medium-auxiliary-memory", "tape-attribute"],
+  "page_range": "665-681"
+}

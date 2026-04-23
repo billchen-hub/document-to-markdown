@@ -1,0 +1,7 @@
+{
+  "file": "55_540_write_10_command.md",
+  "title": "5.40 WRITE (10) command",
+  "description": "WRITE 命令家族核心：WRITE (10)(opcode 2Ah)、以及 WRITE (12/16/32) 的 CDB 差異。欄位包含 WRPROTECT、DPO、FUA、FUA_NV、GROUP NUMBER。定義 protection information 寫入行為、cache 策略、overlapping range 規則。所有 write IO 的基礎。",
+  "keywords": ["write-10", "write-16", "write-32", "cdb", "wrprotect", "fua-nv", "group-number"],
+  "page_range": "259-272"
+}

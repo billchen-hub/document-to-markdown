@@ -1,0 +1,7 @@
+{
+  "file": "03_532_suspending_and_resuming_device-specific_background_funct.md",
+  "title": "5.3.2 Suspending and resuming device-specific background functions",
+  "description": "定義 host 如何暫停 / 恢復 device-specific background function（例如 garbage collection、background scan）以避免影響前景 IO latency。搭配對應 log/mode pages 使用的行為規則。",
+  "keywords": ["background-function-control", "suspend-resume", "latency-management", "io-priority"],
+  "page_range": "175-180"
+}

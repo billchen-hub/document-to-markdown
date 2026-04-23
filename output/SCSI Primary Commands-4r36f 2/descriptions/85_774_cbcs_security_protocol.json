@@ -1,0 +1,7 @@
+{
+  "file": "85_774_cbcs_security_protocol.md",
+  "title": "7.7.4 CbCS security protocol",
+  "description": "Capability-based Command Security (CbCS) 協定完整規格：credential、capability descriptor、signing、nonce、command authorization flow。另一套 SCSI 層級的權限控制模型。",
+  "keywords": ["cbcs", "capability-based-security", "credential", "capability-descriptor", "command-authorization"],
+  "page_range": "783-804"
+}

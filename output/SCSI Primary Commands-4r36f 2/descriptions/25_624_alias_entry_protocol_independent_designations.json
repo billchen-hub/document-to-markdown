@@ -1,0 +1,7 @@
+{
+  "file": "25_624_alias_entry_protocol_independent_designations.md",
+  "title": "6.2.4 Alias entry protocol independent designations",
+  "description": "Protocol-independent alias designation 格式：EUI-64、NAA、iSCSI name 等通用 identifier 的 alias entry 欄位定義。用於跨協定環境統一 device 識別。",
+  "keywords": ["alias", "protocol-independent", "eui-64", "naa", "iscsi-name"],
+  "page_range": "350-352"
+}

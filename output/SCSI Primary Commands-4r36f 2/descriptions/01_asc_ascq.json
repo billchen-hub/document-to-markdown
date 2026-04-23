@@ -1,0 +1,7 @@
+{
+  "file": "01_asc_ascq.md",
+  "title": "ASC & ASCQ",
+  "description": "SPC-4 前置小節，開啟 Additional Sense Code / Additional Sense Code Qualifier 的完整定義。ASC/ASCQ 是 SCSI sense data 的錯誤細分標識，所有 SCSI device 共用。",
+  "keywords": ["asc", "ascq", "sense-code", "error-reporting", "sense-data"],
+  "page_range": "154-154"
+}

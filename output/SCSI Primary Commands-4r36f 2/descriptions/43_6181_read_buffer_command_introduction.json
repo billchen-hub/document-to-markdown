@@ -1,0 +1,7 @@
+{
+  "file": "43_6181_read_buffer_command_introduction.md",
+  "title": "6.18.1 READ BUFFER command introduction",
+  "description": "READ BUFFER (opcode 3Ch) 總覽：MODE 欄位分類（data、descriptor、vendor specific、read data with ECHO、error history、download microcode status、data from echo、3rd party copy）。firmware update 進度查詢、debug dump 下載的主要命令。",
+  "keywords": ["read-buffer", "mode", "firmware-dump", "microcode-status", "error-history"],
+  "page_range": "476-480"
+}

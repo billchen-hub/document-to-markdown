@@ -1,0 +1,7 @@
+{
+  "file": "17_421_protection_information_model.md",
+  "title": "4.21 Protection information model",
+  "description": "T10 PI (Protection Information / DIF) 完整模型：每個 logical block 附 8 bytes 的 guard (CRC)、application tag、reference tag，定義 Type 1/2/3 的差異、CHECK 欄位行為、PI interval、以及 end-to-end data integrity 的保護範圍。做 enterprise storage、PI-capable HBA、DIX 整合時核心參考。",
+  "keywords": ["protection-information", "t10-pi", "dif", "dix", "data-integrity", "guard-tag", "crc"],
+  "page_range": "108-118"
+}

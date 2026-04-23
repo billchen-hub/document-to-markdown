@@ -1,0 +1,7 @@
+{
+  "file": "07_3_definitions_symbols_abbreviations_keywords_and_conventions.md",
+  "title": "Definitions, symbols, abbreviations, keywords, and conventions",
+  "description": "SBC-4 用到的所有術語定義（atomic write、LBA、CDB、logical block、protection information 等百餘個）、符號、縮寫、關鍵字（shall/should/may）與編輯/數字/狀態機表示慣例。查技術名詞含意時首選此章。",
+  "keywords": ["definitions", "terminology", "glossary", "conventions", "keywords", "state-machine-notation"],
+  "page_range": "34-52"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "10_411_sanitize_operations.md",
+  "title": "4.11 Sanitize operations",
+  "description": "Sanitize（安全清除）功能模型，定義 overwrite、block erase、crypto erase、exit failure mode 四種服務動作的語意，以及 sanitize 期間裝置的行為限制（disallow I/O、AUSE 旗標、失敗恢復）。合規需求如 NIST 800-88 purge 對應 SCSI 實作時查此章。",
+  "keywords": ["sanitize", "secure-erase", "crypto-erase", "block-erase", "overwrite", "data-destruction"],
+  "page_range": "74-76"
+}

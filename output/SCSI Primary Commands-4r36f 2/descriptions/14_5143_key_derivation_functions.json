@@ -1,0 +1,7 @@
+{
+  "file": "14_5143_key_derivation_functions.md",
+  "title": "5.14.3 Key derivation functions",
+  "description": "SCSI 安全協定使用的 KDF：從 shared secret 導出 encryption key、integrity key、child SA key 的方法。基於 HMAC-SHA-256、PRF+ 結構。IKEv2-SCSI 的 crypto primitives。",
+  "keywords": ["kdf", "key-derivation", "hmac-sha-256", "prf-plus", "crypto-primitives"],
+  "page_range": "232-234"
+}

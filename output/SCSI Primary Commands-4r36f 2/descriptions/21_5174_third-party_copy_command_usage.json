@@ -1,0 +1,7 @@
+{
+  "file": "21_5174_third-party_copy_command_usage.md",
+  "title": "5.17.4 Third-party copy command usage",
+  "description": "Third-party copy 命令族（EXTENDED COPY、POPULATE TOKEN、WRITE USING TOKEN、RECEIVE COPY RESULTS）的搭配用法、常見 use case 序列（VM clone、snapshot、cross-array migration）。",
+  "keywords": ["third-party-copy", "extended-copy", "populate-token", "receive-copy-results", "cross-array-migration"],
+  "page_range": "317-321"
+}

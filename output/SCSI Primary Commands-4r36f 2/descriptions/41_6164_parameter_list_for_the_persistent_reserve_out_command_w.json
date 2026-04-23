@@ -1,0 +1,7 @@
+{
+  "file": "41_6164_parameter_list_for_the_persistent_reserve_out_command_w.md",
+  "title": "6.16.4 Parameter list for PERSISTENT RESERVE OUT with REGISTER AND MOVE",
+  "description": "REGISTER AND MOVE service action 特殊 parameter list：transferring reservation 到另一個 I_T_L nexus，包含 target port 與 relative target port 的指定。跨 port failover 或 live migration 場景。",
+  "keywords": ["register-and-move", "transfer-reservation", "relative-target-port", "live-migration"],
+  "page_range": "469-470"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "97_831_access_controls_model.md",
+  "title": "8.3.1 Access controls model",
+  "description": "Access Controls (ACL) 模型：ACL coordinator、access control entries、AccessID、logical unit masking by initiator transport ID。在 target 層級做 LUN masking 的另一套機制（與 SAN zoning / LUN Masking 相輔）。",
+  "keywords": ["access-controls", "acl", "accessid", "lun-masking", "acl-coordinator"],
+  "page_range": "868-883"
+}

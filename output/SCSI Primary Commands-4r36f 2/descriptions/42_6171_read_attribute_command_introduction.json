@@ -1,0 +1,7 @@
+{
+  "file": "42_6171_read_attribute_command_introduction.md",
+  "title": "6.17.1 READ ATTRIBUTE command introduction",
+  "description": "READ ATTRIBUTE (opcode 8Ch)：查詢 Medium Auxiliary Memory (MAM) 存的 attribute (tape 及 enclosure 多用)，包含 ATTRIBUTE IDENTIFIER、ELEMENT ADDRESS、LOGICAL VOLUME NUMBER、PARTITION NUMBER 等欄位。",
+  "keywords": ["read-attribute", "mam", "medium-auxiliary-memory", "attribute-identifier"],
+  "page_range": "471-475"
+}

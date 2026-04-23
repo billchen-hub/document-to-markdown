@@ -1,0 +1,7 @@
+{
+  "file": "72_discovering_referrals_examples.md",
+  "title": "Discovering referrals examples (Annex)",
+  "description": "附錄：用 REPORT REFERRALS 與相關 log page 發現 logical unit 上 referrals 分布、user data segment 邊界對應的操作流程範例。給 multipath / virtualization stack 實作參考。",
+  "keywords": ["referrals", "discover-examples", "user-data-segment", "multipath-discovery", "annex"],
+  "page_range": "419-423"
+}

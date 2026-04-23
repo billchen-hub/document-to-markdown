@@ -1,0 +1,7 @@
+{
+  "file": "20_427_orwrite_commands.md",
+  "title": "4.27 ORWRITE commands",
+  "description": "ORWRITE (16/32) 命令模型：把 Data-Out Buffer 的位元與 medium 上既有資料做 bitwise OR 後寫回，可用於合併 bitmap、無鎖更新旗標欄位等情境。搭配 expected initial logical block reference tag 驗證。適合 cluster 檔案系統或 dedup metadata 維護。",
+  "keywords": ["orwrite", "bitwise-or", "atomic-bit-set", "bitmap-merge"],
+  "page_range": "127-129"
+}

@@ -1,0 +1,7 @@
+{
+  "file": "37_511_orwrite_32_command.md",
+  "title": "5.11 ORWRITE (32) command",
+  "description": "ORWRITE (32) (opcode 7Fh / SA 000Eh)：ORWRITE 的 32-byte variable-length CDB 版本，支援 PI 欄位與 expected initial reference tag 的完整比對。給需要 end-to-end PI 保護的 bit-set 操作使用。",
+  "keywords": ["orwrite-32", "variable-length-cdb", "expected-reference-tag", "pi-protected-or"],
+  "page_range": "189-190"
+}

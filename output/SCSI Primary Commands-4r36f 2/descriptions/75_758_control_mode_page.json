@@ -1,0 +1,7 @@
+{
+  "file": "75_758_control_mode_page.md",
+  "title": "7.5.8 Control mode page",
+  "description": "Control mode page (0Ah)：TST、TMF_ONLY、DPICZ、D_SENSE、GLTSD、RLEC、QERR、NUAR、QUEUE ALGORITHM MODIFIER、SWP、UA_INTLCK_CTRL、RAC、BUSY TIMEOUT PERIOD 等 device 全域行為控制旗標。driver 初始化時常設定此 page。",
+  "keywords": ["control-mode-page", "page-0ah", "tst", "qerr", "swp", "busy-timeout"],
+  "page_range": "682-688"
+}

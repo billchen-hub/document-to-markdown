@@ -1,0 +1,7 @@
+{
+  "file": "20_5172_copy_manager_model.md",
+  "title": "5.17.2 Copy manager model",
+  "description": "Copy manager（負責 EXTENDED COPY 與 third-party copy 的角色）模型：在 source 與 destination 間移動資料而不經 host。copy manager function、capabilities、concurrent copies 規則。ODX、VAAI XCOPY 的底層角色定義。",
+  "keywords": ["copy-manager", "third-party-copy", "extended-copy", "odx", "xcopy", "server-side-copy"],
+  "page_range": "313-316"
+}

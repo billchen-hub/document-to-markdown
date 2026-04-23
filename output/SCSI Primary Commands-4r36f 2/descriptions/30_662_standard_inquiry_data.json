@@ -1,0 +1,7 @@
+{
+  "file": "30_662_standard_inquiry_data.md",
+  "title": "6.6.2 Standard INQUIRY data",
+  "description": "INQUIRY 命令回傳的 standard data 結構：PERIPHERAL QUALIFIER / DEVICE TYPE、RMB、VERSION、RESPONSE DATA FORMAT、ADDITIONAL LENGTH、旗標欄位(NORMACA, HISUP, SCCS, ACC, TPGS, 3PC, PROTECT, ENCSERV, MULTIP 等)、T10 VENDOR ID、PRODUCT ID、PRODUCT REVISION LEVEL、VERSION DESCRIPTORS。做 device discovery 時每個 driver 都會解析此章定義的資料。",
+  "keywords": ["inquiry", "standard-inquiry-data", "peripheral-device-type", "vendor-id", "version-descriptors", "tpgs"],
+  "page_range": "413-428"
+}

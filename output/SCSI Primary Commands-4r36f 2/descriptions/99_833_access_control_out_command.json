@@ -1,0 +1,7 @@
+{
+  "file": "99_833_access_control_out_command.md",
+  "title": "8.3.3 ACCESS CONTROL OUT command",
+  "description": "ACCESS CONTROL OUT (opcode 87h) 命令：修改 ACL state — MANAGE ACL、DISABLE ACCESS CONTROLS、ACCESS ID ENROLL、CANCEL ENROLLMENT、ASSIGN LU 等 service action。ACL 管理的寫入介面。",
+  "keywords": ["access-control-out", "manage-acl", "disable-access-controls", "access-id-enroll"],
+  "page_range": "905-930"
+}

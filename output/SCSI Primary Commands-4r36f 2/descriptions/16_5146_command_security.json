@@ -1,0 +1,7 @@
+{
+  "file": "16_5146_command_security.md",
+  "title": "5.14.6 Command security",
+  "description": "對 SCSI 命令本身做 integrity / confidentiality 保護的機制：ICV (Integrity Check Value)、ESP (Encapsulating Security Payload)、key 綁定命令序號。讓 command 本身無法被竄改 / 竊聽的能力。",
+  "keywords": ["command-security", "icv", "esp-scsi", "integrity-check", "encrypted-command"],
+  "page_range": "263-285"
+}

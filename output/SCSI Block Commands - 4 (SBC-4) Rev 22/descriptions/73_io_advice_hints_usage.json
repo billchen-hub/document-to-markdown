@@ -1,0 +1,7 @@
+{
+  "file": "73_io_advice_hints_usage.md",
+  "title": "IO advice hints usage (Annex)",
+  "description": "附錄：IO Advice Hints Grouping mode page 的使用範例，說明 host 怎麼對每個 IO 指定 access frequency / latency priority / cache retention 等 hint，device 如何據此調整 cache / placement 策略。效能 hint 機制的實務指南。",
+  "keywords": ["io-advice-hints", "cache-hint", "access-frequency", "latency-priority", "annex"],
+  "page_range": "423-427"
+}

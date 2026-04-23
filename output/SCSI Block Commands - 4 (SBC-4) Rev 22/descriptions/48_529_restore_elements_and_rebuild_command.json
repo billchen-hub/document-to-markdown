@@ -1,0 +1,7 @@
+{
+  "file": "48_529_restore_elements_and_rebuild_command.md",
+  "title": "5.29 RESTORE ELEMENTS AND REBUILD command",
+  "description": "RESTORE ELEMENTS AND REBUILD (opcode 9Eh / SA 19h)：把先前 depopulated 的 physical element 重新啟用並重新 rebuild logical capacity。CDB 欄位與執行期間的限制。depopulation 配對命令。",
+  "keywords": ["restore-elements-and-rebuild", "depopulation-reverse", "physical-element-restore", "rebuild-capacity"],
+  "page_range": "226-227"
+}

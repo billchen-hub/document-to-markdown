@@ -1,0 +1,7 @@
+{
+  "file": "35_6136_initial_responses.md",
+  "title": "6.13.6 Initial responses",
+  "description": "PERSISTENT RESERVE IN 的 initial response 格式：PRgeneration、Additional Length、Key List 或 Reservation Descriptor。查詢 reservation 狀態時 host 解析的主要資料結構。",
+  "keywords": ["persistent-reserve-in", "initial-response", "prgeneration", "reservation-descriptor"],
+  "page_range": "447-450"
+}

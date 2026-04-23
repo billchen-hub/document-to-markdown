@@ -1,0 +1,7 @@
+{
+  "file": "51_6354_command_timeouts_descriptor.md",
+  "title": "6.35.4 Command timeouts descriptor",
+  "description": "Command timeouts descriptor 格式：NOMINAL COMMAND PROCESSING TIMEOUT、RECOMMENDED COMMAND TIMEOUT、command specific information。讓 host 知道每個命令預期 / 最壞執行時間。配合 REPORT SUPPORTED OPERATION CODES 使用。跨多條 mode 的長章節。",
+  "keywords": ["command-timeouts-descriptor", "nominal-timeout", "recommended-timeout", "ctdp"],
+  "page_range": "537-582"
+}

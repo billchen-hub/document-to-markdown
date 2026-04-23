@@ -1,0 +1,7 @@
+{
+  "file": "13_417_reservations.md",
+  "title": "4.17 Reservations",
+  "description": "SBC-4 對 persistent reservations 的特定補充（主體定義在 SPC-6），說明在 direct access block device 上 reservation hold 時哪些命令被 allowed / conflict。做 cluster shared storage、failover、I/O fencing 時用此章確認命令行為。",
+  "keywords": ["persistent-reservation", "i-o-fencing", "cluster-storage", "reservation-conflict"],
+  "page_range": "84-85"
+}

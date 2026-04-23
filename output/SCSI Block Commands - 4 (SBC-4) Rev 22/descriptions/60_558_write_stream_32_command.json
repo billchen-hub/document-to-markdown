@@ -1,0 +1,7 @@
+{
+  "file": "60_558_write_stream_32_command.md",
+  "title": "5.58 WRITE STREAM (32) command",
+  "description": "WRITE STREAM (32)：帶 STR_ID 欄位的寫入命令，讓 SSD 按 stream 分群資料放置。包含 WRITE STREAM (16)(opcode 9Ah) 與 (32) 差異。multi-stream SSD 的資料 IO 命令。",
+  "keywords": ["write-stream", "str-id", "multi-stream-write", "ssd-data-placement"],
+  "page_range": "286-287"
+}

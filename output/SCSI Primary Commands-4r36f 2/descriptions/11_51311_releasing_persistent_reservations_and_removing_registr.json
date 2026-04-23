@@ -1,0 +1,7 @@
+{
+  "file": "11_51311_releasing_persistent_reservations_and_removing_registr.md",
+  "title": "5.13.11 Releasing persistent reservations and removing registrations",
+  "description": "RELEASE、CLEAR、PREEMPT、PREEMPT AND ABORT 各 service action 的語意差異、對其他 initiator 的影響、unit attention 通知規則。failover 時搶奪 reservation 的正確順序。",
+  "keywords": ["release-reservation", "preempt", "preempt-and-abort", "unit-attention", "failover"],
+  "page_range": "216-224"
+}

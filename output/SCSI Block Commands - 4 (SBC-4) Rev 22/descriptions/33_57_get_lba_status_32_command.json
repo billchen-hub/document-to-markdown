@@ -1,0 +1,7 @@
+{
+  "file": "33_57_get_lba_status_32_command.md",
+  "title": "5.7 GET LBA STATUS (32) command",
+  "description": "GET LBA STATUS (32) (opcode 7Fh / SA 0012h) 是 16-byte 版本的 32-byte variable-length 擴展，支援 protection information 欄位 (LBAT / LBATM / EATM) 的過濾比對。用於需要 PI 驗證的 LBA 狀態查詢。",
+  "keywords": ["get-lba-status-32", "variable-length-cdb", "protection-information-filter"],
+  "page_range": "173-174"
+}

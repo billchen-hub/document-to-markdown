@@ -24,10 +24,13 @@ Thumbs.db
 # Project secrets - NEVER commit
 .claude/settings.local.json
 
-# Conversion output (generated, not source)
-output/
+# Conversion output — keep markdowns but exclude heavy PNG intermediates
+output/**/pages_for_vision/
+output/**/images/
+output/**/*.png
+output/**/*.jpg
 
-# Marker model cache
+# Marker model cache (user's ~/.cache)
 marker_cache/
 
 # Temporary files

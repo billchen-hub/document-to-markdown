@@ -1,0 +1,7 @@
+{
+  "file": "18_5154_self-test_modes.md",
+  "title": "5.15.4 Self-test modes",
+  "description": "SEND DIAGNOSTIC 啟動的 self-test 分類：default test、background short/extended self-test、foreground self-test。各模式執行時間、對 IO 的影響、結果存放位置。SMART self-test 的 SCSI 實作。",
+  "keywords": ["self-test", "send-diagnostic", "short-test", "extended-test", "smart"],
+  "page_range": "302-305"
+}

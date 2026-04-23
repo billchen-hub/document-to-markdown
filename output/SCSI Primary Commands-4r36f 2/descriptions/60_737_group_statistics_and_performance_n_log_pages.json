@@ -1,0 +1,7 @@
+{
+  "file": "60_737_group_statistics_and_performance_n_log_pages.md",
+  "title": "7.3.7 Group Statistics and Performance (n) log pages",
+  "description": "Group Statistics and Performance log pages（依 GROUP NUMBER 分桶）：按 QoS group 分別追蹤 IO 統計，讓 multi-tenant / noisy-neighbor 分析成為可能。對應 CDB 的 GROUP NUMBER 欄位。",
+  "keywords": ["group-statistics", "group-number", "qos-analysis", "multi-tenant-io"],
+  "page_range": "620-626"
+}

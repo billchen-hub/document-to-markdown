@@ -1,0 +1,7 @@
+{
+  "file": "56_552_write_same_10_command.md",
+  "title": "5.52 WRITE SAME (10) command",
+  "description": "WRITE SAME (10) (opcode 41h)：把 Data-Out Buffer 的一個 logical block pattern 重複寫到指定 LBA 範圍，典型用途是「零填 / 格式化 free space」。搭配 UNMAP bit 或 ANCHOR bit 可觸發 unmap 或 anchor 操作。16 / 32 bit variable-length 版本也說明。",
+  "keywords": ["write-same-10", "zero-fill", "unmap-bit", "anchor-bit", "pattern-fill"],
+  "page_range": "273-276"
+}

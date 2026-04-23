@@ -1,0 +1,7 @@
+{
+  "file": "29_53_compare_and_write_command.md",
+  "title": "5.3 COMPARE AND WRITE command",
+  "description": "COMPARE AND WRITE (CAW, opcode 89h) 命令：先比對 Data-Out Buffer 前半與 medium 既有資料，相同才寫入後半資料，等同 SCSI 層級的 CAS (compare-and-swap)。VMware VAAI ATS (Atomic Test and Set)、cluster lock 使用。失敗會回傳 MISCOMPARE。",
+  "keywords": ["compare-and-write", "caw", "ats", "vaai", "compare-and-swap", "cluster-lock"],
+  "page_range": "157-158"
+}
